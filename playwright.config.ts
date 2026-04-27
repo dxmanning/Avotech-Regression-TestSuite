@@ -13,6 +13,7 @@ export default defineConfig({
     baseURL: CSI_BASE_URL,
     trace: 'on-first-retry',
     ignoreHTTPSErrors: true,
+    headless: false,
   },
 
   projects: [
@@ -20,18 +21,30 @@ export default defineConfig({
       name: 'chromium',
       use: { ...devices['Desktop Chrome'] },
     },
-
     {
-      name: 'firefox',
-      use: { ...devices['Desktop Firefox'] },
+      name: 'mobile-chrome',
+      testIgnore: 'visual/**',
+      use: { ...devices['Pixel 7'] },
     },
-
-    {
-      name: 'webkit',
-      use: { ...devices['Desktop Safari'] },
-    },
-
-    // Mobile and branded browser configurations can be added here
+    // {
+    //   name: 'firefox',
+    //   use: { ...devices['Desktop Firefox'] },
+    // },
+    
+    // {
+    //   name: 'webkit',
+    //   testIgnore: 'visual/**',
+    //   use: { ...devices['Desktop Safari'] },
+    // },
+    // {
+    //   name: 'vrt-chromium',
+    //   testMatch: 'visual/**/*.spec.ts',
+    //   use: {
+    //     ...devices['Desktop Chrome'],
+    //     viewport: { width: 1280, height: 720 },
+    //     deviceScaleFactor: 1,
+    //   },
+    // },
   ],
 
 

@@ -1,6 +1,6 @@
-import csi from '../../data/csi/testData.json';
+import auth from '../../data/csi/auth.json';
 
-// Test password must never be committed; set CSI_TEST_PASSWORD in .env
+// Test password must never be committed; set CSI_TEST_PASSWORD in .env.
 export function csiTestPassword(): string {
   const p = process.env.CSI_TEST_PASSWORD;
   if (p == null || p.length === 0) {
@@ -10,5 +10,5 @@ export function csiTestPassword(): string {
 }
 
 export function csiTestEmail(): string {
-  return process.env.CSI_TEST_EMAIL?.trim() || csi.validUser.email;
+  return process.env.CSI_TEST_EMAIL?.trim() || auth.validUser.email;
 }

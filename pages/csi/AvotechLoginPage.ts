@@ -1,5 +1,5 @@
 import { expect, type Page } from '@playwright/test';
-import { CSI_HOME_PATH, CSI_LOGIN_PATH, isCsiLoginPageUrl } from '../../config/csi';
+import { CSI_LEGACY_LOGIN_PATH, CSI_LOGIN_PATH } from '../../config/csi';
 import { BasePage } from '../BasePage';
 
 /**
@@ -15,13 +15,17 @@ export class CsiAvotechLoginPage extends BasePage {
   readonly passwordField = this.page.locator('#Input_password');
   readonly loginButton = this.page.getByRole('button', { name: 'Log in' });
 
-  async gotoFromRoot() {
-    await this.page.goto(CSI_HOME_PATH);
-    await this.page.waitForURL((url) => isCsiLoginPageUrl(url));
-  }
-
   async gotoLogin() {
     await this.page.goto(CSI_LOGIN_PATH);
+    const visibleOnPrimary = await this.emailField
+      .waitFor({ state: 'visible', timeout: 10_000 })
+      .then(() => true)
+      .catch(() => false);
+
+    if (!visibleOnPrimary) {
+      await this.page.goto(CSI_LEGACY_LOGIN_PATH);
+      await this.emailField.waitFor({ state: 'visible', timeout: 10_000 });
+    }
   }
 
   async enterEmail(email: string) {
@@ -29,6 +33,7 @@ export class CsiAvotechLoginPage extends BasePage {
   }
 
   async goToPasswordStep() {
+    await expect(this.nextButton).toBeVisible();
     await this.nextButton.click();
   }
 

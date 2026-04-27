@@ -11,7 +11,7 @@ test.describe('CSI · Avotech login', () => {
     const password = csiTestPassword();
     const email = csiTestEmail();
 
-    await csiLoginPage.gotoFromRoot();
+    await csiLoginPage.gotoLogin();
     await expect(page).toHaveURL((url) => isCsiLoginPageUrl(url));
 
     await csiLoginPage.signInWithEmailAndPassword(email, password);
