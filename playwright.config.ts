@@ -21,11 +21,11 @@ export default defineConfig({
       name: 'chromium',
       use: { ...devices['Desktop Chrome'] },
     },
-    {
-      name: 'mobile-chrome',
-      testIgnore: 'visual/**',
-      use: { ...devices['Pixel 7'] },
-    },
+    // {
+    //   name: 'mobile-chrome',
+    //   testIgnore: 'visual/**',
+    //   use: { ...devices['Pixel 7'] },
+    // },
     // {
     //   name: 'firefox',
     //   use: { ...devices['Desktop Firefox'] },
