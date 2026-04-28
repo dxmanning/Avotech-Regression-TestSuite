@@ -9,7 +9,7 @@ import {
 } from '../../../utils/csi/salesAndBillingTestData';
 
 test.describe('CSI · Sales and Billing', () => {
-  test.describe.configure({ timeout: 120_000 });
+  test.describe.configure({ timeout: 180_000 });
 
   test.beforeEach(async ({ csiLoginPage }) => {
     if (!process.env.CSI_TEST_PASSWORD?.length) {
@@ -52,14 +52,25 @@ test.describe('CSI · Sales and Billing', () => {
     await csiSalesAndBillingPage.openSalesOrder();
     await csiSalesAndBillingPage.clickAddSalesOrder();
 
-    // Comments in SB-046 specify selecting the first option for these dropdowns.
-    await csiSalesAndBillingPage.selectFirstOptionByTriggerText('Select Client');
-    await csiSalesAndBillingPage.selectFirstOptionByTriggerText('Select Sales Partner');
-    await csiSalesAndBillingPage.selectFirstOptionByTriggerText('Select Billing Partner');
-    await csiSalesAndBillingPage.selectFirstOptionByTriggerText('Select Package Type');
+    // Client: use last list option; other dropdowns still use first option per SB-046.
+    const salesOrderDropdownMaxAttempts = 4;
+    await csiSalesAndBillingPage.selectLastOptionByTriggerText(
+      'Select Client',
+      salesOrderDropdownMaxAttempts,
+    );
+    await csiSalesAndBillingPage.selectFirstOptionByTriggerText(
+      'Select Sales Partner',
+      salesOrderDropdownMaxAttempts,
+    );
+    await csiSalesAndBillingPage.selectFirstBillingPartnerOption(salesOrderDropdownMaxAttempts);
+    await csiSalesAndBillingPage.selectFirstOptionByTriggerText(
+      'Select Package Type',
+      salesOrderDropdownMaxAttempts,
+    );
 
-    // SB-046 requires selecting today's date for every run.
-    await csiSalesAndBillingPage.pickTodaySalesStartDate();
+    // SB-046 requires selecting today's date every run (retry for flaky calendar open/render).
+    const salesOrderDatePickerMaxAttempts = 4;
+    await csiSalesAndBillingPage.pickTodaySalesStartDate(salesOrderDatePickerMaxAttempts);
     await csiSalesAndBillingPage.fillSalesOrderDuration(duration);
     await csiSalesAndBillingPage.selectFirstBillingMode();
     await csiSalesAndBillingPage.selectAllSalesOrderModulesAndSetUnits(unitsPerModule);

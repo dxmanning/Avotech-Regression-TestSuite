@@ -1,4 +1,4 @@
-import { expect, type Page } from '@playwright/test';
+import { type Page } from '@playwright/test';
 import { CSI_LEGACY_LOGIN_PATH, CSI_LOGIN_PATH } from '../../config/csi';
 import { BasePage } from '../BasePage';
 
@@ -33,12 +33,12 @@ export class CsiAvotechLoginPage extends BasePage {
   }
 
   async goToPasswordStep() {
-    await expect(this.nextButton).toBeVisible();
+    await this.waitForElement(this.nextButton);
     await this.nextButton.click();
   }
 
   async expectPasswordFieldVisible() {
-    await expect(this.passwordField).toBeVisible();
+    await this.waitForElement(this.passwordField);
   }
 
   async enterPassword(password: string) {
@@ -46,6 +46,7 @@ export class CsiAvotechLoginPage extends BasePage {
   }
 
   async submitLogin() {
+    await this.waitForElement(this.loginButton);
     await this.loginButton.click();
   }
 

@@ -6,3 +6,6 @@ platforms:
 
 browserstackLocal: true
 buildName: "Avotech-Regression-TestSuite"
+
+video: true
+interactiveDebugging: true
