@@ -1,5 +1,9 @@
 import { defineConfig, devices } from '@playwright/test';
+import dotenv from 'dotenv';
+import path from 'path';
 import { CSI_BASE_URL } from './config/csi';
+
+dotenv.config({ path: path.resolve(__dirname, '.env') });
 
 
 export default defineConfig({
@@ -13,7 +17,7 @@ export default defineConfig({
     baseURL: CSI_BASE_URL,
     trace: 'on-first-retry',
     ignoreHTTPSErrors: true,
-    headless: false,
+    headless: false
   },
 
   projects: [

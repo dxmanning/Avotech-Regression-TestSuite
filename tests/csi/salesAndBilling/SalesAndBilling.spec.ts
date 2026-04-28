@@ -3,6 +3,8 @@ import { csiTestEmail, csiTestPassword } from '../../../utils/csi/credentials';
 import {
   csiPackageDescription,
   csiPackagePricePerModule,
+  csiSalesOrderDuration,
+  csiSalesOrderUnitsPerModule,
   csiUniquePackageName,
 } from '../../../utils/csi/salesAndBillingTestData';
 
@@ -38,5 +40,31 @@ test.describe('CSI · Sales and Billing', () => {
     await csiSalesAndBillingPage.selectAllModulesAndSetUnitPrice(unitPrice);
     await csiSalesAndBillingPage.submitPackage();
     await csiSalesAndBillingPage.expectPackageCreated(packageName);
+  });
+
+  test('Navigate to Sales Order and create sales order', async ({
+    csiSalesAndBillingPage,
+  }) => {
+    const duration = csiSalesOrderDuration();
+    const unitsPerModule = csiSalesOrderUnitsPerModule();
+
+    await csiSalesAndBillingPage.openSalesAndBilling();
+    await csiSalesAndBillingPage.openSalesOrder();
+    await csiSalesAndBillingPage.clickAddSalesOrder();
+
+    // Comments in SB-046 specify selecting the first option for these dropdowns.
+    await csiSalesAndBillingPage.selectFirstOptionByTriggerText('Select Client');
+    await csiSalesAndBillingPage.selectFirstOptionByTriggerText('Select Sales Partner');
+    await csiSalesAndBillingPage.selectFirstOptionByTriggerText('Select Billing Partner');
+    await csiSalesAndBillingPage.selectFirstOptionByTriggerText('Select Package Type');
+
+    // SB-046 requires selecting today's date for every run.
+    await csiSalesAndBillingPage.pickTodaySalesStartDate();
+    await csiSalesAndBillingPage.fillSalesOrderDuration(duration);
+    await csiSalesAndBillingPage.selectFirstBillingMode();
+    await csiSalesAndBillingPage.selectAllSalesOrderModulesAndSetUnits(unitsPerModule);
+    await csiSalesAndBillingPage.continueSalesOrderToReview();
+    await csiSalesAndBillingPage.submitPackage();
+    await csiSalesAndBillingPage.expectSalesOrderCreated();
   });
 });

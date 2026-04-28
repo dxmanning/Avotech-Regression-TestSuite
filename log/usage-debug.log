@@ -1,0 +1,1234 @@
+2026-04-28 11:31:52 - [34mdebug[39m: Could not locate npm module path with error  Cannot access 'isYarnPnP' before initialization
+2026-04-28 11:31:52 - [32minfo[39m: Log Directory has been set to D:\CODES\Avotech-Regression-TestSuite\log
+2026-04-28 11:31:52 - [32minfo[39m: Reading configs from D:\CODES\Avotech-Regression-TestSuite\browserstack.yaml
+2026-04-28 11:31:52 - [32minfo[39m: Log Directory has been set to D:\CODES\Avotech-Regression-TestSuite\log
+2026-04-28 11:31:52 - [32minfo[39m: Running SDK with args C:\Program Files\nodejs\node.exe D:\CODES\Avotech-Regression-TestSuite\node_modules\browserstack-node-sdk\src\bin\runner.js playwright test
+2026-04-28 11:31:52 - [32minfo[39m: SDK run started with id: 41b33ea7-6239-40ee-9a65-fd9ddbd85011
+2026-04-28 11:31:52 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/package.json, package - @playwright/test
+2026-04-28 11:31:52 - [34mdebug[39m: requireModuleV2 :: module - @playwright/test/package.json, package - @playwright/test
+2026-04-28 11:31:52 - [34mdebug[39m: requireModuleV3 :: module - selenium-webdriver/package.json, package - selenium-webdriver
+2026-04-28 11:31:52 - [34mdebug[39m: Unable to resolve module with requireModuleV3 with error: Error: Cannot find module 'selenium-webdriver'
+Require stack:
+- D:\CODES\Avotech-Regression-TestSuite\node_modules\browserstack-node-sdk\src\helpers\helper.js
+- D:\CODES\Avotech-Regression-TestSuite\node_modules\browserstack-node-sdk\src\bin\runner.js
+2026-04-28 11:31:52 - [34mdebug[39m: requireModuleV2 :: module - selenium-webdriver/package.json, package - selenium-webdriver
+2026-04-28 11:31:52 - [34mdebug[39m: Getting selenium-webdriver/package.json from D:\CODES\Avotech-Regression-TestSuite
+2026-04-28 11:31:52 - [34mdebug[39m: selenium-webdriver/package.json doesn't exist at D:\CODES\Avotech-Regression-TestSuite
+2026-04-28 11:31:52 - [34mdebug[39m: Getting selenium-webdriver/package.json from null
+2026-04-28 11:31:52 - [34mdebug[39m: Error while loading package. Error: selenium-webdriver/package.json doesn't exist.
+2026-04-28 11:31:52 - [34mdebug[39m: requireModuleV3 :: module - playwright/lib/transform/transform.js, package - playwright
+2026-04-28 11:31:52 - [32minfo[39m: Running SDK with args C:\Program Files\nodejs\node.exe D:\CODES\Avotech-Regression-TestSuite\node_modules\browserstack-node-sdk\src\bin\runner.js playwright test
+2026-04-28 11:31:52 - [34mdebug[39m: Resolved from resolveModuleV3 :: Path - D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\transform\transform.js
+2026-04-28 11:31:52 - [32minfo[39m: SDK run started with id: 41b33ea7-6239-40ee-9a65-fd9ddbd85011
+2026-04-28 11:31:52 - [34mdebug[39m: Firing SDK event for funnel data: {"userName":"[REDACTED]","accessKey":"[REDACTED]","event_type":"SDKTestAttempted","detectedFramework":"Playwright","optimalHubUrl":[],"event_properties":{"testhub_uuid":"","sdkRunId":"41b33ea7-6239-40ee-9a65-fd9ddbd85011","product_map":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false,"lts":false,"central_scanner":false,"lcnc":false},"productMap":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false,"lts":false,"central_scanner":false,"lcnc":false},"language_framework":"unknown","referrer":"Playwright-nodeagent/1.52.2","frameworkVersion":"1.59.1","automationFramework":"selenium","automationFrameworkVersion":null,"language":"nodejs","languageVersion":"v24.15.0","product":["automate","observability"],"buildName":"Avotech-Regression-TestSuite","buildIdentifier":"#6","os":"Windows_NT","hostname":"DESKTOP-B1PF2KP","isCLIEnabled":false,"playwrightVersion":{}}}
+2026-04-28 11:31:52 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/package.json, package - @playwright/test
+2026-04-28 11:31:52 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2026-04-28 11:31:52 - [34mdebug[39m: Sending request to https://api.browserstack.com/sdk/v1/event
+2026-04-28 11:32:10 - [32minfo[39m: Local binary started successfully
+2026-04-28 11:31:52 - [34mdebug[39m: requireModuleV2 :: module - @playwright/test/package.json, package - @playwright/test
+2026-04-28 11:32:10 - [34mdebug[39m: Sending request to https://hub.browserstack.com/next_hubs
+2026-04-28 11:31:52 - [34mdebug[39m: requireModuleV3 :: module - selenium-webdriver/package.json, package - selenium-webdriver
+2026-04-28 11:31:52 - [34mdebug[39m: Unable to resolve module with requireModuleV3 with error: Error: Cannot find module 'selenium-webdriver'
+Require stack:
+- D:\CODES\Avotech-Regression-TestSuite\node_modules\browserstack-node-sdk\src\helpers\helper.js
+- D:\CODES\Avotech-Regression-TestSuite\node_modules\browserstack-node-sdk\src\bin\runner.js
+2026-04-28 11:31:52 - [34mdebug[39m: requireModuleV2 :: module - selenium-webdriver/package.json, package - selenium-webdriver
+2026-04-28 11:31:52 - [34mdebug[39m: Getting selenium-webdriver/package.json from D:\CODES\Avotech-Regression-TestSuite
+2026-04-28 11:31:52 - [34mdebug[39m: selenium-webdriver/package.json doesn't exist at D:\CODES\Avotech-Regression-TestSuite
+2026-04-28 11:31:52 - [34mdebug[39m: Getting selenium-webdriver/package.json from null
+2026-04-28 11:31:52 - [34mdebug[39m: Error while loading package. Error: selenium-webdriver/package.json doesn't exist.
+2026-04-28 11:31:52 - [34mdebug[39m: requireModuleV3 :: module - playwright/lib/transform/transform.js, package - playwright
+2026-04-28 11:31:52 - [34mdebug[39m: Resolved from resolveModuleV3 :: Path - D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\transform\transform.js
+2026-04-28 11:31:52 - [34mdebug[39m: Firing SDK event for funnel data: {"userName":"[REDACTED]","accessKey":"[REDACTED]","event_type":"SDKTestAttempted","detectedFramework":"Playwright","optimalHubUrl":[],"event_properties":{"testhub_uuid":"","sdkRunId":"41b33ea7-6239-40ee-9a65-fd9ddbd85011","product_map":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false,"lts":false,"central_scanner":false,"lcnc":false},"productMap":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false,"lts":false,"central_scanner":false,"lcnc":false},"language_framework":"unknown","referrer":"Playwright-nodeagent/1.52.2","frameworkVersion":"1.59.1","automationFramework":"selenium","automationFrameworkVersion":null,"language":"nodejs","languageVersion":"v24.15.0","product":["automate","observability"],"buildName":"Avotech-Regression-TestSuite","buildIdentifier":"#6","os":"Windows_NT","hostname":"DESKTOP-B1PF2KP","isCLIEnabled":false,"playwrightVersion":{}}}
+2026-04-28 11:31:52 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2026-04-28 11:31:52 - [34mdebug[39m: Sending request to https://api.browserstack.com/sdk/v1/event
+2026-04-28 11:32:10 - [32minfo[39m: Local binary started successfully
+2026-04-28 11:32:10 - [34mdebug[39m: Sending request to https://hub.browserstack.com/next_hubs
+2026-04-28 11:32:11 - [34mdebug[39m: Response from https://api.browserstack.com/sdk/v1/event: 200 OK
+2026-04-28 11:32:11 - [34mdebug[39m: Response from https://api.browserstack.com/sdk/v1/event: 200 OK
+2026-04-28 11:32:11 - [34mdebug[39m: API Event SDKTestAttempted response - {"data":{"message":"SDK Event recorded successfully"},"body":"{\"message\":\"SDK Event recorded successfully\"}","statusCode":200}
+2026-04-28 11:32:11 - [34mdebug[39m: API Event SDKTestAttempted response - {"data":{"message":"SDK Event recorded successfully"},"body":"{\"message\":\"SDK Event recorded successfully\"}","statusCode":200}
+2026-04-28 11:32:12 - [34mdebug[39m: Response from https://hub.browserstack.com/next_hubs: 200 OK
+2026-04-28 11:32:12 - [34mdebug[39m: Response from https://hub.browserstack.com/next_hubs: 200 OK
+2026-04-28 11:32:12 - [34mdebug[39m: Response: {"hubs":["hub-use.browserstack.com","hub-usw.browserstack.com","hub-euw.browserstack.com"]}
+2026-04-28 11:32:12 - [34mdebug[39m: NEAREST HUBS LIST: ["hub-use.browserstack.com","hub-usw.browserstack.com","hub-euw.browserstack.com"]
+2026-04-28 11:32:12 - [34mdebug[39m: Response: {"hubs":["hub-use.browserstack.com","hub-usw.browserstack.com","hub-euw.browserstack.com"]}
+2026-04-28 11:32:12 - [34mdebug[39m: Sending request to https://hub-use.browserstack.com/check
+2026-04-28 11:32:12 - [34mdebug[39m: NEAREST HUBS LIST: ["hub-use.browserstack.com","hub-usw.browserstack.com","hub-euw.browserstack.com"]
+2026-04-28 11:32:12 - [34mdebug[39m: Sending request to https://hub-usw.browserstack.com/check
+2026-04-28 11:32:12 - [34mdebug[39m: Sending request to https://hub-use.browserstack.com/check
+2026-04-28 11:32:12 - [34mdebug[39m: Sending request to https://hub-euw.browserstack.com/check
+2026-04-28 11:32:12 - [34mdebug[39m: Sending request to https://hub-usw.browserstack.com/check
+2026-04-28 11:32:12 - [34mdebug[39m: Sending request to https://hub-euw.browserstack.com/check
+2026-04-28 11:32:13 - [34mdebug[39m: Response from https://hub-use.browserstack.com/check: 200 OK
+2026-04-28 11:32:13 - [34mdebug[39m: Response from https://hub-use.browserstack.com/check: 200 OK
+2026-04-28 11:32:13 - [34mdebug[39m: Execution time for https://hub-use.browserstack.com is: 1479ms
+2026-04-28 11:32:13 - [34mdebug[39m: Execution time for https://hub-use.browserstack.com is: 1479ms
+2026-04-28 11:32:13 - [34mdebug[39m: HUB URL SET TO - https://hub-use.browserstack.com
+2026-04-28 11:32:13 - [34mdebug[39m: HUB URL SET TO - https://hub-use.browserstack.com
+2026-04-28 11:32:13 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2026-04-28 11:32:13 - [32minfo[39m: [BrowserstackCLI] startMain: Starting main process
+2026-04-28 11:32:13 - [34mdebug[39m: [BrowserstackCLI] Setting up CLI binary path...
+2026-04-28 11:32:13 - [34mdebug[39m: [BrowserstackCLI] Setting up CLI binary path...
+2026-04-28 11:32:13 - [34mdebug[39m: [CLIUtils] Configuring Cli path.
+2026-04-28 11:32:13 - [34mdebug[39m: [CLIUtils] Folder C:\Users\giver\.browserstack already exists
+2026-04-28 11:32:13 - [34mdebug[39m: [CLIUtils] Configuring Cli path.
+2026-04-28 11:32:13 - [32minfo[39m: [CLIUtils] Current CLI Path Found: C:\Users\giver\.browserstack\cli\binary-win-x64.exe
+2026-04-28 11:32:13 - [34mdebug[39m: [CLIUtils] Folder C:\Users\giver\.browserstack already exists
+2026-04-28 11:32:13 - [32minfo[39m: [CLIUtils] Current CLI Path Found: C:\Users\giver\.browserstack\cli\binary-win-x64.exe
+2026-04-28 11:32:14 - [34mdebug[39m: Response from https://hub-euw.browserstack.com/check: 200 OK
+2026-04-28 11:32:14 - [34mdebug[39m: Response from https://hub-euw.browserstack.com/check: 200 OK
+2026-04-28 11:32:14 - [34mdebug[39m: Execution time for https://hub-euw.browserstack.com is: 2078ms
+2026-04-28 11:32:14 - [34mdebug[39m: Execution time for https://hub-euw.browserstack.com is: 2078ms
+2026-04-28 11:32:14 - [34mdebug[39m: Response from https://hub-usw.browserstack.com/check: 200 OK
+2026-04-28 11:32:14 - [34mdebug[39m: Response from https://hub-usw.browserstack.com/check: 200 OK
+2026-04-28 11:32:14 - [34mdebug[39m: Execution time for https://hub-usw.browserstack.com is: 2163ms
+2026-04-28 11:32:14 - [34mdebug[39m: Execution time for https://hub-usw.browserstack.com is: 2163ms
+2026-04-28 11:32:14 - [34mdebug[39m: [CLIUtils] Resolving with stdout: "1.28.1"
+2026-04-28 11:32:14 - [34mdebug[39m: [CLIUtils] Resolving with stdout: "1.28.1"
+2026-04-28 11:32:14 - [34mdebug[39m: Sending request to https://api.browserstack.com/sdk/v1/update_cli
+2026-04-28 11:32:14 - [34mdebug[39m: Sending request to https://api.browserstack.com/sdk/v1/update_cli
+2026-04-28 11:32:15 - [34mdebug[39m: Response from https://api.browserstack.com/sdk/v1/update_cli: 200 OK
+2026-04-28 11:32:15 - [34mdebug[39m: Response from https://api.browserstack.com/sdk/v1/update_cli: 200 OK
+2026-04-28 11:32:15 - [34mdebug[39m: [CLIUtils] response {"data":{"success":true},"body":"{\"success\":true}","statusCode":200}
+2026-04-28 11:32:15 - [34mdebug[39m: [CLIUtils] Resolved binary path: C:\Users\giver\.browserstack\cli\binary-win-x64.exe
+2026-04-28 11:32:15 - [34mdebug[39m: [BrowserstackCLI] CLI binary path resolved to: C:\Users\giver\.browserstack\cli\binary-win-x64.exe
+2026-04-28 11:32:15 - [32minfo[39m: [BrowserstackCLI] spawning command='C:\Users\giver\.browserstack\cli\binary-win-x64.exe,sdk'
+2026-04-28 11:32:15 - [34mdebug[39m: [CLIUtils] response {"data":{"success":true},"body":"{\"success\":true}","statusCode":200}
+2026-04-28 11:32:15 - [34mdebug[39m: [CLIUtils] Resolved binary path: C:\Users\giver\.browserstack\cli\binary-win-x64.exe
+2026-04-28 11:32:15 - [34mdebug[39m: [BrowserstackCLI] CLI binary path resolved to: C:\Users\giver\.browserstack\cli\binary-win-x64.exe
+2026-04-28 11:32:15 - [32minfo[39m: [BrowserstackCLI] spawning command='C:\Users\giver\.browserstack\cli\binary-win-x64.exe,sdk'
+2026-04-28 11:32:16 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"7c026df2-20b0-40e2-b76b-04e10f87927c","listen":"127.0.0.1:5400","port":"5400"}
+2026-04-28 11:32:16 - [32minfo[39m: [BrowserstackCLI] CLI params loaded: {"id":"7c026df2-20b0-40e2-b76b-04e10f87927c","listen":"127.0.0.1:5400","port":"5400"}
+2026-04-28 11:32:16 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-04-28 11:32:16 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: 7c026df2-20b0-40e2-b76b-04e10f87927c and listen address: 127.0.0.1:5400
+2026-04-28 11:32:16 - [34mdebug[39m: [BrowserstackCLI] startMain: main-process started
+2026-04-28 11:32:16 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2026-04-28 11:32:16 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-04-28 11:32:16 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test"], parsedConfig=[]
+2026-04-28 11:32:16 - [32minfo[39m: [GrpcClient] Initialized gRPC client with bin session id: 7c026df2-20b0-40e2-b76b-04e10f87927c and listen address: 127.0.0.1:5400
+2026-04-28 11:32:16 - [34mdebug[39m: [BrowserstackCLI] startMain: main-process started
+2026-04-28 11:32:16 - [32minfo[39m: [GrpcClient] startBinSession: Calling startBinSession
+2026-04-28 11:32:16 - [32minfo[39m: [GrpcClient] setCliArgs: cliArgs=["playwright","test"], parsedConfig=[]
+2026-04-28 11:32:20 - [31merror[39m: [BrowserstackCLI] CLI stderr: Exiting with code 1 due to uncaught exception [Error: EBUSY: resource busy or locked, open 'C:\Users\giver\.browserstack\BrowserStackLocal.exe'] {
+  errno: -4082,
+  code: 'EBUSY',
+  syscall: 'open',
+  path: 'C:\\Users\\giver\\.browserstack\\BrowserStackLocal.exe'
+}
+2026-04-28 11:32:20 - [31merror[39m: [BrowserstackCLI] CLI stderr: Exiting with code 1 due to uncaught exception [Error: EBUSY: resource busy or locked, open 'C:\Users\giver\.browserstack\BrowserStackLocal.exe'] {
+  errno: -4082,
+  code: 'EBUSY',
+  syscall: 'open',
+  path: 'C:\\Users\\giver\\.browserstack\\BrowserStackLocal.exe'
+}
+2026-04-28 11:32:21 - [31merror[39m: [GrpcClient] StartBinSession error: 14 UNAVAILABLE: read ECONNRESET
+2026-04-28 11:32:21 - [31merror[39m: [GrpcClient] StartBinSession error: 14 UNAVAILABLE: read ECONNRESET
+2026-04-28 11:32:21 - [31merror[39m: [BrowserstackCLI] bootstrap: failed to bootstrap=Error: 14 UNAVAILABLE: read ECONNRESET
+    at callErrorFromStatus (D:\CODES\Avotech-Regression-TestSuite\node_modules\@grpc\grpc-js\build\src\call.js:32:19)
+    at Object.onReceiveStatus (D:\CODES\Avotech-Regression-TestSuite\node_modules\@grpc\grpc-js\build\src\client.js:193:76)
+    at Object.onReceiveStatus (D:\CODES\Avotech-Regression-TestSuite\node_modules\@grpc\grpc-js\build\src\client-interceptors.js:367:141)
+    at Object.onReceiveStatus (D:\CODES\Avotech-Regression-TestSuite\node_modules\@grpc\grpc-js\build\src\client-interceptors.js:327:181)
+    at D:\CODES\Avotech-Regression-TestSuite\node_modules\@grpc\grpc-js\build\src\resolving-call.js:135:78
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+for call at
+    at ServiceClientImpl.makeUnaryRequest (D:\CODES\Avotech-Regression-TestSuite\node_modules\@grpc\grpc-js\build\src\client.js:161:32)
+    at ServiceClientImpl.startBinSession (D:\CODES\Avotech-Regression-TestSuite\node_modules\@grpc\grpc-js\build\src\make-client.js:105:19)
+    at D:\CODES\Avotech-Regression-TestSuite\node_modules\browserstack-node-sdk\src\bin\v2\grpcClient.js:1:11720
+    at new Promise (<anonymous>)
+    at GrpcClient.startBinSession (D:\CODES\Avotech-Regression-TestSuite\node_modules\browserstack-node-sdk\src\bin\v2\grpcClient.js:1:11618)
+    at BrowserstackCLI.startMain (D:\CODES\Avotech-Regression-TestSuite\node_modules\browserstack-node-sdk\src\bin\v2\browserstackCLI.js:1:8713)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async BrowserstackCLI.bootstrap (D:\CODES\Avotech-Regression-TestSuite\node_modules\browserstack-node-sdk\src\bin\v2\browserstackCLI.js:1:7997)
+    at async D:\CODES\Avotech-Regression-TestSuite\node_modules\browserstack-node-sdk\src\bin\playwright\command.js:2:13334
+2026-04-28 11:32:21 - [31merror[39m: [BrowserstackCLI] bootstrap: failed to bootstrap=Error: 14 UNAVAILABLE: read ECONNRESET
+    at callErrorFromStatus (D:\CODES\Avotech-Regression-TestSuite\node_modules\@grpc\grpc-js\build\src\call.js:32:19)
+    at Object.onReceiveStatus (D:\CODES\Avotech-Regression-TestSuite\node_modules\@grpc\grpc-js\build\src\client.js:193:76)
+    at Object.onReceiveStatus (D:\CODES\Avotech-Regression-TestSuite\node_modules\@grpc\grpc-js\build\src\client-interceptors.js:367:141)
+    at Object.onReceiveStatus (D:\CODES\Avotech-Regression-TestSuite\node_modules\@grpc\grpc-js\build\src\client-interceptors.js:327:181)
+    at D:\CODES\Avotech-Regression-TestSuite\node_modules\@grpc\grpc-js\build\src\resolving-call.js:135:78
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+for call at
+    at ServiceClientImpl.makeUnaryRequest (D:\CODES\Avotech-Regression-TestSuite\node_modules\@grpc\grpc-js\build\src\client.js:161:32)
+    at ServiceClientImpl.startBinSession (D:\CODES\Avotech-Regression-TestSuite\node_modules\@grpc\grpc-js\build\src\make-client.js:105:19)
+    at D:\CODES\Avotech-Regression-TestSuite\node_modules\browserstack-node-sdk\src\bin\v2\grpcClient.js:1:11720
+    at new Promise (<anonymous>)
+    at GrpcClient.startBinSession (D:\CODES\Avotech-Regression-TestSuite\node_modules\browserstack-node-sdk\src\bin\v2\grpcClient.js:1:11618)
+    at BrowserstackCLI.startMain (D:\CODES\Avotech-Regression-TestSuite\node_modules\browserstack-node-sdk\src\bin\v2\browserstackCLI.js:1:8713)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async BrowserstackCLI.bootstrap (D:\CODES\Avotech-Regression-TestSuite\node_modules\browserstack-node-sdk\src\bin\v2\browserstackCLI.js:1:7997)
+    at async D:\CODES\Avotech-Regression-TestSuite\node_modules\browserstack-node-sdk\src\bin\playwright\command.js:2:13334
+2026-04-28 11:32:21 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2026-04-28 11:32:21 - [32minfo[39m: [BrowserstackCLI] stop: CLI is not running, skipping stop
+2026-04-28 11:32:21 - [34mdebug[39m: requireModuleV3 :: module - playwright/lib/common/configLoader.js, package - playwright
+2026-04-28 11:32:21 - [34mdebug[39m: requireModuleV3 :: module - playwright/lib/common/configLoader.js, package - playwright
+2026-04-28 11:32:21 - [34mdebug[39m: Resolved from resolveModuleV3 :: Path - D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\common\configLoader.js
+2026-04-28 11:32:21 - [34mdebug[39m: Resolved from resolveModuleV3 :: Path - D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\common\configLoader.js
+2026-04-28 11:32:22 - [34mdebug[39m: Generating build upstream data for TestHub
+2026-04-28 11:32:22 - [34mdebug[39m: Generating build upstream data for TestHub
+2026-04-28 11:32:22 - [34mdebug[39m: Sending request to https://collector-observability.browserstack.com/api/v2/builds
+2026-04-28 11:32:22 - [34mdebug[39m: Sending request to https://collector-observability.browserstack.com/api/v2/builds
+2026-04-28 11:32:23 - [34mdebug[39m: Response from https://collector-observability.browserstack.com/api/v2/builds: 200 OK
+2026-04-28 11:32:23 - [34mdebug[39m: Response from https://collector-observability.browserstack.com/api/v2/builds: 200 OK
+2026-04-28 11:32:23 - [34mdebug[39m: [TEST REPORTING AND ANALYTICS] Build Created Successfully with hashed id: atm864cwptlv1mqgu53fdbhsq0kltun9ar4kfqrl
+2026-04-28 11:32:23 - [31merror[39m: ACCESSIBILITY Build creation failed
+2026-04-28 11:32:23 - [34mdebug[39m: BROWSERSTACK_TESTHUB_UUID: atm864cwptlv1mqgu53fdbhsq0kltun9ar4kfqrl
+2026-04-28 11:32:23 - [32minfo[39m: Testhub started with id: atm864cwptlv1mqgu53fdbhsq0kltun9ar4kfqrl
+2026-04-28 11:32:23 - [34mdebug[39m: Updated config file name to - playwright-browserstack-sdk.config.ts
+2026-04-28 11:32:23 - [34mdebug[39m: Proxy url : null
+2026-04-28 11:32:23 - [34mdebug[39m: No Proxy : null
+2026-04-28 11:32:23 - [34mdebug[39m: [TEST REPORTING AND ANALYTICS] Build Created Successfully with hashed id: atm864cwptlv1mqgu53fdbhsq0kltun9ar4kfqrl
+2026-04-28 11:32:23 - [31merror[39m: ACCESSIBILITY Build creation failed
+2026-04-28 11:32:23 - [34mdebug[39m: BROWSERSTACK_TESTHUB_UUID: atm864cwptlv1mqgu53fdbhsq0kltun9ar4kfqrl
+2026-04-28 11:32:23 - [32minfo[39m: Testhub started with id: atm864cwptlv1mqgu53fdbhsq0kltun9ar4kfqrl
+2026-04-28 11:32:23 - [34mdebug[39m: Updated config file name to - playwright-browserstack-sdk.config.ts
+2026-04-28 11:32:23 - [34mdebug[39m: Proxy url : null
+2026-04-28 11:32:23 - [34mdebug[39m: No Proxy : null
+2026-04-28 11:32:26 - [34mdebug[39m: Could not locate npm module path with error  Cannot access 'isYarnPnP' before initialization
+2026-04-28 11:32:26 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 7c026df2-20b0-40e2-b76b-04e10f87927c
+2026-04-28 11:32:26 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-04-28 11:32:26 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-04-28 11:32:26 - [31merror[39m: [GrpcClient] ConnectBinSession error: 14 UNAVAILABLE: No connection established. Last error: Error: connect ECONNREFUSED 127.0.0.1:5400. Resolution note: 
+2026-04-28 11:32:26 - [31merror[39m: [GrpcClient] Error in connectBinSession: Error: 14 UNAVAILABLE: No connection established. Last error: Error: connect ECONNREFUSED 127.0.0.1:5400. Resolution note: 
+    at callErrorFromStatus (D:\CODES\Avotech-Regression-TestSuite\node_modules\@grpc\grpc-js\src\call.ts:84:17)
+    at Object.onReceiveStatus (D:\CODES\Avotech-Regression-TestSuite\node_modules\@grpc\grpc-js\src\client.ts:360:55)
+    at Object.onReceiveStatus (D:\CODES\Avotech-Regression-TestSuite\node_modules\@grpc\grpc-js\src\client-interceptors.ts:466:34)
+    at Object.onReceiveStatus (D:\CODES\Avotech-Regression-TestSuite\node_modules\@grpc\grpc-js\src\client-interceptors.ts:424:48)
+    at D:\CODES\Avotech-Regression-TestSuite\node_modules\@grpc\grpc-js\src\resolving-call.ts:170:24
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+for call at
+    at ServiceClientImpl.makeUnaryRequest (D:\CODES\Avotech-Regression-TestSuite\node_modules\@grpc\grpc-js\src\client.ts:325:42)
+    at ServiceClientImpl.connectBinSession (D:\CODES\Avotech-Regression-TestSuite\node_modules\@grpc\grpc-js\src\make-client.ts:189:15)
+    at _0xcc7d46 (D:\CODES\Avotech-Regression-TestSuite\node_modules\browserstack-node-sdk\src\bin\v2\grpcClient.js:1:13224)
+    at new Promise (<anonymous>)
+    at GrpcClient.connectBinSession (D:\CODES\Avotech-Regression-TestSuite\node_modules\browserstack-node-sdk\src\bin\v2\grpcClient.js:1:13122)
+    at BrowserstackCLI.startChild (D:\CODES\Avotech-Regression-TestSuite\node_modules\browserstack-node-sdk\src\bin\v2\browserstackCLI.js:1:20593)
+    at BrowserstackCLI.bootstrap (D:\CODES\Avotech-Regression-TestSuite\node_modules\browserstack-node-sdk\src\bin\v2\browserstackCLI.js:1:7905)
+    at Object._modifyPlaywright (D:\CODES\Avotech-Regression-TestSuite\node_modules\browserstack-node-sdk\src\bin\playwright\modifyPlaywrightConf.js:1:21681)
+    at Object.<anonymous> (D:\CODES\Avotech-Regression-TestSuite\playwright-browserstack-sdk.config.ts:4:24)
+    at Module._compile (node:internal/modules/cjs/loader:1830:14)
+    at Module.newCompile2 (D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\third_party\pirates.js:46:29)
+    at Object.<anonymous> (node:internal/modules/cjs/loader:1961:10)
+    at Object.newLoader2 [as .ts] (D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\third_party\pirates.js:52:22)
+    at Module.load (node:internal/modules/cjs/loader:1553:32)
+    at Module._load (node:internal/modules/cjs/loader:1355:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.require (node:internal/modules/cjs/loader:1576:12)
+    at require (node:internal/modules/helpers:153:16)
+    at requireOrImport (D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\transform\transform.js:218:18)
+    at loadUserConfig (D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\common\configLoader.js:107:89)
+    at loadConfig (D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\common\configLoader.js:119:28)
+    at loadConfigFromFile (D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\common\configLoader.js:331:10)
+    at runTests (D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\testActions.js:51:18)
+    at i.<anonymous> (D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\program.js:56:7) {
+  code: 14,
+  details: 'No connection established. Last error: Error: connect ECONNREFUSED 127.0.0.1:5400. Resolution note: ',
+  metadata: Metadata {
+    internalRepr: Map(0) {},
+    opaqueData: Map(0) {},
+    options: {}
+  }
+}
+2026-04-28 11:32:26 - [31merror[39m: [BrowserstackCLI] Failed to start as child process: Error: 14 UNAVAILABLE: No connection established. Last error: Error: connect ECONNREFUSED 127.0.0.1:5400. Resolution note: 
+    at callErrorFromStatus (D:\CODES\Avotech-Regression-TestSuite\node_modules\@grpc\grpc-js\src\call.ts:84:17)
+    at Object.onReceiveStatus (D:\CODES\Avotech-Regression-TestSuite\node_modules\@grpc\grpc-js\src\client.ts:360:55)
+    at Object.onReceiveStatus (D:\CODES\Avotech-Regression-TestSuite\node_modules\@grpc\grpc-js\src\client-interceptors.ts:466:34)
+    at Object.onReceiveStatus (D:\CODES\Avotech-Regression-TestSuite\node_modules\@grpc\grpc-js\src\client-interceptors.ts:424:48)
+    at D:\CODES\Avotech-Regression-TestSuite\node_modules\@grpc\grpc-js\src\resolving-call.ts:170:24
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+for call at
+    at ServiceClientImpl.makeUnaryRequest (D:\CODES\Avotech-Regression-TestSuite\node_modules\@grpc\grpc-js\src\client.ts:325:42)
+    at ServiceClientImpl.connectBinSession (D:\CODES\Avotech-Regression-TestSuite\node_modules\@grpc\grpc-js\src\make-client.ts:189:15)
+    at _0xcc7d46 (D:\CODES\Avotech-Regression-TestSuite\node_modules\browserstack-node-sdk\src\bin\v2\grpcClient.js:1:13224)
+    at new Promise (<anonymous>)
+    at GrpcClient.connectBinSession (D:\CODES\Avotech-Regression-TestSuite\node_modules\browserstack-node-sdk\src\bin\v2\grpcClient.js:1:13122)
+    at BrowserstackCLI.startChild (D:\CODES\Avotech-Regression-TestSuite\node_modules\browserstack-node-sdk\src\bin\v2\browserstackCLI.js:1:20593)
+    at BrowserstackCLI.bootstrap (D:\CODES\Avotech-Regression-TestSuite\node_modules\browserstack-node-sdk\src\bin\v2\browserstackCLI.js:1:7905)
+    at Object._modifyPlaywright (D:\CODES\Avotech-Regression-TestSuite\node_modules\browserstack-node-sdk\src\bin\playwright\modifyPlaywrightConf.js:1:21681)
+    at Object.<anonymous> (D:\CODES\Avotech-Regression-TestSuite\playwright-browserstack-sdk.config.ts:4:24)
+    at Module._compile (node:internal/modules/cjs/loader:1830:14)
+    at Module.newCompile2 (D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\third_party\pirates.js:46:29)
+    at Object.<anonymous> (node:internal/modules/cjs/loader:1961:10)
+    at Object.newLoader2 [as .ts] (D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\third_party\pirates.js:52:22)
+    at Module.load (node:internal/modules/cjs/loader:1553:32)
+    at Module._load (node:internal/modules/cjs/loader:1355:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.require (node:internal/modules/cjs/loader:1576:12)
+    at require (node:internal/modules/helpers:153:16)
+    at requireOrImport (D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\transform\transform.js:218:18)
+    at loadUserConfig (D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\common\configLoader.js:107:89)
+    at loadConfig (D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\common\configLoader.js:119:28)
+    at loadConfigFromFile (D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\common\configLoader.js:331:10)
+    at runTests (D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\testActions.js:51:18)
+    at i.<anonymous> (D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\program.js:56:7) {
+  code: 14,
+  details: 'No connection established. Last error: Error: connect ECONNREFUSED 127.0.0.1:5400. Resolution note: ',
+  metadata: Metadata {
+    internalRepr: Map(0) {},
+    opaqueData: Map(0) {},
+    options: {}
+  }
+}
+2026-04-28 11:32:26 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/package.json, package - @playwright/test
+2026-04-28 11:32:26 - [34mdebug[39m: requireModuleV2 :: module - @playwright/test/package.json, package - @playwright/test
+2026-04-28 11:32:26 - [34mdebug[39m: requireModuleV3 :: module - playwright/lib/transform/transform.js, package - playwright
+2026-04-28 11:32:26 - [34mdebug[39m: Resolved from resolveModuleV3 :: Path - D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\transform\transform.js
+2026-04-28 11:32:26 - [34mdebug[39m: Local set to true. Adding browserstack.local: true and browserstack.localIdentifier: 28_Apr_1131_DESKTOP-B1PF2KP_q37o to capabilities.
+2026-04-28 11:32:26 - [34mdebug[39m: requireModuleV3 :: module - playwright/lib/runner/projectUtils.js, package - playwright
+2026-04-28 11:32:26 - [34mdebug[39m: Resolved from resolveModuleV3 :: Path - D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\runner\projectUtils.js
+[34mdebug[39m: [2026-04-28T17:32:27.024Z][ TEST REPORTING AND ANALYTICS ] Call to child fork with args D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\common\process.js
+2026-04-28 11:32:27 - [32minfo[39m: Setting up TestInfo directory at D:\CODES\Avotech-Regression-TestSuite\log\.obs_test_details-atm864cwptlv1mqgu53fdbhsq0kltun9ar4kfqrl
+2026-04-28 11:32:28 - [34mdebug[39m: Could not locate npm module path with error  Cannot access 'isYarnPnP' before initialization
+2026-04-28 11:32:28 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/package.json, package - @playwright/test
+2026-04-28 11:32:28 - [34mdebug[39m: requireModuleV2 :: module - @playwright/test/package.json, package - @playwright/test
+2026-04-28 11:32:28 - [34mdebug[39m: requireModuleV3 :: module - playwright/lib/common/process.js, package - playwright
+2026-04-28 11:32:28 - [34mdebug[39m: Resolved from resolveModuleV3 :: Path - D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\common\process.js
+2026-04-28 11:32:28 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/index.js, package - @playwright/test
+2026-04-28 11:32:28 - [34mdebug[39m: requireModuleV2 :: module - @playwright/test/index.js, package - @playwright/test
+2026-04-28 11:32:28 - [34mdebug[39m: Getting @playwright/test/index.js from D:\CODES\Avotech-Regression-TestSuite
+2026-04-28 11:32:28 - [34mdebug[39m: requireModuleV3 :: module - @playwright\test\node_modules\playwright-core, package - @playwright/test
+2026-04-28 11:32:28 - [34mdebug[39m: requireModuleV2 :: module - @playwright\test\node_modules\playwright-core, package - @playwright/test
+2026-04-28 11:32:28 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from D:\CODES\Avotech-Regression-TestSuite
+2026-04-28 11:32:28 - [34mdebug[39m: @playwright\test\node_modules\playwright-core doesn't exist at D:\CODES\Avotech-Regression-TestSuite
+2026-04-28 11:32:28 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from null
+2026-04-28 11:32:28 - [34mdebug[39m: requireModuleV3 :: module - playwright\node_modules\playwright-core, package - playwright
+2026-04-28 11:32:28 - [34mdebug[39m: requireModuleV2 :: module - playwright\node_modules\playwright-core, package - playwright
+2026-04-28 11:32:28 - [34mdebug[39m: Getting playwright\node_modules\playwright-core from D:\CODES\Avotech-Regression-TestSuite
+2026-04-28 11:32:28 - [34mdebug[39m: playwright\node_modules\playwright-core doesn't exist at D:\CODES\Avotech-Regression-TestSuite
+2026-04-28 11:32:28 - [34mdebug[39m: Getting playwright\node_modules\playwright-core from null
+2026-04-28 11:32:28 - [34mdebug[39m: requireModuleV2 :: module - playwright-core, package - null
+2026-04-28 11:32:28 - [34mdebug[39m: Resolved path for playwright-core is D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright-core
+2026-04-28 11:32:28 - [34mdebug[39m: requireModuleV2 :: module - D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright-core\lib\client\connection.js, package - null
+2026-04-28 11:32:29 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 7c026df2-20b0-40e2-b76b-04e10f87927c
+2026-04-28 11:32:29 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-04-28 11:32:29 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-04-28 11:32:29 - [31merror[39m: [GrpcClient] ConnectBinSession error: 14 UNAVAILABLE: No connection established. Last error: Error: connect ECONNREFUSED 127.0.0.1:5400. Resolution note: 
+2026-04-28 11:32:29 - [31merror[39m: [GrpcClient] Error in connectBinSession: Error: 14 UNAVAILABLE: No connection established. Last error: Error: connect ECONNREFUSED 127.0.0.1:5400. Resolution note: 
+    at callErrorFromStatus (D:\CODES\Avotech-Regression-TestSuite\node_modules\@grpc\grpc-js\src\call.ts:84:17)
+    at Object.onReceiveStatus (D:\CODES\Avotech-Regression-TestSuite\node_modules\@grpc\grpc-js\src\client.ts:360:55)
+    at Object.onReceiveStatus (D:\CODES\Avotech-Regression-TestSuite\node_modules\@grpc\grpc-js\src\client-interceptors.ts:466:34)
+    at Object.onReceiveStatus (D:\CODES\Avotech-Regression-TestSuite\node_modules\@grpc\grpc-js\src\client-interceptors.ts:424:48)
+    at D:\CODES\Avotech-Regression-TestSuite\node_modules\@grpc\grpc-js\src\resolving-call.ts:170:24
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+for call at
+    at ServiceClientImpl.makeUnaryRequest (D:\CODES\Avotech-Regression-TestSuite\node_modules\@grpc\grpc-js\src\client.ts:325:42)
+    at ServiceClientImpl.connectBinSession (D:\CODES\Avotech-Regression-TestSuite\node_modules\@grpc\grpc-js\src\make-client.ts:189:15)
+    at _0xcc7d46 (D:\CODES\Avotech-Regression-TestSuite\node_modules\browserstack-node-sdk\src\bin\v2\grpcClient.js:1:13224)
+    at new Promise (<anonymous>)
+    at GrpcClient.connectBinSession (D:\CODES\Avotech-Regression-TestSuite\node_modules\browserstack-node-sdk\src\bin\v2\grpcClient.js:1:13122)
+    at BrowserstackCLI.startChild (D:\CODES\Avotech-Regression-TestSuite\node_modules\browserstack-node-sdk\src\bin\v2\browserstackCLI.js:1:20593)
+    at BrowserstackCLI.bootstrap (D:\CODES\Avotech-Regression-TestSuite\node_modules\browserstack-node-sdk\src\bin\v2\browserstackCLI.js:1:7905)
+    at Object._modifyPlaywright (D:\CODES\Avotech-Regression-TestSuite\node_modules\browserstack-node-sdk\src\bin\playwright\modifyPlaywrightConf.js:1:21681)
+    at Object.<anonymous> (D:\CODES\Avotech-Regression-TestSuite\playwright-browserstack-sdk.config.ts:4:24)
+    at Module._compile (node:internal/modules/cjs/loader:1830:14)
+    at Module.newCompile2 (D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\third_party\pirates.js:46:29)
+    at Object.<anonymous> (node:internal/modules/cjs/loader:1961:10)
+    at Object.newLoader2 [as .ts] (D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\third_party\pirates.js:52:22)
+    at Module.load (node:internal/modules/cjs/loader:1553:32)
+    at Module._load (node:internal/modules/cjs/loader:1355:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.require (node:internal/modules/cjs/loader:1576:12)
+    at require (node:internal/modules/helpers:153:16)
+    at requireOrImport (D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\transform\transform.js:218:18)
+    at loadUserConfig (D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\common\configLoader.js:107:89)
+    at loadConfig (D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\common\configLoader.js:119:28)
+    at deserializeConfig (D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\common\configLoader.js:104:10)
+    at WorkerMain._loadIfNeeded (D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\worker\workerMain.js:165:20)
+    at WorkerMain.runTestGroup (D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\worker\workerMain.js:179:7)
+    at process.<anonymous> (D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\common\process.js:73:22) {
+  code: 14,
+  details: 'No connection established. Last error: Error: connect ECONNREFUSED 127.0.0.1:5400. Resolution note: ',
+  metadata: Metadata {
+    internalRepr: Map(0) {},
+    opaqueData: Map(0) {},
+    options: {}
+  }
+}
+2026-04-28 11:32:29 - [31merror[39m: [BrowserstackCLI] Failed to start as child process: Error: 14 UNAVAILABLE: No connection established. Last error: Error: connect ECONNREFUSED 127.0.0.1:5400. Resolution note: 
+    at callErrorFromStatus (D:\CODES\Avotech-Regression-TestSuite\node_modules\@grpc\grpc-js\src\call.ts:84:17)
+    at Object.onReceiveStatus (D:\CODES\Avotech-Regression-TestSuite\node_modules\@grpc\grpc-js\src\client.ts:360:55)
+    at Object.onReceiveStatus (D:\CODES\Avotech-Regression-TestSuite\node_modules\@grpc\grpc-js\src\client-interceptors.ts:466:34)
+    at Object.onReceiveStatus (D:\CODES\Avotech-Regression-TestSuite\node_modules\@grpc\grpc-js\src\client-interceptors.ts:424:48)
+    at D:\CODES\Avotech-Regression-TestSuite\node_modules\@grpc\grpc-js\src\resolving-call.ts:170:24
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+for call at
+    at ServiceClientImpl.makeUnaryRequest (D:\CODES\Avotech-Regression-TestSuite\node_modules\@grpc\grpc-js\src\client.ts:325:42)
+    at ServiceClientImpl.connectBinSession (D:\CODES\Avotech-Regression-TestSuite\node_modules\@grpc\grpc-js\src\make-client.ts:189:15)
+    at _0xcc7d46 (D:\CODES\Avotech-Regression-TestSuite\node_modules\browserstack-node-sdk\src\bin\v2\grpcClient.js:1:13224)
+    at new Promise (<anonymous>)
+    at GrpcClient.connectBinSession (D:\CODES\Avotech-Regression-TestSuite\node_modules\browserstack-node-sdk\src\bin\v2\grpcClient.js:1:13122)
+    at BrowserstackCLI.startChild (D:\CODES\Avotech-Regression-TestSuite\node_modules\browserstack-node-sdk\src\bin\v2\browserstackCLI.js:1:20593)
+    at BrowserstackCLI.bootstrap (D:\CODES\Avotech-Regression-TestSuite\node_modules\browserstack-node-sdk\src\bin\v2\browserstackCLI.js:1:7905)
+    at Object._modifyPlaywright (D:\CODES\Avotech-Regression-TestSuite\node_modules\browserstack-node-sdk\src\bin\playwright\modifyPlaywrightConf.js:1:21681)
+    at Object.<anonymous> (D:\CODES\Avotech-Regression-TestSuite\playwright-browserstack-sdk.config.ts:4:24)
+    at Module._compile (node:internal/modules/cjs/loader:1830:14)
+    at Module.newCompile2 (D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\third_party\pirates.js:46:29)
+    at Object.<anonymous> (node:internal/modules/cjs/loader:1961:10)
+    at Object.newLoader2 [as .ts] (D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\third_party\pirates.js:52:22)
+    at Module.load (node:internal/modules/cjs/loader:1553:32)
+    at Module._load (node:internal/modules/cjs/loader:1355:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.require (node:internal/modules/cjs/loader:1576:12)
+    at require (node:internal/modules/helpers:153:16)
+    at requireOrImport (D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\transform\transform.js:218:18)
+    at loadUserConfig (D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\common\configLoader.js:107:89)
+    at loadConfig (D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\common\configLoader.js:119:28)
+    at deserializeConfig (D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\common\configLoader.js:104:10)
+    at WorkerMain._loadIfNeeded (D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\worker\workerMain.js:165:20)
+    at WorkerMain.runTestGroup (D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\worker\workerMain.js:179:7)
+    at process.<anonymous> (D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\common\process.js:73:22) {
+  code: 14,
+  details: 'No connection established. Last error: Error: connect ECONNREFUSED 127.0.0.1:5400. Resolution note: ',
+  metadata: Metadata {
+    internalRepr: Map(0) {},
+    opaqueData: Map(0) {},
+    options: {}
+  }
+}
+2026-04-28 11:32:29 - [34mdebug[39m: requireModuleV3 :: module - playwright/lib/transform/transform.js, package - playwright
+2026-04-28 11:32:29 - [34mdebug[39m: Resolved from resolveModuleV3 :: Path - D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\transform\transform.js
+2026-04-28 11:32:29 - [34mdebug[39m: Local set to true. Adding browserstack.local: true and browserstack.localIdentifier: 28_Apr_1131_DESKTOP-B1PF2KP_q37o to capabilities.
+2026-04-28 11:32:29 - [34mdebug[39m: requireModuleV3 :: module - playwright/lib/runner/projectUtils.js, package - playwright
+2026-04-28 11:32:29 - [34mdebug[39m: Resolved from resolveModuleV3 :: Path - D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\runner\projectUtils.js
+[35msilly[39m: [2026-04-28T17:32:29.229Z][ TEST REPORTING AND ANALYTICS ] Started :: beforeWorkerHook, PID - 12796, Argument - 0
+[35msilly[39m: [2026-04-28T17:32:29.234Z][ TEST REPORTING AND ANALYTICS ] Test Started with unique id chrome-latest:Windows 11-browserstack-dc5266584ced6e5796a4-426de6792e39ffe52745
+2026-04-28 11:32:29 - [34mdebug[39m: Searching for key: path
+[35msilly[39m: [2026-04-28T17:32:29.238Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'TestRunStarted' 194be55f-9c32-4f3d-9693-a524681612fb
+2026-04-28 11:32:29 - [34mdebug[39m: requireModuleV3 :: module - @playwright\test\node_modules\playwright-core, package - @playwright/test
+2026-04-28 11:32:29 - [34mdebug[39m: requireModuleV2 :: module - @playwright\test\node_modules\playwright-core, package - @playwright/test
+2026-04-28 11:32:29 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from D:\CODES\Avotech-Regression-TestSuite
+2026-04-28 11:32:29 - [34mdebug[39m: @playwright\test\node_modules\playwright-core doesn't exist at D:\CODES\Avotech-Regression-TestSuite
+2026-04-28 11:32:29 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from null
+2026-04-28 11:32:29 - [34mdebug[39m: requireModuleV3 :: module - playwright\node_modules\playwright-core, package - playwright
+2026-04-28 11:32:29 - [34mdebug[39m: requireModuleV2 :: module - playwright\node_modules\playwright-core, package - playwright
+2026-04-28 11:32:29 - [34mdebug[39m: Getting playwright\node_modules\playwright-core from D:\CODES\Avotech-Regression-TestSuite
+2026-04-28 11:32:29 - [34mdebug[39m: playwright\node_modules\playwright-core doesn't exist at D:\CODES\Avotech-Regression-TestSuite
+2026-04-28 11:32:29 - [34mdebug[39m: Getting playwright\node_modules\playwright-core from null
+2026-04-28 11:32:29 - [34mdebug[39m: requireModuleV2 :: module - playwright-core, package - null
+2026-04-28 11:32:29 - [34mdebug[39m: Resolved path for playwright-core is D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright-core
+2026-04-28 11:32:29 - [34mdebug[39m: requireModuleV2 :: module - D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright-core\lib\client\browserType.js, package - null
+2026-04-28 11:32:29 - [34mdebug[39m: requireModuleV3 :: module - @playwright\test\node_modules\playwright-core, package - @playwright/test
+2026-04-28 11:32:29 - [34mdebug[39m: requireModuleV2 :: module - @playwright\test\node_modules\playwright-core, package - @playwright/test
+2026-04-28 11:32:29 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from D:\CODES\Avotech-Regression-TestSuite
+2026-04-28 11:32:29 - [34mdebug[39m: @playwright\test\node_modules\playwright-core doesn't exist at D:\CODES\Avotech-Regression-TestSuite
+2026-04-28 11:32:29 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from null
+2026-04-28 11:32:29 - [34mdebug[39m: requireModuleV3 :: module - playwright\node_modules\playwright-core, package - playwright
+2026-04-28 11:32:29 - [34mdebug[39m: requireModuleV2 :: module - playwright\node_modules\playwright-core, package - playwright
+2026-04-28 11:32:29 - [34mdebug[39m: Getting playwright\node_modules\playwright-core from D:\CODES\Avotech-Regression-TestSuite
+2026-04-28 11:32:29 - [34mdebug[39m: playwright\node_modules\playwright-core doesn't exist at D:\CODES\Avotech-Regression-TestSuite
+2026-04-28 11:32:29 - [34mdebug[39m: Getting playwright\node_modules\playwright-core from null
+2026-04-28 11:32:29 - [34mdebug[39m: requireModuleV2 :: module - playwright-core, package - null
+2026-04-28 11:32:29 - [34mdebug[39m: Resolved path for playwright-core is D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright-core
+2026-04-28 11:32:29 - [34mdebug[39m: requireModuleV2 :: module - D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright-core\lib\client\browserContext.js, package - null
+2026-04-28 11:32:29 - [34mdebug[39m: requireModuleV3 :: module - @playwright\test\node_modules\playwright-core, package - @playwright/test
+2026-04-28 11:32:29 - [34mdebug[39m: requireModuleV2 :: module - @playwright\test\node_modules\playwright-core, package - @playwright/test
+2026-04-28 11:32:29 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from D:\CODES\Avotech-Regression-TestSuite
+2026-04-28 11:32:29 - [34mdebug[39m: @playwright\test\node_modules\playwright-core doesn't exist at D:\CODES\Avotech-Regression-TestSuite
+2026-04-28 11:32:29 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from null
+2026-04-28 11:32:29 - [34mdebug[39m: requireModuleV3 :: module - playwright\node_modules\playwright-core, package - playwright
+2026-04-28 11:32:29 - [34mdebug[39m: requireModuleV2 :: module - playwright\node_modules\playwright-core, package - playwright
+2026-04-28 11:32:29 - [34mdebug[39m: Getting playwright\node_modules\playwright-core from D:\CODES\Avotech-Regression-TestSuite
+2026-04-28 11:32:29 - [34mdebug[39m: playwright\node_modules\playwright-core doesn't exist at D:\CODES\Avotech-Regression-TestSuite
+2026-04-28 11:32:29 - [34mdebug[39m: Getting playwright\node_modules\playwright-core from null
+2026-04-28 11:32:29 - [34mdebug[39m: requireModuleV2 :: module - playwright-core, package - null
+2026-04-28 11:32:29 - [34mdebug[39m: Resolved path for playwright-core is D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright-core
+2026-04-28 11:32:29 - [34mdebug[39m: requireModuleV2 :: module - D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright-core\lib\client\android.js, package - null
+2026-04-28 11:32:29 - [34mdebug[39m: requireModuleV3 :: module - @playwright\test\node_modules\playwright-core, package - @playwright/test
+2026-04-28 11:32:29 - [34mdebug[39m: requireModuleV2 :: module - @playwright\test\node_modules\playwright-core, package - @playwright/test
+2026-04-28 11:32:29 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from D:\CODES\Avotech-Regression-TestSuite
+2026-04-28 11:32:29 - [34mdebug[39m: @playwright\test\node_modules\playwright-core doesn't exist at D:\CODES\Avotech-Regression-TestSuite
+2026-04-28 11:32:29 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from null
+2026-04-28 11:32:29 - [34mdebug[39m: requireModuleV3 :: module - playwright\node_modules\playwright-core, package - playwright
+2026-04-28 11:32:29 - [34mdebug[39m: requireModuleV2 :: module - playwright\node_modules\playwright-core, package - playwright
+2026-04-28 11:32:29 - [34mdebug[39m: Getting playwright\node_modules\playwright-core from D:\CODES\Avotech-Regression-TestSuite
+2026-04-28 11:32:29 - [34mdebug[39m: playwright\node_modules\playwright-core doesn't exist at D:\CODES\Avotech-Regression-TestSuite
+2026-04-28 11:32:29 - [34mdebug[39m: Getting playwright\node_modules\playwright-core from null
+2026-04-28 11:32:29 - [34mdebug[39m: requireModuleV2 :: module - playwright-core, package - null
+2026-04-28 11:32:29 - [34mdebug[39m: Resolved path for playwright-core is D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright-core
+2026-04-28 11:32:29 - [34mdebug[39m: requireModuleV2 :: module - D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright-core\lib\client\page.js, package - null
+2026-04-28 11:32:29 - [34mdebug[39m: requireModuleV3 :: module - @playwright\test\node_modules\playwright-core, package - @playwright/test
+2026-04-28 11:32:29 - [34mdebug[39m: requireModuleV2 :: module - @playwright\test\node_modules\playwright-core, package - @playwright/test
+2026-04-28 11:32:29 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from D:\CODES\Avotech-Regression-TestSuite
+2026-04-28 11:32:29 - [34mdebug[39m: @playwright\test\node_modules\playwright-core doesn't exist at D:\CODES\Avotech-Regression-TestSuite
+2026-04-28 11:32:29 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from null
+2026-04-28 11:32:29 - [34mdebug[39m: requireModuleV3 :: module - playwright\node_modules\playwright-core, package - playwright
+2026-04-28 11:32:29 - [34mdebug[39m: requireModuleV2 :: module - playwright\node_modules\playwright-core, package - playwright
+2026-04-28 11:32:29 - [34mdebug[39m: Getting playwright\node_modules\playwright-core from D:\CODES\Avotech-Regression-TestSuite
+2026-04-28 11:32:29 - [34mdebug[39m: playwright\node_modules\playwright-core doesn't exist at D:\CODES\Avotech-Regression-TestSuite
+2026-04-28 11:32:29 - [34mdebug[39m: Getting playwright\node_modules\playwright-core from null
+2026-04-28 11:32:29 - [34mdebug[39m: requireModuleV2 :: module - playwright-core, package - null
+2026-04-28 11:32:29 - [34mdebug[39m: Resolved path for playwright-core is D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright-core
+2026-04-28 11:32:29 - [34mdebug[39m: requireModuleV2 :: module - D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright-core\lib\client\page.js, package - null
+[35msilly[39m: [2026-04-28T17:32:29.251Z][ TEST REPORTING AND ANALYTICS ] Finished :: beforeWorkerHook, PID - 12796, Argument - 0
+[34mdebug[39m: [2026-04-28T17:32:29.251Z][ TEST REPORTING AND ANALYTICS ] Worker Hook started, PID 12796
+[34mdebug[39m: [2026-04-28T17:32:29.261Z][ TEST REPORTING AND ANALYTICS ] Test Hook started, PID 12796
+[35msilly[39m: [2026-04-28T17:32:29.261Z][ TEST REPORTING AND ANALYTICS ] Started :: beforeTestHook, PID - 12796, Argument - redirects to login, then to home after valid credentials
+[35msilly[39m: [2026-04-28T17:32:29.262Z][ TEST REPORTING AND ANALYTICS ] Sending session details at beforeTestHook
+[35msilly[39m: [2026-04-28T17:32:29.262Z][ TEST REPORTING AND ANALYTICS ] Finished :: beforeTestHook, PID - 12796, Argument - redirects to login, then to home after valid credentials
+2026-04-28 11:32:29 - [34mdebug[39m: [Accessibility] Initialized for test: autoScanning=true, bstackA11yShouldScan=true
+2026-04-28 11:32:29 - [34mdebug[39m: Processed accessibility caps false {"useW3C":false,"browserstack.user":"[REDACTED]","browserstack.key":"[REDACTED]","browserstack.local":true,"browserstack.localIdentifier":"28_Apr_1131_DESKTOP-B1PF2KP_q37o","browserstack.buildIdentifier":"#6","build":"Avotech-Regression-TestSuite","os":"Windows","os_version":"11","browserName":"chrome","browser_version":"latest","browserstack.browserstackSDK":"playwright-nodeagent/1.52.2","browserstack.hostName":"DESKTOP-B1PF2KP","browserstack.buildProductMap":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false,"lts":false,"central_scanner":false,"lcnc":false},"browserstack.testhubBuildUuid":"atm864cwptlv1mqgu53fdbhsq0kltun9ar4kfqrl"}
+[35msilly[39m: [2026-04-28T17:32:31.254Z][ TEST REPORTING AND ANALYTICS ] Processing events. Queue Length - 1
+[34mdebug[39m: [2026-04-28T17:32:31.255Z][ TEST REPORTING AND ANALYTICS ] Processing batch events for Interval-Queue. Request Size - 1499 bytes. Events are 'TestRunStarted':194be55f-9c32-4f3d-9693-a524681612fb
+2026-04-28 11:32:31 - [34mdebug[39m: Sending request to https://collector-observability.browserstack.com/api/v1/batch
+2026-04-28 11:32:33 - [34mdebug[39m: Response from https://collector-observability.browserstack.com/api/v1/batch: 200 OK
+[34mdebug[39m: [2026-04-28T17:32:33.042Z][ TEST REPORTING AND ANALYTICS ] Interval-Queue event successful for events 'TestRunStarted':194be55f-9c32-4f3d-9693-a524681612fb -- {"success":true}
+[35msilly[39m: [2026-04-28T17:32:33.042Z][ TEST REPORTING AND ANALYTICS ] Remaining Queue Length - 0
+[34mdebug[39m: [2026-04-28T17:32:38.509Z][ TEST REPORTING AND ANALYTICS ] Setting platform details received from BS: [object Object]
+[34mdebug[39m: [2026-04-28T17:32:38.509Z][ TEST REPORTING AND ANALYTICS ] Setting session id received from BS 1a86735d730adacf6ad4d95b7d2c85b72a341ced
+2026-04-28 11:32:38 - [34mdebug[39m: Device Model is not available
+[35msilly[39m: [2026-04-28T17:32:38.513Z][ TEST REPORTING AND ANALYTICS ] Sending session details at connect
+[34mdebug[39m: [2026-04-28T17:32:38.516Z][ TEST REPORTING AND ANALYTICS ] Sending session details for chrome-latest:Windows 11-browserstack-dc5266584ced6e5796a4-426de6792e39ffe52745-0, {
+  browserstack: {
+    browser: 'chrome',
+    browser_version: '147.0.7727.56',
+    capabilities: {},
+    platform: 'Windows',
+    platform_version: '11',
+    product: 'automate',
+    session_id: '1a86735d730adacf6ad4d95b7d2c85b72a341ced'
+  }
+}
+[35msilly[39m: [2026-04-28T17:32:38.517Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'CBTSessionCreated' 74f3d8d1-0d2e-4376-8790-c75d7a855d8b
+2026-04-28 11:32:38 - [34mdebug[39m: Device Model is not available
+[35msilly[39m: [2026-04-28T17:32:38.521Z][ TEST REPORTING AND ANALYTICS ] Sending session details at browser fixture
+[34mdebug[39m: [2026-04-28T17:32:38.521Z][ TEST REPORTING AND ANALYTICS ] Sending session details for chrome-latest:Windows 11-browserstack-dc5266584ced6e5796a4-426de6792e39ffe52745-0, {
+  browserstack: {
+    browser: 'chrome',
+    browser_version: '147.0.7727.56',
+    capabilities: {},
+    platform: 'Windows',
+    platform_version: '11',
+    product: 'automate',
+    session_id: '1a86735d730adacf6ad4d95b7d2c85b72a341ced'
+  }
+}
+[35msilly[39m: [2026-04-28T17:32:38.522Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'CBTSessionCreated' 74f3d8d1-0d2e-4376-8790-c75d7a855d8b
+[35msilly[39m: [2026-04-28T17:32:40.521Z][ TEST REPORTING AND ANALYTICS ] Processing events. Queue Length - 2
+[34mdebug[39m: [2026-04-28T17:32:40.522Z][ TEST REPORTING AND ANALYTICS ] Processing batch events for Interval-Queue. Request Size - 643 bytes. Events are 'CBTSessionCreated':74f3d8d1-0d2e-4376-8790-c75d7a855d8b,'CBTSessionCreated':74f3d8d1-0d2e-4376-8790-c75d7a855d8b
+2026-04-28 11:32:40 - [34mdebug[39m: Sending request to https://collector-observability.browserstack.com/api/v1/batch
+[35msilly[39m: [2026-04-28T17:32:42.252Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'LogCreated' undefined
+2026-04-28 11:32:42 - [34mdebug[39m: Response from https://collector-observability.browserstack.com/api/v1/batch: 200 OK
+[34mdebug[39m: [2026-04-28T17:32:42.256Z][ TEST REPORTING AND ANALYTICS ] Interval-Queue event successful for events 'CBTSessionCreated':74f3d8d1-0d2e-4376-8790-c75d7a855d8b,'CBTSessionCreated':74f3d8d1-0d2e-4376-8790-c75d7a855d8b -- {"success":true}
+[35msilly[39m: [2026-04-28T17:32:42.256Z][ TEST REPORTING AND ANALYTICS ] Remaining Queue Length - 1
+[35msilly[39m: [2026-04-28T17:32:42.521Z][ TEST REPORTING AND ANALYTICS ] Processing events. Queue Length - 1
+[34mdebug[39m: [2026-04-28T17:32:42.522Z][ TEST REPORTING AND ANALYTICS ] Processing batch events for Interval-Queue. Request Size - 1416 bytes. Events are 'LogCreated':undefined
+2026-04-28 11:32:42 - [34mdebug[39m: Sending request to https://collector-observability.browserstack.com/api/v1/batch
+[35msilly[39m: [2026-04-28T17:32:42.863Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'LogCreated' undefined
+2026-04-28 11:32:42 - [34mdebug[39m: Response from https://collector-observability.browserstack.com/api/v1/batch: 200 OK
+[34mdebug[39m: [2026-04-28T17:32:42.864Z][ TEST REPORTING AND ANALYTICS ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2026-04-28T17:32:42.864Z][ TEST REPORTING AND ANALYTICS ] Remaining Queue Length - 1
+[35msilly[39m: [2026-04-28T17:32:44.524Z][ TEST REPORTING AND ANALYTICS ] Processing events. Queue Length - 1
+[34mdebug[39m: [2026-04-28T17:32:44.524Z][ TEST REPORTING AND ANALYTICS ] Processing batch events for Interval-Queue. Request Size - 1416 bytes. Events are 'LogCreated':undefined
+2026-04-28 11:32:44 - [34mdebug[39m: Sending request to https://collector-observability.browserstack.com/api/v1/batch
+[35msilly[39m: [2026-04-28T17:32:44.883Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'LogCreated' undefined
+2026-04-28 11:32:44 - [34mdebug[39m: Response from https://collector-observability.browserstack.com/api/v1/batch: 200 OK
+[34mdebug[39m: [2026-04-28T17:32:44.885Z][ TEST REPORTING AND ANALYTICS ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2026-04-28T17:32:44.886Z][ TEST REPORTING AND ANALYTICS ] Remaining Queue Length - 1
+[35msilly[39m: [2026-04-28T17:32:46.536Z][ TEST REPORTING AND ANALYTICS ] Processing events. Queue Length - 1
+[34mdebug[39m: [2026-04-28T17:32:46.536Z][ TEST REPORTING AND ANALYTICS ] Processing batch events for Interval-Queue. Request Size - 1416 bytes. Events are 'LogCreated':undefined
+2026-04-28 11:32:46 - [34mdebug[39m: Sending request to https://collector-observability.browserstack.com/api/v1/batch
+[35msilly[39m: [2026-04-28T17:32:46.906Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'LogCreated' undefined
+2026-04-28 11:32:46 - [34mdebug[39m: Response from https://collector-observability.browserstack.com/api/v1/batch: 200 OK
+[34mdebug[39m: [2026-04-28T17:32:46.911Z][ TEST REPORTING AND ANALYTICS ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2026-04-28T17:32:46.912Z][ TEST REPORTING AND ANALYTICS ] Remaining Queue Length - 1
+[35msilly[39m: [2026-04-28T17:32:48.541Z][ TEST REPORTING AND ANALYTICS ] Processing events. Queue Length - 1
+[34mdebug[39m: [2026-04-28T17:32:48.542Z][ TEST REPORTING AND ANALYTICS ] Processing batch events for Interval-Queue. Request Size - 1416 bytes. Events are 'LogCreated':undefined
+2026-04-28 11:32:48 - [34mdebug[39m: Sending request to https://collector-observability.browserstack.com/api/v1/batch
+[35msilly[39m: [2026-04-28T17:32:48.878Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'LogCreated' undefined
+2026-04-28 11:32:48 - [34mdebug[39m: Response from https://collector-observability.browserstack.com/api/v1/batch: 200 OK
+[34mdebug[39m: [2026-04-28T17:32:48.879Z][ TEST REPORTING AND ANALYTICS ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2026-04-28T17:32:48.880Z][ TEST REPORTING AND ANALYTICS ] Remaining Queue Length - 1
+[35msilly[39m: [2026-04-28T17:32:50.556Z][ TEST REPORTING AND ANALYTICS ] Processing events. Queue Length - 1
+[34mdebug[39m: [2026-04-28T17:32:50.557Z][ TEST REPORTING AND ANALYTICS ] Processing batch events for Interval-Queue. Request Size - 1416 bytes. Events are 'LogCreated':undefined
+2026-04-28 11:32:50 - [34mdebug[39m: Sending request to https://collector-observability.browserstack.com/api/v1/batch
+[35msilly[39m: [2026-04-28T17:32:50.905Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'LogCreated' undefined
+2026-04-28 11:32:50 - [34mdebug[39m: Response from https://collector-observability.browserstack.com/api/v1/batch: 200 OK
+[34mdebug[39m: [2026-04-28T17:32:50.906Z][ TEST REPORTING AND ANALYTICS ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2026-04-28T17:32:50.906Z][ TEST REPORTING AND ANALYTICS ] Remaining Queue Length - 1
+[35msilly[39m: [2026-04-28T17:32:52.558Z][ TEST REPORTING AND ANALYTICS ] Processing events. Queue Length - 1
+[34mdebug[39m: [2026-04-28T17:32:52.558Z][ TEST REPORTING AND ANALYTICS ] Processing batch events for Interval-Queue. Request Size - 1416 bytes. Events are 'LogCreated':undefined
+2026-04-28 11:32:52 - [34mdebug[39m: Sending request to https://collector-observability.browserstack.com/api/v1/batch
+[35msilly[39m: [2026-04-28T17:32:52.917Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'LogCreated' undefined
+2026-04-28 11:32:52 - [34mdebug[39m: Response from https://collector-observability.browserstack.com/api/v1/batch: 200 OK
+[34mdebug[39m: [2026-04-28T17:32:52.920Z][ TEST REPORTING AND ANALYTICS ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2026-04-28T17:32:52.920Z][ TEST REPORTING AND ANALYTICS ] Remaining Queue Length - 1
+2026-04-28 11:32:54 - [34mdebug[39m: Accessibility extension data for current test: {"thTestRunUuid":"74f3d8d1-0d2e-4376-8790-c75d7a855d8b","thBuildUuid":"atm864cwptlv1mqgu53fdbhsq0kltun9ar4kfqrl","thJwtToken":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJicm93c2Vyc3RhY2tfb2IiLCJzdWIiOiIxMDkzMzE0NCIsImdyb3VwX2lkIjoxMDg0OTc3MywidXNlcl9pZCI6MTA5MzMxNDQsImJ1aWxkX2hhc2hlZF9pZCI6ImF0bTg2NGN3cHRsdjFtcWd1NTNmZGJoc3Ewa2x0dW45YXI0a2ZxcmwiLCJwcm9qZWN0X25hbWUiOiIiLCJob29rX2FzX3Rlc3QiOiIxIiwiYnVpbGRfbmFtZSI6IkF2b3RlY2gtUmVncmVzc2lvbi1UZXN0U3VpdGUiLCJwcm9kdWN0X21hcCI6IntcIm9ic2VydmFiaWxpdHlcIjp0cnVlLFwiYXV0b21hdGVcIjp0cnVlLFwib3JpZ2luRnJvbVByb2R1Y3RNYXBcIjpcIkF1dG9tYXRlXCIsXCJic3RhY2tBdXRvbWF0aW9uXCI6dHJ1ZSxcIm5vblNES1wiOmZhbHNlLFwiYWNjZXNzaWJpbGl0eUF1dG9FbmFibGVkXCI6dHJ1ZSxcImNhZFwiOnRydWV9IiwiZ3JyX3JlZ2lvbiI6IiIsImlzX2xvd192b2x1bWUiOmZhbHNlLCJpc19sY25jX2V2ZW50IjpmYWxzZSwiaXNfbHRzX2V2ZW50IjpmYWxzZSwic2lnbmluZ19rZXlfaGFzaCI6IjM3YzExMzFlNGIyZTc0M2M3NjZlMWQ3MGJmNWYyYjU3ZGM2OWIxOTVkMzAwZTMyYWU4ZDAyMzEyMGE0YTZkOTciLCJpYXQiOjE3NzczOTc1NDMsImV4cCI6MTc3Nzc0MzE0M30.XHPj-yE5Bb95fICPuFjADB8BgxhcoxoQLhcykdIQiFY"}
+2026-04-28 11:32:54 - [32minfo[39m: Automate test case execution has ended. Processing for accessibility testing is underway. 
+2026-04-28 11:32:54 - [34mdebug[39m: Performing scan before saving results.
+2026-04-28 11:32:54 - [33mwarn[39m: Not a valid Accessibility Automation session for playwright-page, cannot perform scan with retry.
+2026-04-28 11:32:54 - [34mdebug[39m: result=false
+2026-04-28 11:32:54 - [33mwarn[39m: Not a valid Accessibility Automation session for playwright-page, cannot save accessibility results with retry.
+2026-04-28 11:32:54 - [34mdebug[39m: saved Result scan=false
+2026-04-28 11:32:54 - [32minfo[39m: Accessibility testing for this test case has ended.
+[35msilly[39m: [2026-04-28T17:32:54.561Z][ TEST REPORTING AND ANALYTICS ] Processing events. Queue Length - 1
+[34mdebug[39m: [2026-04-28T17:32:54.562Z][ TEST REPORTING AND ANALYTICS ] Processing batch events for Interval-Queue. Request Size - 1416 bytes. Events are 'LogCreated':undefined
+2026-04-28 11:32:54 - [34mdebug[39m: Sending request to https://collector-observability.browserstack.com/api/v1/batch
+[35msilly[39m: [2026-04-28T17:32:54.901Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'LogCreated' undefined
+2026-04-28 11:32:54 - [34mdebug[39m: Response from https://collector-observability.browserstack.com/api/v1/batch: 200 OK
+[34mdebug[39m: [2026-04-28T17:32:54.903Z][ TEST REPORTING AND ANALYTICS ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2026-04-28T17:32:54.903Z][ TEST REPORTING AND ANALYTICS ] Remaining Queue Length - 1
+[35msilly[39m: [2026-04-28T17:32:55.124Z][ TEST REPORTING AND ANALYTICS ] Started :: afterTestHook, PID - 12796, Argument - redirects to login, then to home after valid credentials
+[34mdebug[39m: [2026-04-28T17:32:55.125Z][ TEST REPORTING AND ANALYTICS ] Started :: Executing After Test Hook, PID - 12796, Test Title - redirects to login, then to home after valid credentials, Test File - D:\CODES\Avotech-Regression-TestSuite\tests\csi\auth\login.spec.ts
+2026-04-28 11:32:55 - [32minfo[39m: [Accessibility] afterTestHook state: accessibilityPlatform=false, bstackA11yShouldScan=true
+[34mdebug[39m: [2026-04-28T17:32:55.126Z][ TEST REPORTING AND ANALYTICS ] Sending session details for chrome-latest:Windows 11-browserstack-dc5266584ced6e5796a4-426de6792e39ffe52745-0, {
+  browserstack: {
+    browser: 'chrome',
+    browser_version: '147.0.7727.56',
+    capabilities: {},
+    platform: 'Windows',
+    platform_version: '11',
+    product: 'automate',
+    session_id: '1a86735d730adacf6ad4d95b7d2c85b72a341ced'
+  }
+}
+[35msilly[39m: [2026-04-28T17:32:55.126Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'CBTSessionCreated' 74f3d8d1-0d2e-4376-8790-c75d7a855d8b
+[35msilly[39m: [2026-04-28T17:32:55.126Z][ TEST REPORTING AND ANALYTICS ] Finished :: afterTestHook, PID - 12796, Argument - redirects to login, then to home after valid credentials
+[34mdebug[39m: [2026-04-28T17:32:55.903Z][ TEST REPORTING AND ANALYTICS ] Finished :: Executing After Test Hook, PID - 12796, Test Title - redirects to login, then to home after valid credentials, Test File - D:\CODES\Avotech-Regression-TestSuite\tests\csi\auth\login.spec.ts
+[34mdebug[39m: [2026-04-28T17:32:55.903Z][ TEST REPORTING AND ANALYTICS ] Test Hook ended, PID 12796
+[34mdebug[39m: [2026-04-28T17:32:55.917Z][ TEST REPORTING AND ANALYTICS ] Test Finished with unique id chrome-latest:Windows 11-browserstack-dc5266584ced6e5796a4-426de6792e39ffe52745
+[35msilly[39m: [2026-04-28T17:32:55.920Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'LogCreated' undefined
+2026-04-28 11:32:55 - [34mdebug[39m: Searching for key: path
+[35msilly[39m: [2026-04-28T17:32:55.921Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'TestRunFinished' 194be55f-9c32-4f3d-9693-a524681612fb
+[34mdebug[39m: [2026-04-28T17:32:55.922Z][ TEST REPORTING AND ANALYTICS ] Starting sending trace zip for test: 194be55f-9c32-4f3d-9693-a524681612fb
+2026-04-28 11:32:55 - [34mdebug[39m: Checking if trace is enabled for test: 194be55f-9c32-4f3d-9693-a524681612fb
+2026-04-28 11:32:55 - [34mdebug[39m: Searching for key: path
+[35msilly[39m: [2026-04-28T17:32:55.932Z][ TEST REPORTING AND ANALYTICS ] Started :: afterWorkerHook, PID - 12796, Argument - 0
+[35msilly[39m: [2026-04-28T17:32:55.933Z][ TEST REPORTING AND ANALYTICS ] Finished :: afterWorkerHook, PID - 12796, Argument - 0
+[35msilly[39m: [2026-04-28T17:32:56.565Z][ TEST REPORTING AND ANALYTICS ] Processing events. Queue Length - 2
+[34mdebug[39m: [2026-04-28T17:32:56.566Z][ TEST REPORTING AND ANALYTICS ] Processing batch events for Interval-Queue. Request Size - 1737 bytes. Events are 'LogCreated':undefined,'CBTSessionCreated':74f3d8d1-0d2e-4376-8790-c75d7a855d8b
+2026-04-28 11:32:56 - [34mdebug[39m: Sending request to https://collector-observability.browserstack.com/api/v1/batch
+2026-04-28 11:32:56 - [34mdebug[39m: Response from https://collector-observability.browserstack.com/api/v1/batch: 200 OK
+[34mdebug[39m: [2026-04-28T17:32:56.957Z][ TEST REPORTING AND ANALYTICS ] Call to child fork with args D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\common\process.js
+[35msilly[39m: [2026-04-28T17:32:57.359Z][ TEST REPORTING AND ANALYTICS ] Processing events. Queue Length - 2
+[34mdebug[39m: [2026-04-28T17:32:57.359Z][ TEST REPORTING AND ANALYTICS ] Processing batch events for Interval-Queue. Request Size - 3981 bytes. Events are 'LogCreated':undefined,'TestRunFinished':194be55f-9c32-4f3d-9693-a524681612fb
+2026-04-28 11:32:57 - [34mdebug[39m: Sending request to https://collector-observability.browserstack.com/api/v1/batch
+2026-04-28 11:32:57 - [34mdebug[39m: Response from https://collector-observability.browserstack.com/api/v1/batch: 200 OK
+[34mdebug[39m: [2026-04-28T17:32:57.855Z][ TEST REPORTING AND ANALYTICS ] Interval-Queue event successful for events 'LogCreated':undefined,'TestRunFinished':194be55f-9c32-4f3d-9693-a524681612fb -- {"success":true}
+[35msilly[39m: [2026-04-28T17:32:57.856Z][ TEST REPORTING AND ANALYTICS ] Remaining Queue Length - 0
+2026-04-28 11:32:58 - [34mdebug[39m: Could not locate npm module path with error  Cannot access 'isYarnPnP' before initialization
+2026-04-28 11:32:58 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/package.json, package - @playwright/test
+2026-04-28 11:32:58 - [34mdebug[39m: requireModuleV2 :: module - @playwright/test/package.json, package - @playwright/test
+2026-04-28 11:32:58 - [34mdebug[39m: requireModuleV3 :: module - playwright/lib/common/process.js, package - playwright
+2026-04-28 11:32:58 - [34mdebug[39m: Resolved from resolveModuleV3 :: Path - D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\common\process.js
+2026-04-28 11:32:58 - [34mdebug[39m: requireModuleV3 :: module - @playwright/test/index.js, package - @playwright/test
+2026-04-28 11:32:58 - [34mdebug[39m: requireModuleV2 :: module - @playwright/test/index.js, package - @playwright/test
+2026-04-28 11:32:58 - [34mdebug[39m: Getting @playwright/test/index.js from D:\CODES\Avotech-Regression-TestSuite
+2026-04-28 11:32:59 - [34mdebug[39m: requireModuleV3 :: module - @playwright\test\node_modules\playwright-core, package - @playwright/test
+2026-04-28 11:32:59 - [34mdebug[39m: requireModuleV2 :: module - @playwright\test\node_modules\playwright-core, package - @playwright/test
+2026-04-28 11:32:59 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from D:\CODES\Avotech-Regression-TestSuite
+2026-04-28 11:32:59 - [34mdebug[39m: @playwright\test\node_modules\playwright-core doesn't exist at D:\CODES\Avotech-Regression-TestSuite
+2026-04-28 11:32:59 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from null
+2026-04-28 11:32:59 - [34mdebug[39m: requireModuleV3 :: module - playwright\node_modules\playwright-core, package - playwright
+2026-04-28 11:32:59 - [34mdebug[39m: requireModuleV2 :: module - playwright\node_modules\playwright-core, package - playwright
+2026-04-28 11:32:59 - [34mdebug[39m: Getting playwright\node_modules\playwright-core from D:\CODES\Avotech-Regression-TestSuite
+2026-04-28 11:32:59 - [34mdebug[39m: playwright\node_modules\playwright-core doesn't exist at D:\CODES\Avotech-Regression-TestSuite
+2026-04-28 11:32:59 - [34mdebug[39m: Getting playwright\node_modules\playwright-core from null
+2026-04-28 11:32:59 - [34mdebug[39m: requireModuleV2 :: module - playwright-core, package - null
+2026-04-28 11:32:59 - [34mdebug[39m: Resolved path for playwright-core is D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright-core
+2026-04-28 11:32:59 - [34mdebug[39m: requireModuleV2 :: module - D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright-core\lib\client\connection.js, package - null
+2026-04-28 11:32:59 - [32minfo[39m: [BrowserstackCLI] Starting as child process with session ID: 7c026df2-20b0-40e2-b76b-04e10f87927c
+2026-04-28 11:32:59 - [32minfo[39m: [GrpcClient] Connected to gRPC server at 127.0.0.1:5400
+2026-04-28 11:32:59 - [32minfo[39m: [GrpcClient] Connecting bin session
+2026-04-28 11:32:59 - [31merror[39m: [GrpcClient] ConnectBinSession error: 14 UNAVAILABLE: No connection established. Last error: Error: connect ECONNREFUSED 127.0.0.1:5400. Resolution note: 
+2026-04-28 11:32:59 - [31merror[39m: [GrpcClient] Error in connectBinSession: Error: 14 UNAVAILABLE: No connection established. Last error: Error: connect ECONNREFUSED 127.0.0.1:5400. Resolution note: 
+    at callErrorFromStatus (D:\CODES\Avotech-Regression-TestSuite\node_modules\@grpc\grpc-js\src\call.ts:84:17)
+    at Object.onReceiveStatus (D:\CODES\Avotech-Regression-TestSuite\node_modules\@grpc\grpc-js\src\client.ts:360:55)
+    at Object.onReceiveStatus (D:\CODES\Avotech-Regression-TestSuite\node_modules\@grpc\grpc-js\src\client-interceptors.ts:466:34)
+    at Object.onReceiveStatus (D:\CODES\Avotech-Regression-TestSuite\node_modules\@grpc\grpc-js\src\client-interceptors.ts:424:48)
+    at D:\CODES\Avotech-Regression-TestSuite\node_modules\@grpc\grpc-js\src\resolving-call.ts:170:24
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+for call at
+    at ServiceClientImpl.makeUnaryRequest (D:\CODES\Avotech-Regression-TestSuite\node_modules\@grpc\grpc-js\src\client.ts:325:42)
+    at ServiceClientImpl.connectBinSession (D:\CODES\Avotech-Regression-TestSuite\node_modules\@grpc\grpc-js\src\make-client.ts:189:15)
+    at _0xcc7d46 (D:\CODES\Avotech-Regression-TestSuite\node_modules\browserstack-node-sdk\src\bin\v2\grpcClient.js:1:13224)
+    at new Promise (<anonymous>)
+    at GrpcClient.connectBinSession (D:\CODES\Avotech-Regression-TestSuite\node_modules\browserstack-node-sdk\src\bin\v2\grpcClient.js:1:13122)
+    at BrowserstackCLI.startChild (D:\CODES\Avotech-Regression-TestSuite\node_modules\browserstack-node-sdk\src\bin\v2\browserstackCLI.js:1:20593)
+    at BrowserstackCLI.bootstrap (D:\CODES\Avotech-Regression-TestSuite\node_modules\browserstack-node-sdk\src\bin\v2\browserstackCLI.js:1:7905)
+    at Object._modifyPlaywright (D:\CODES\Avotech-Regression-TestSuite\node_modules\browserstack-node-sdk\src\bin\playwright\modifyPlaywrightConf.js:1:21681)
+    at Object.<anonymous> (D:\CODES\Avotech-Regression-TestSuite\playwright-browserstack-sdk.config.ts:4:24)
+    at Module._compile (node:internal/modules/cjs/loader:1830:14)
+    at Module.newCompile2 (D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\third_party\pirates.js:46:29)
+    at Object.<anonymous> (node:internal/modules/cjs/loader:1961:10)
+    at Object.newLoader2 [as .ts] (D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\third_party\pirates.js:52:22)
+    at Module.load (node:internal/modules/cjs/loader:1553:32)
+    at Module._load (node:internal/modules/cjs/loader:1355:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.require (node:internal/modules/cjs/loader:1576:12)
+    at require (node:internal/modules/helpers:153:16)
+    at requireOrImport (D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\transform\transform.js:218:18)
+    at loadUserConfig (D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\common\configLoader.js:107:89)
+    at loadConfig (D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\common\configLoader.js:119:28)
+    at deserializeConfig (D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\common\configLoader.js:104:10)
+    at WorkerMain._loadIfNeeded (D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\worker\workerMain.js:165:20)
+    at WorkerMain.runTestGroup (D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\worker\workerMain.js:179:7)
+    at process.<anonymous> (D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\common\process.js:73:22) {
+  code: 14,
+  details: 'No connection established. Last error: Error: connect ECONNREFUSED 127.0.0.1:5400. Resolution note: ',
+  metadata: Metadata {
+    internalRepr: Map(0) {},
+    opaqueData: Map(0) {},
+    options: {}
+  }
+}
+2026-04-28 11:32:59 - [31merror[39m: [BrowserstackCLI] Failed to start as child process: Error: 14 UNAVAILABLE: No connection established. Last error: Error: connect ECONNREFUSED 127.0.0.1:5400. Resolution note: 
+    at callErrorFromStatus (D:\CODES\Avotech-Regression-TestSuite\node_modules\@grpc\grpc-js\src\call.ts:84:17)
+    at Object.onReceiveStatus (D:\CODES\Avotech-Regression-TestSuite\node_modules\@grpc\grpc-js\src\client.ts:360:55)
+    at Object.onReceiveStatus (D:\CODES\Avotech-Regression-TestSuite\node_modules\@grpc\grpc-js\src\client-interceptors.ts:466:34)
+    at Object.onReceiveStatus (D:\CODES\Avotech-Regression-TestSuite\node_modules\@grpc\grpc-js\src\client-interceptors.ts:424:48)
+    at D:\CODES\Avotech-Regression-TestSuite\node_modules\@grpc\grpc-js\src\resolving-call.ts:170:24
+    at processTicksAndRejections (node:internal/process/task_queues:85:11)
+for call at
+    at ServiceClientImpl.makeUnaryRequest (D:\CODES\Avotech-Regression-TestSuite\node_modules\@grpc\grpc-js\src\client.ts:325:42)
+    at ServiceClientImpl.connectBinSession (D:\CODES\Avotech-Regression-TestSuite\node_modules\@grpc\grpc-js\src\make-client.ts:189:15)
+    at _0xcc7d46 (D:\CODES\Avotech-Regression-TestSuite\node_modules\browserstack-node-sdk\src\bin\v2\grpcClient.js:1:13224)
+    at new Promise (<anonymous>)
+    at GrpcClient.connectBinSession (D:\CODES\Avotech-Regression-TestSuite\node_modules\browserstack-node-sdk\src\bin\v2\grpcClient.js:1:13122)
+    at BrowserstackCLI.startChild (D:\CODES\Avotech-Regression-TestSuite\node_modules\browserstack-node-sdk\src\bin\v2\browserstackCLI.js:1:20593)
+    at BrowserstackCLI.bootstrap (D:\CODES\Avotech-Regression-TestSuite\node_modules\browserstack-node-sdk\src\bin\v2\browserstackCLI.js:1:7905)
+    at Object._modifyPlaywright (D:\CODES\Avotech-Regression-TestSuite\node_modules\browserstack-node-sdk\src\bin\playwright\modifyPlaywrightConf.js:1:21681)
+    at Object.<anonymous> (D:\CODES\Avotech-Regression-TestSuite\playwright-browserstack-sdk.config.ts:4:24)
+    at Module._compile (node:internal/modules/cjs/loader:1830:14)
+    at Module.newCompile2 (D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\third_party\pirates.js:46:29)
+    at Object.<anonymous> (node:internal/modules/cjs/loader:1961:10)
+    at Object.newLoader2 [as .ts] (D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\third_party\pirates.js:52:22)
+    at Module.load (node:internal/modules/cjs/loader:1553:32)
+    at Module._load (node:internal/modules/cjs/loader:1355:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.require (node:internal/modules/cjs/loader:1576:12)
+    at require (node:internal/modules/helpers:153:16)
+    at requireOrImport (D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\transform\transform.js:218:18)
+    at loadUserConfig (D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\common\configLoader.js:107:89)
+    at loadConfig (D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\common\configLoader.js:119:28)
+    at deserializeConfig (D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\common\configLoader.js:104:10)
+    at WorkerMain._loadIfNeeded (D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\worker\workerMain.js:165:20)
+    at WorkerMain.runTestGroup (D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\worker\workerMain.js:179:7)
+    at process.<anonymous> (D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\common\process.js:73:22) {
+  code: 14,
+  details: 'No connection established. Last error: Error: connect ECONNREFUSED 127.0.0.1:5400. Resolution note: ',
+  metadata: Metadata {
+    internalRepr: Map(0) {},
+    opaqueData: Map(0) {},
+    options: {}
+  }
+}
+2026-04-28 11:32:59 - [34mdebug[39m: requireModuleV3 :: module - playwright/lib/transform/transform.js, package - playwright
+2026-04-28 11:32:59 - [34mdebug[39m: Resolved from resolveModuleV3 :: Path - D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\transform\transform.js
+2026-04-28 11:32:59 - [34mdebug[39m: Local set to true. Adding browserstack.local: true and browserstack.localIdentifier: 28_Apr_1131_DESKTOP-B1PF2KP_q37o to capabilities.
+2026-04-28 11:32:59 - [34mdebug[39m: requireModuleV3 :: module - playwright/lib/runner/projectUtils.js, package - playwright
+2026-04-28 11:32:59 - [34mdebug[39m: Resolved from resolveModuleV3 :: Path - D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright\lib\runner\projectUtils.js
+[35msilly[39m: [2026-04-28T17:32:59.591Z][ TEST REPORTING AND ANALYTICS ] Test Started with unique id chrome-latest:Windows 11-browserstack1-b844c2afe9c7a518cbf6-ad5e2f49d72ed863aa0f
+2026-04-28 11:32:59 - [34mdebug[39m: Searching for key: path
+[35msilly[39m: [2026-04-28T17:32:59.593Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'TestRunStarted' a4732b0e-83d0-4984-8688-9a1a4d642837
+[35msilly[39m: [2026-04-28T17:32:59.595Z][ TEST REPORTING AND ANALYTICS ] Hook Started with unique id beforeEach hook for chrome-latest:Windows 11-browserstack1-b844c2afe9c7a518cbf6-ad5e2f49d72ed863aa0f is triggered for test b844c2afe9c7a518cbf6-ad5e2f49d72ed863aa0f-0
+[35msilly[39m: [2026-04-28T17:32:59.596Z][ TEST REPORTING AND ANALYTICS ] Started :: beforeWorkerHook, PID - 32556, Argument - 1
+[35msilly[39m: [2026-04-28T17:32:59.596Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'HookRunStarted' 3f10ef9e-d91b-442f-9085-8459ab3fb930
+2026-04-28 11:32:59 - [34mdebug[39m: requireModuleV3 :: module - @playwright\test\node_modules\playwright-core, package - @playwright/test
+2026-04-28 11:32:59 - [34mdebug[39m: requireModuleV2 :: module - @playwright\test\node_modules\playwright-core, package - @playwright/test
+2026-04-28 11:32:59 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from D:\CODES\Avotech-Regression-TestSuite
+2026-04-28 11:32:59 - [34mdebug[39m: @playwright\test\node_modules\playwright-core doesn't exist at D:\CODES\Avotech-Regression-TestSuite
+2026-04-28 11:32:59 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from null
+2026-04-28 11:32:59 - [34mdebug[39m: requireModuleV3 :: module - playwright\node_modules\playwright-core, package - playwright
+2026-04-28 11:32:59 - [34mdebug[39m: requireModuleV2 :: module - playwright\node_modules\playwright-core, package - playwright
+2026-04-28 11:32:59 - [34mdebug[39m: Getting playwright\node_modules\playwright-core from D:\CODES\Avotech-Regression-TestSuite
+2026-04-28 11:32:59 - [34mdebug[39m: playwright\node_modules\playwright-core doesn't exist at D:\CODES\Avotech-Regression-TestSuite
+2026-04-28 11:32:59 - [34mdebug[39m: Getting playwright\node_modules\playwright-core from null
+2026-04-28 11:32:59 - [34mdebug[39m: requireModuleV2 :: module - playwright-core, package - null
+2026-04-28 11:32:59 - [34mdebug[39m: Resolved path for playwright-core is D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright-core
+2026-04-28 11:32:59 - [34mdebug[39m: requireModuleV2 :: module - D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright-core\lib\client\browserType.js, package - null
+2026-04-28 11:32:59 - [34mdebug[39m: requireModuleV3 :: module - @playwright\test\node_modules\playwright-core, package - @playwright/test
+2026-04-28 11:32:59 - [34mdebug[39m: requireModuleV2 :: module - @playwright\test\node_modules\playwright-core, package - @playwright/test
+2026-04-28 11:32:59 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from D:\CODES\Avotech-Regression-TestSuite
+2026-04-28 11:32:59 - [34mdebug[39m: @playwright\test\node_modules\playwright-core doesn't exist at D:\CODES\Avotech-Regression-TestSuite
+2026-04-28 11:32:59 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from null
+2026-04-28 11:32:59 - [34mdebug[39m: requireModuleV3 :: module - playwright\node_modules\playwright-core, package - playwright
+2026-04-28 11:32:59 - [34mdebug[39m: requireModuleV2 :: module - playwright\node_modules\playwright-core, package - playwright
+2026-04-28 11:32:59 - [34mdebug[39m: Getting playwright\node_modules\playwright-core from D:\CODES\Avotech-Regression-TestSuite
+2026-04-28 11:32:59 - [34mdebug[39m: playwright\node_modules\playwright-core doesn't exist at D:\CODES\Avotech-Regression-TestSuite
+2026-04-28 11:32:59 - [34mdebug[39m: Getting playwright\node_modules\playwright-core from null
+2026-04-28 11:32:59 - [34mdebug[39m: requireModuleV2 :: module - playwright-core, package - null
+2026-04-28 11:32:59 - [34mdebug[39m: Resolved path for playwright-core is D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright-core
+2026-04-28 11:32:59 - [34mdebug[39m: requireModuleV2 :: module - D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright-core\lib\client\browserContext.js, package - null
+2026-04-28 11:32:59 - [34mdebug[39m: requireModuleV3 :: module - @playwright\test\node_modules\playwright-core, package - @playwright/test
+2026-04-28 11:32:59 - [34mdebug[39m: requireModuleV2 :: module - @playwright\test\node_modules\playwright-core, package - @playwright/test
+2026-04-28 11:32:59 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from D:\CODES\Avotech-Regression-TestSuite
+2026-04-28 11:32:59 - [34mdebug[39m: @playwright\test\node_modules\playwright-core doesn't exist at D:\CODES\Avotech-Regression-TestSuite
+2026-04-28 11:32:59 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from null
+2026-04-28 11:32:59 - [34mdebug[39m: requireModuleV3 :: module - playwright\node_modules\playwright-core, package - playwright
+2026-04-28 11:32:59 - [34mdebug[39m: requireModuleV2 :: module - playwright\node_modules\playwright-core, package - playwright
+2026-04-28 11:32:59 - [34mdebug[39m: Getting playwright\node_modules\playwright-core from D:\CODES\Avotech-Regression-TestSuite
+2026-04-28 11:32:59 - [34mdebug[39m: playwright\node_modules\playwright-core doesn't exist at D:\CODES\Avotech-Regression-TestSuite
+2026-04-28 11:32:59 - [34mdebug[39m: Getting playwright\node_modules\playwright-core from null
+2026-04-28 11:32:59 - [34mdebug[39m: requireModuleV2 :: module - playwright-core, package - null
+2026-04-28 11:32:59 - [34mdebug[39m: Resolved path for playwright-core is D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright-core
+2026-04-28 11:32:59 - [34mdebug[39m: requireModuleV2 :: module - D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright-core\lib\client\android.js, package - null
+2026-04-28 11:32:59 - [34mdebug[39m: requireModuleV3 :: module - @playwright\test\node_modules\playwright-core, package - @playwright/test
+2026-04-28 11:32:59 - [34mdebug[39m: requireModuleV2 :: module - @playwright\test\node_modules\playwright-core, package - @playwright/test
+2026-04-28 11:32:59 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from D:\CODES\Avotech-Regression-TestSuite
+2026-04-28 11:32:59 - [34mdebug[39m: @playwright\test\node_modules\playwright-core doesn't exist at D:\CODES\Avotech-Regression-TestSuite
+2026-04-28 11:32:59 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from null
+2026-04-28 11:32:59 - [34mdebug[39m: requireModuleV3 :: module - playwright\node_modules\playwright-core, package - playwright
+2026-04-28 11:32:59 - [34mdebug[39m: requireModuleV2 :: module - playwright\node_modules\playwright-core, package - playwright
+2026-04-28 11:32:59 - [34mdebug[39m: Getting playwright\node_modules\playwright-core from D:\CODES\Avotech-Regression-TestSuite
+2026-04-28 11:32:59 - [34mdebug[39m: playwright\node_modules\playwright-core doesn't exist at D:\CODES\Avotech-Regression-TestSuite
+2026-04-28 11:32:59 - [34mdebug[39m: Getting playwright\node_modules\playwright-core from null
+2026-04-28 11:32:59 - [34mdebug[39m: requireModuleV2 :: module - playwright-core, package - null
+2026-04-28 11:32:59 - [34mdebug[39m: Resolved path for playwright-core is D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright-core
+2026-04-28 11:32:59 - [34mdebug[39m: requireModuleV2 :: module - D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright-core\lib\client\page.js, package - null
+2026-04-28 11:32:59 - [34mdebug[39m: requireModuleV3 :: module - @playwright\test\node_modules\playwright-core, package - @playwright/test
+2026-04-28 11:32:59 - [34mdebug[39m: requireModuleV2 :: module - @playwright\test\node_modules\playwright-core, package - @playwright/test
+2026-04-28 11:32:59 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from D:\CODES\Avotech-Regression-TestSuite
+2026-04-28 11:32:59 - [34mdebug[39m: @playwright\test\node_modules\playwright-core doesn't exist at D:\CODES\Avotech-Regression-TestSuite
+2026-04-28 11:32:59 - [34mdebug[39m: Getting @playwright\test\node_modules\playwright-core from null
+2026-04-28 11:32:59 - [34mdebug[39m: requireModuleV3 :: module - playwright\node_modules\playwright-core, package - playwright
+2026-04-28 11:32:59 - [34mdebug[39m: requireModuleV2 :: module - playwright\node_modules\playwright-core, package - playwright
+2026-04-28 11:32:59 - [34mdebug[39m: Getting playwright\node_modules\playwright-core from D:\CODES\Avotech-Regression-TestSuite
+2026-04-28 11:32:59 - [34mdebug[39m: playwright\node_modules\playwright-core doesn't exist at D:\CODES\Avotech-Regression-TestSuite
+2026-04-28 11:32:59 - [34mdebug[39m: Getting playwright\node_modules\playwright-core from null
+2026-04-28 11:32:59 - [34mdebug[39m: requireModuleV2 :: module - playwright-core, package - null
+2026-04-28 11:32:59 - [34mdebug[39m: Resolved path for playwright-core is D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright-core
+2026-04-28 11:32:59 - [34mdebug[39m: requireModuleV2 :: module - D:\CODES\Avotech-Regression-TestSuite\node_modules\playwright-core\lib\client\page.js, package - null
+[35msilly[39m: [2026-04-28T17:32:59.616Z][ TEST REPORTING AND ANALYTICS ] Finished :: beforeWorkerHook, PID - 32556, Argument - 1
+[34mdebug[39m: [2026-04-28T17:32:59.616Z][ TEST REPORTING AND ANALYTICS ] Worker Hook started, PID 32556
+[34mdebug[39m: [2026-04-28T17:32:59.628Z][ TEST REPORTING AND ANALYTICS ] Test Hook started, PID 32556
+[35msilly[39m: [2026-04-28T17:32:59.628Z][ TEST REPORTING AND ANALYTICS ] Started :: beforeTestHook, PID - 32556, Argument - Navigate to Package Management and create package
+[35msilly[39m: [2026-04-28T17:32:59.629Z][ TEST REPORTING AND ANALYTICS ] Sending session details at beforeTestHook
+[35msilly[39m: [2026-04-28T17:32:59.631Z][ TEST REPORTING AND ANALYTICS ] Finished :: beforeTestHook, PID - 32556, Argument - Navigate to Package Management and create package
+2026-04-28 11:32:59 - [34mdebug[39m: [Accessibility] Initialized for test: autoScanning=true, bstackA11yShouldScan=true
+2026-04-28 11:32:59 - [34mdebug[39m: Processed accessibility caps false {"useW3C":false,"browserstack.user":"[REDACTED]","browserstack.key":"[REDACTED]","browserstack.local":true,"browserstack.localIdentifier":"28_Apr_1131_DESKTOP-B1PF2KP_q37o","browserstack.buildIdentifier":"#6","build":"Avotech-Regression-TestSuite","os":"Windows","os_version":"11","browserName":"chrome","browser_version":"latest","browserstack.browserstackSDK":"playwright-nodeagent/1.52.2","browserstack.hostName":"DESKTOP-B1PF2KP","browserstack.buildProductMap":{"observability":true,"accessibility":false,"percy":false,"automate":true,"app_automate":false,"lts":false,"central_scanner":false,"lcnc":false},"browserstack.testhubBuildUuid":"atm864cwptlv1mqgu53fdbhsq0kltun9ar4kfqrl"}
+[35msilly[39m: [2026-04-28T17:33:01.379Z][ TEST REPORTING AND ANALYTICS ] Processing events. Queue Length - 2
+[34mdebug[39m: [2026-04-28T17:33:01.379Z][ TEST REPORTING AND ANALYTICS ] Processing batch events for Interval-Queue. Request Size - 2443 bytes. Events are 'TestRunStarted':a4732b0e-83d0-4984-8688-9a1a4d642837,'HookRunStarted':3f10ef9e-d91b-442f-9085-8459ab3fb930
+2026-04-28 11:33:01 - [34mdebug[39m: Sending request to https://collector-observability.browserstack.com/api/v1/batch
+2026-04-28 11:33:01 - [34mdebug[39m: Response from https://collector-observability.browserstack.com/api/v1/batch: 200 OK
+[34mdebug[39m: [2026-04-28T17:33:01.725Z][ TEST REPORTING AND ANALYTICS ] Interval-Queue event successful for events 'TestRunStarted':a4732b0e-83d0-4984-8688-9a1a4d642837,'HookRunStarted':3f10ef9e-d91b-442f-9085-8459ab3fb930 -- {"success":true}
+[35msilly[39m: [2026-04-28T17:33:01.725Z][ TEST REPORTING AND ANALYTICS ] Remaining Queue Length - 0
+[34mdebug[39m: [2026-04-28T17:33:08.284Z][ TEST REPORTING AND ANALYTICS ] Setting platform details received from BS: [object Object]
+[34mdebug[39m: [2026-04-28T17:33:08.284Z][ TEST REPORTING AND ANALYTICS ] Setting session id received from BS 8b3d733ede12a4dfa1dd4fa9d3407c4e1959e59e
+2026-04-28 11:33:08 - [34mdebug[39m: Device Model is not available
+[35msilly[39m: [2026-04-28T17:33:08.288Z][ TEST REPORTING AND ANALYTICS ] Sending session details at connect
+[34mdebug[39m: [2026-04-28T17:33:08.290Z][ TEST REPORTING AND ANALYTICS ] Sending session details for chrome-latest:Windows 11-browserstack1-b844c2afe9c7a518cbf6-ad5e2f49d72ed863aa0f-0, {
+  browserstack: {
+    browser: 'chrome',
+    browser_version: '147.0.7727.56',
+    capabilities: {},
+    platform: 'Windows',
+    platform_version: '11',
+    product: 'automate',
+    session_id: '8b3d733ede12a4dfa1dd4fa9d3407c4e1959e59e'
+  }
+}
+[35msilly[39m: [2026-04-28T17:33:08.290Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'CBTSessionCreated' f5fad1a9-5e13-45ab-9d7d-d7bc512d1988
+2026-04-28 11:33:08 - [34mdebug[39m: Device Model is not available
+[35msilly[39m: [2026-04-28T17:33:08.293Z][ TEST REPORTING AND ANALYTICS ] Sending session details at browser fixture
+[34mdebug[39m: [2026-04-28T17:33:08.293Z][ TEST REPORTING AND ANALYTICS ] Sending session details for chrome-latest:Windows 11-browserstack1-b844c2afe9c7a518cbf6-ad5e2f49d72ed863aa0f-0, {
+  browserstack: {
+    browser: 'chrome',
+    browser_version: '147.0.7727.56',
+    capabilities: {},
+    platform: 'Windows',
+    platform_version: '11',
+    product: 'automate',
+    session_id: '8b3d733ede12a4dfa1dd4fa9d3407c4e1959e59e'
+  }
+}
+[35msilly[39m: [2026-04-28T17:33:08.293Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'CBTSessionCreated' f5fad1a9-5e13-45ab-9d7d-d7bc512d1988
+[35msilly[39m: [2026-04-28T17:33:10.304Z][ TEST REPORTING AND ANALYTICS ] Processing events. Queue Length - 2
+[34mdebug[39m: [2026-04-28T17:33:10.304Z][ TEST REPORTING AND ANALYTICS ] Processing batch events for Interval-Queue. Request Size - 643 bytes. Events are 'CBTSessionCreated':f5fad1a9-5e13-45ab-9d7d-d7bc512d1988,'CBTSessionCreated':f5fad1a9-5e13-45ab-9d7d-d7bc512d1988
+2026-04-28 11:33:10 - [34mdebug[39m: Sending request to https://collector-observability.browserstack.com/api/v1/batch
+[35msilly[39m: [2026-04-28T17:33:12.046Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'LogCreated' undefined
+2026-04-28 11:33:12 - [34mdebug[39m: Response from https://collector-observability.browserstack.com/api/v1/batch: 200 OK
+[34mdebug[39m: [2026-04-28T17:33:12.055Z][ TEST REPORTING AND ANALYTICS ] Interval-Queue event successful for events 'CBTSessionCreated':f5fad1a9-5e13-45ab-9d7d-d7bc512d1988,'CBTSessionCreated':f5fad1a9-5e13-45ab-9d7d-d7bc512d1988 -- {"success":true}
+[35msilly[39m: [2026-04-28T17:33:12.056Z][ TEST REPORTING AND ANALYTICS ] Remaining Queue Length - 1
+[35msilly[39m: [2026-04-28T17:33:12.311Z][ TEST REPORTING AND ANALYTICS ] Processing events. Queue Length - 1
+[34mdebug[39m: [2026-04-28T17:33:12.311Z][ TEST REPORTING AND ANALYTICS ] Processing batch events for Interval-Queue. Request Size - 1416 bytes. Events are 'LogCreated':undefined
+2026-04-28 11:33:12 - [34mdebug[39m: Sending request to https://collector-observability.browserstack.com/api/v1/batch
+[35msilly[39m: [2026-04-28T17:33:12.653Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'LogCreated' undefined
+2026-04-28 11:33:12 - [34mdebug[39m: Response from https://collector-observability.browserstack.com/api/v1/batch: 200 OK
+[34mdebug[39m: [2026-04-28T17:33:12.654Z][ TEST REPORTING AND ANALYTICS ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2026-04-28T17:33:12.655Z][ TEST REPORTING AND ANALYTICS ] Remaining Queue Length - 1
+[35msilly[39m: [2026-04-28T17:33:14.318Z][ TEST REPORTING AND ANALYTICS ] Processing events. Queue Length - 1
+[34mdebug[39m: [2026-04-28T17:33:14.319Z][ TEST REPORTING AND ANALYTICS ] Processing batch events for Interval-Queue. Request Size - 1416 bytes. Events are 'LogCreated':undefined
+2026-04-28 11:33:14 - [34mdebug[39m: Sending request to https://collector-observability.browserstack.com/api/v1/batch
+[35msilly[39m: [2026-04-28T17:33:14.668Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'LogCreated' undefined
+2026-04-28 11:33:14 - [34mdebug[39m: Response from https://collector-observability.browserstack.com/api/v1/batch: 200 OK
+[34mdebug[39m: [2026-04-28T17:33:14.669Z][ TEST REPORTING AND ANALYTICS ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2026-04-28T17:33:14.669Z][ TEST REPORTING AND ANALYTICS ] Remaining Queue Length - 1
+[35msilly[39m: [2026-04-28T17:33:16.331Z][ TEST REPORTING AND ANALYTICS ] Processing events. Queue Length - 1
+[34mdebug[39m: [2026-04-28T17:33:16.331Z][ TEST REPORTING AND ANALYTICS ] Processing batch events for Interval-Queue. Request Size - 1416 bytes. Events are 'LogCreated':undefined
+2026-04-28 11:33:16 - [34mdebug[39m: Sending request to https://collector-observability.browserstack.com/api/v1/batch
+[35msilly[39m: [2026-04-28T17:33:16.693Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'LogCreated' undefined
+2026-04-28 11:33:16 - [34mdebug[39m: Response from https://collector-observability.browserstack.com/api/v1/batch: 200 OK
+[34mdebug[39m: [2026-04-28T17:33:16.695Z][ TEST REPORTING AND ANALYTICS ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2026-04-28T17:33:16.695Z][ TEST REPORTING AND ANALYTICS ] Remaining Queue Length - 1
+[35msilly[39m: [2026-04-28T17:33:18.339Z][ TEST REPORTING AND ANALYTICS ] Processing events. Queue Length - 1
+[34mdebug[39m: [2026-04-28T17:33:18.340Z][ TEST REPORTING AND ANALYTICS ] Processing batch events for Interval-Queue. Request Size - 1416 bytes. Events are 'LogCreated':undefined
+2026-04-28 11:33:18 - [34mdebug[39m: Sending request to https://collector-observability.browserstack.com/api/v1/batch
+[35msilly[39m: [2026-04-28T17:33:18.697Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'LogCreated' undefined
+2026-04-28 11:33:18 - [34mdebug[39m: Response from https://collector-observability.browserstack.com/api/v1/batch: 200 OK
+[34mdebug[39m: [2026-04-28T17:33:18.699Z][ TEST REPORTING AND ANALYTICS ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2026-04-28T17:33:18.699Z][ TEST REPORTING AND ANALYTICS ] Remaining Queue Length - 1
+[35msilly[39m: [2026-04-28T17:33:20.346Z][ TEST REPORTING AND ANALYTICS ] Processing events. Queue Length - 1
+[34mdebug[39m: [2026-04-28T17:33:20.346Z][ TEST REPORTING AND ANALYTICS ] Processing batch events for Interval-Queue. Request Size - 1416 bytes. Events are 'LogCreated':undefined
+2026-04-28 11:33:20 - [34mdebug[39m: Sending request to https://collector-observability.browserstack.com/api/v1/batch
+[35msilly[39m: [2026-04-28T17:33:20.682Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'LogCreated' undefined
+2026-04-28 11:33:20 - [34mdebug[39m: Response from https://collector-observability.browserstack.com/api/v1/batch: 200 OK
+[34mdebug[39m: [2026-04-28T17:33:20.683Z][ TEST REPORTING AND ANALYTICS ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2026-04-28T17:33:20.683Z][ TEST REPORTING AND ANALYTICS ] Remaining Queue Length - 1
+[35msilly[39m: [2026-04-28T17:33:22.352Z][ TEST REPORTING AND ANALYTICS ] Processing events. Queue Length - 1
+[34mdebug[39m: [2026-04-28T17:33:22.352Z][ TEST REPORTING AND ANALYTICS ] Processing batch events for Interval-Queue. Request Size - 1416 bytes. Events are 'LogCreated':undefined
+2026-04-28 11:33:22 - [34mdebug[39m: Sending request to https://collector-observability.browserstack.com/api/v1/batch
+[35msilly[39m: [2026-04-28T17:33:22.702Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'LogCreated' undefined
+2026-04-28 11:33:22 - [34mdebug[39m: Response from https://collector-observability.browserstack.com/api/v1/batch: 200 OK
+[34mdebug[39m: [2026-04-28T17:33:22.703Z][ TEST REPORTING AND ANALYTICS ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2026-04-28T17:33:22.703Z][ TEST REPORTING AND ANALYTICS ] Remaining Queue Length - 1
+[35msilly[39m: [2026-04-28T17:33:24.360Z][ TEST REPORTING AND ANALYTICS ] Processing events. Queue Length - 1
+[34mdebug[39m: [2026-04-28T17:33:24.361Z][ TEST REPORTING AND ANALYTICS ] Processing batch events for Interval-Queue. Request Size - 1416 bytes. Events are 'LogCreated':undefined
+2026-04-28 11:33:24 - [34mdebug[39m: Sending request to https://collector-observability.browserstack.com/api/v1/batch
+[35msilly[39m: [2026-04-28T17:33:24.700Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'LogCreated' undefined
+2026-04-28 11:33:24 - [34mdebug[39m: Response from https://collector-observability.browserstack.com/api/v1/batch: 200 OK
+[34mdebug[39m: [2026-04-28T17:33:24.700Z][ TEST REPORTING AND ANALYTICS ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2026-04-28T17:33:24.700Z][ TEST REPORTING AND ANALYTICS ] Remaining Queue Length - 1
+[35msilly[39m: [2026-04-28T17:33:25.468Z][ TEST REPORTING AND ANALYTICS ] Hook Finished with unique id beforeEach hook for chrome-latest:Windows 11-browserstack1-b844c2afe9c7a518cbf6-ad5e2f49d72ed863aa0f is triggered
+[35msilly[39m: [2026-04-28T17:33:25.469Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'LogCreated' undefined
+[35msilly[39m: [2026-04-28T17:33:25.469Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'HookRunFinished' 3f10ef9e-d91b-442f-9085-8459ab3fb930
+[35msilly[39m: [2026-04-28T17:33:25.474Z][ TEST REPORTING AND ANALYTICS ] Processing events. Queue Length - 2
+[34mdebug[39m: [2026-04-28T17:33:25.474Z][ TEST REPORTING AND ANALYTICS ] Processing batch events for Interval-Queue. Request Size - 5451 bytes. Events are 'LogCreated':undefined,'HookRunFinished':3f10ef9e-d91b-442f-9085-8459ab3fb930
+2026-04-28 11:33:25 - [34mdebug[39m: Sending request to https://collector-observability.browserstack.com/api/v1/batch
+2026-04-28 11:33:25 - [34mdebug[39m: Response from https://collector-observability.browserstack.com/api/v1/batch: 200 OK
+[34mdebug[39m: [2026-04-28T17:33:25.817Z][ TEST REPORTING AND ANALYTICS ] Interval-Queue event successful for events 'LogCreated':undefined,'HookRunFinished':3f10ef9e-d91b-442f-9085-8459ab3fb930 -- {"success":true}
+[35msilly[39m: [2026-04-28T17:33:25.817Z][ TEST REPORTING AND ANALYTICS ] Remaining Queue Length - 0
+[35msilly[39m: [2026-04-28T17:33:26.364Z][ TEST REPORTING AND ANALYTICS ] Processing events. Queue Length - 1
+[34mdebug[39m: [2026-04-28T17:33:26.364Z][ TEST REPORTING AND ANALYTICS ] Processing batch events for Interval-Queue. Request Size - 1416 bytes. Events are 'LogCreated':undefined
+2026-04-28 11:33:26 - [34mdebug[39m: Sending request to https://collector-observability.browserstack.com/api/v1/batch
+[35msilly[39m: [2026-04-28T17:33:26.711Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'LogCreated' undefined
+2026-04-28 11:33:26 - [34mdebug[39m: Response from https://collector-observability.browserstack.com/api/v1/batch: 200 OK
+[34mdebug[39m: [2026-04-28T17:33:26.712Z][ TEST REPORTING AND ANALYTICS ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2026-04-28T17:33:26.712Z][ TEST REPORTING AND ANALYTICS ] Remaining Queue Length - 1
+[35msilly[39m: [2026-04-28T17:33:28.374Z][ TEST REPORTING AND ANALYTICS ] Processing events. Queue Length - 1
+[34mdebug[39m: [2026-04-28T17:33:28.374Z][ TEST REPORTING AND ANALYTICS ] Processing batch events for Interval-Queue. Request Size - 1416 bytes. Events are 'LogCreated':undefined
+2026-04-28 11:33:28 - [34mdebug[39m: Sending request to https://collector-observability.browserstack.com/api/v1/batch
+[35msilly[39m: [2026-04-28T17:33:28.708Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'LogCreated' undefined
+2026-04-28 11:33:28 - [34mdebug[39m: Response from https://collector-observability.browserstack.com/api/v1/batch: 200 OK
+[34mdebug[39m: [2026-04-28T17:33:28.709Z][ TEST REPORTING AND ANALYTICS ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2026-04-28T17:33:28.709Z][ TEST REPORTING AND ANALYTICS ] Remaining Queue Length - 1
+[35msilly[39m: [2026-04-28T17:33:30.377Z][ TEST REPORTING AND ANALYTICS ] Processing events. Queue Length - 1
+[34mdebug[39m: [2026-04-28T17:33:30.377Z][ TEST REPORTING AND ANALYTICS ] Processing batch events for Interval-Queue. Request Size - 1416 bytes. Events are 'LogCreated':undefined
+2026-04-28 11:33:30 - [34mdebug[39m: Sending request to https://collector-observability.browserstack.com/api/v1/batch
+[35msilly[39m: [2026-04-28T17:33:30.722Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'LogCreated' undefined
+2026-04-28 11:33:30 - [34mdebug[39m: Response from https://collector-observability.browserstack.com/api/v1/batch: 200 OK
+[34mdebug[39m: [2026-04-28T17:33:30.723Z][ TEST REPORTING AND ANALYTICS ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2026-04-28T17:33:30.723Z][ TEST REPORTING AND ANALYTICS ] Remaining Queue Length - 1
+[35msilly[39m: [2026-04-28T17:33:32.382Z][ TEST REPORTING AND ANALYTICS ] Processing events. Queue Length - 1
+[34mdebug[39m: [2026-04-28T17:33:32.382Z][ TEST REPORTING AND ANALYTICS ] Processing batch events for Interval-Queue. Request Size - 1416 bytes. Events are 'LogCreated':undefined
+2026-04-28 11:33:32 - [34mdebug[39m: Sending request to https://collector-observability.browserstack.com/api/v1/batch
+[35msilly[39m: [2026-04-28T17:33:32.746Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'LogCreated' undefined
+2026-04-28 11:33:32 - [34mdebug[39m: Response from https://collector-observability.browserstack.com/api/v1/batch: 200 OK
+[34mdebug[39m: [2026-04-28T17:33:32.747Z][ TEST REPORTING AND ANALYTICS ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2026-04-28T17:33:32.747Z][ TEST REPORTING AND ANALYTICS ] Remaining Queue Length - 1
+[35msilly[39m: [2026-04-28T17:33:34.387Z][ TEST REPORTING AND ANALYTICS ] Processing events. Queue Length - 1
+[34mdebug[39m: [2026-04-28T17:33:34.388Z][ TEST REPORTING AND ANALYTICS ] Processing batch events for Interval-Queue. Request Size - 1416 bytes. Events are 'LogCreated':undefined
+2026-04-28 11:33:34 - [34mdebug[39m: Sending request to https://collector-observability.browserstack.com/api/v1/batch
+[35msilly[39m: [2026-04-28T17:33:34.727Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'LogCreated' undefined
+2026-04-28 11:33:34 - [34mdebug[39m: Response from https://collector-observability.browserstack.com/api/v1/batch: 200 OK
+[34mdebug[39m: [2026-04-28T17:33:34.728Z][ TEST REPORTING AND ANALYTICS ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2026-04-28T17:33:34.728Z][ TEST REPORTING AND ANALYTICS ] Remaining Queue Length - 1
+[35msilly[39m: [2026-04-28T17:33:36.395Z][ TEST REPORTING AND ANALYTICS ] Processing events. Queue Length - 1
+[34mdebug[39m: [2026-04-28T17:33:36.396Z][ TEST REPORTING AND ANALYTICS ] Processing batch events for Interval-Queue. Request Size - 1416 bytes. Events are 'LogCreated':undefined
+2026-04-28 11:33:36 - [34mdebug[39m: Sending request to https://collector-observability.browserstack.com/api/v1/batch
+[35msilly[39m: [2026-04-28T17:33:36.764Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'LogCreated' undefined
+2026-04-28 11:33:36 - [34mdebug[39m: Response from https://collector-observability.browserstack.com/api/v1/batch: 200 OK
+[34mdebug[39m: [2026-04-28T17:33:36.765Z][ TEST REPORTING AND ANALYTICS ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2026-04-28T17:33:36.765Z][ TEST REPORTING AND ANALYTICS ] Remaining Queue Length - 1
+[35msilly[39m: [2026-04-28T17:33:38.408Z][ TEST REPORTING AND ANALYTICS ] Processing events. Queue Length - 1
+[34mdebug[39m: [2026-04-28T17:33:38.408Z][ TEST REPORTING AND ANALYTICS ] Processing batch events for Interval-Queue. Request Size - 1416 bytes. Events are 'LogCreated':undefined
+2026-04-28 11:33:38 - [34mdebug[39m: Sending request to https://collector-observability.browserstack.com/api/v1/batch
+[35msilly[39m: [2026-04-28T17:33:38.768Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'LogCreated' undefined
+2026-04-28 11:33:38 - [34mdebug[39m: Response from https://collector-observability.browserstack.com/api/v1/batch: 200 OK
+[34mdebug[39m: [2026-04-28T17:33:38.769Z][ TEST REPORTING AND ANALYTICS ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2026-04-28T17:33:38.769Z][ TEST REPORTING AND ANALYTICS ] Remaining Queue Length - 1
+[35msilly[39m: [2026-04-28T17:33:40.423Z][ TEST REPORTING AND ANALYTICS ] Processing events. Queue Length - 1
+[34mdebug[39m: [2026-04-28T17:33:40.423Z][ TEST REPORTING AND ANALYTICS ] Processing batch events for Interval-Queue. Request Size - 1416 bytes. Events are 'LogCreated':undefined
+2026-04-28 11:33:40 - [34mdebug[39m: Sending request to https://collector-observability.browserstack.com/api/v1/batch
+[35msilly[39m: [2026-04-28T17:33:40.769Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'LogCreated' undefined
+2026-04-28 11:33:40 - [34mdebug[39m: Response from https://collector-observability.browserstack.com/api/v1/batch: 200 OK
+[34mdebug[39m: [2026-04-28T17:33:40.771Z][ TEST REPORTING AND ANALYTICS ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2026-04-28T17:33:40.771Z][ TEST REPORTING AND ANALYTICS ] Remaining Queue Length - 1
+[35msilly[39m: [2026-04-28T17:33:42.433Z][ TEST REPORTING AND ANALYTICS ] Processing events. Queue Length - 1
+[34mdebug[39m: [2026-04-28T17:33:42.433Z][ TEST REPORTING AND ANALYTICS ] Processing batch events for Interval-Queue. Request Size - 1416 bytes. Events are 'LogCreated':undefined
+2026-04-28 11:33:42 - [34mdebug[39m: Sending request to https://collector-observability.browserstack.com/api/v1/batch
+[35msilly[39m: [2026-04-28T17:33:42.774Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'LogCreated' undefined
+2026-04-28 11:33:42 - [34mdebug[39m: Response from https://collector-observability.browserstack.com/api/v1/batch: 200 OK
+[34mdebug[39m: [2026-04-28T17:33:42.775Z][ TEST REPORTING AND ANALYTICS ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2026-04-28T17:33:42.776Z][ TEST REPORTING AND ANALYTICS ] Remaining Queue Length - 1
+[35msilly[39m: [2026-04-28T17:33:44.448Z][ TEST REPORTING AND ANALYTICS ] Processing events. Queue Length - 1
+[34mdebug[39m: [2026-04-28T17:33:44.448Z][ TEST REPORTING AND ANALYTICS ] Processing batch events for Interval-Queue. Request Size - 1416 bytes. Events are 'LogCreated':undefined
+2026-04-28 11:33:44 - [34mdebug[39m: Sending request to https://collector-observability.browserstack.com/api/v1/batch
+[35msilly[39m: [2026-04-28T17:33:44.806Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'LogCreated' undefined
+2026-04-28 11:33:44 - [34mdebug[39m: Response from https://collector-observability.browserstack.com/api/v1/batch: 200 OK
+[34mdebug[39m: [2026-04-28T17:33:44.807Z][ TEST REPORTING AND ANALYTICS ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2026-04-28T17:33:44.807Z][ TEST REPORTING AND ANALYTICS ] Remaining Queue Length - 1
+[35msilly[39m: [2026-04-28T17:33:46.456Z][ TEST REPORTING AND ANALYTICS ] Processing events. Queue Length - 1
+[34mdebug[39m: [2026-04-28T17:33:46.457Z][ TEST REPORTING AND ANALYTICS ] Processing batch events for Interval-Queue. Request Size - 1416 bytes. Events are 'LogCreated':undefined
+2026-04-28 11:33:46 - [34mdebug[39m: Sending request to https://collector-observability.browserstack.com/api/v1/batch
+[35msilly[39m: [2026-04-28T17:33:46.816Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'LogCreated' undefined
+2026-04-28 11:33:46 - [34mdebug[39m: Response from https://collector-observability.browserstack.com/api/v1/batch: 200 OK
+[34mdebug[39m: [2026-04-28T17:33:46.818Z][ TEST REPORTING AND ANALYTICS ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2026-04-28T17:33:46.818Z][ TEST REPORTING AND ANALYTICS ] Remaining Queue Length - 1
+[35msilly[39m: [2026-04-28T17:33:48.465Z][ TEST REPORTING AND ANALYTICS ] Processing events. Queue Length - 1
+[34mdebug[39m: [2026-04-28T17:33:48.465Z][ TEST REPORTING AND ANALYTICS ] Processing batch events for Interval-Queue. Request Size - 1416 bytes. Events are 'LogCreated':undefined
+2026-04-28 11:33:48 - [34mdebug[39m: Sending request to https://collector-observability.browserstack.com/api/v1/batch
+[35msilly[39m: [2026-04-28T17:33:48.803Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'LogCreated' undefined
+2026-04-28 11:33:48 - [34mdebug[39m: Response from https://collector-observability.browserstack.com/api/v1/batch: 200 OK
+[34mdebug[39m: [2026-04-28T17:33:48.804Z][ TEST REPORTING AND ANALYTICS ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2026-04-28T17:33:48.804Z][ TEST REPORTING AND ANALYTICS ] Remaining Queue Length - 1
+[35msilly[39m: [2026-04-28T17:33:50.475Z][ TEST REPORTING AND ANALYTICS ] Processing events. Queue Length - 1
+[34mdebug[39m: [2026-04-28T17:33:50.476Z][ TEST REPORTING AND ANALYTICS ] Processing batch events for Interval-Queue. Request Size - 1416 bytes. Events are 'LogCreated':undefined
+2026-04-28 11:33:50 - [34mdebug[39m: Sending request to https://collector-observability.browserstack.com/api/v1/batch
+[35msilly[39m: [2026-04-28T17:33:50.838Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'LogCreated' undefined
+2026-04-28 11:33:50 - [34mdebug[39m: Response from https://collector-observability.browserstack.com/api/v1/batch: 200 OK
+[34mdebug[39m: [2026-04-28T17:33:50.839Z][ TEST REPORTING AND ANALYTICS ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2026-04-28T17:33:50.839Z][ TEST REPORTING AND ANALYTICS ] Remaining Queue Length - 1
+[35msilly[39m: [2026-04-28T17:33:52.479Z][ TEST REPORTING AND ANALYTICS ] Processing events. Queue Length - 1
+[34mdebug[39m: [2026-04-28T17:33:52.479Z][ TEST REPORTING AND ANALYTICS ] Processing batch events for Interval-Queue. Request Size - 1416 bytes. Events are 'LogCreated':undefined
+2026-04-28 11:33:52 - [34mdebug[39m: Sending request to https://collector-observability.browserstack.com/api/v1/batch
+[35msilly[39m: [2026-04-28T17:33:52.819Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'LogCreated' undefined
+2026-04-28 11:33:52 - [34mdebug[39m: Response from https://collector-observability.browserstack.com/api/v1/batch: 200 OK
+[34mdebug[39m: [2026-04-28T17:33:52.820Z][ TEST REPORTING AND ANALYTICS ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2026-04-28T17:33:52.820Z][ TEST REPORTING AND ANALYTICS ] Remaining Queue Length - 1
+[35msilly[39m: [2026-04-28T17:33:54.481Z][ TEST REPORTING AND ANALYTICS ] Processing events. Queue Length - 1
+[34mdebug[39m: [2026-04-28T17:33:54.481Z][ TEST REPORTING AND ANALYTICS ] Processing batch events for Interval-Queue. Request Size - 1416 bytes. Events are 'LogCreated':undefined
+2026-04-28 11:33:54 - [34mdebug[39m: Sending request to https://collector-observability.browserstack.com/api/v1/batch
+[35msilly[39m: [2026-04-28T17:33:54.830Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'LogCreated' undefined
+2026-04-28 11:33:54 - [34mdebug[39m: Response from https://collector-observability.browserstack.com/api/v1/batch: 200 OK
+[34mdebug[39m: [2026-04-28T17:33:54.831Z][ TEST REPORTING AND ANALYTICS ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2026-04-28T17:33:54.831Z][ TEST REPORTING AND ANALYTICS ] Remaining Queue Length - 1
+2026-04-28 11:33:56 - [34mdebug[39m: Accessibility extension data for current test: {"thTestRunUuid":"f5fad1a9-5e13-45ab-9d7d-d7bc512d1988","thBuildUuid":"atm864cwptlv1mqgu53fdbhsq0kltun9ar4kfqrl","thJwtToken":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJicm93c2Vyc3RhY2tfb2IiLCJzdWIiOiIxMDkzMzE0NCIsImdyb3VwX2lkIjoxMDg0OTc3MywidXNlcl9pZCI6MTA5MzMxNDQsImJ1aWxkX2hhc2hlZF9pZCI6ImF0bTg2NGN3cHRsdjFtcWd1NTNmZGJoc3Ewa2x0dW45YXI0a2ZxcmwiLCJwcm9qZWN0X25hbWUiOiIiLCJob29rX2FzX3Rlc3QiOiIxIiwiYnVpbGRfbmFtZSI6IkF2b3RlY2gtUmVncmVzc2lvbi1UZXN0U3VpdGUiLCJwcm9kdWN0X21hcCI6IntcIm9ic2VydmFiaWxpdHlcIjp0cnVlLFwiYXV0b21hdGVcIjp0cnVlLFwib3JpZ2luRnJvbVByb2R1Y3RNYXBcIjpcIkF1dG9tYXRlXCIsXCJic3RhY2tBdXRvbWF0aW9uXCI6dHJ1ZSxcIm5vblNES1wiOmZhbHNlLFwiYWNjZXNzaWJpbGl0eUF1dG9FbmFibGVkXCI6dHJ1ZSxcImNhZFwiOnRydWV9IiwiZ3JyX3JlZ2lvbiI6IiIsImlzX2xvd192b2x1bWUiOmZhbHNlLCJpc19sY25jX2V2ZW50IjpmYWxzZSwiaXNfbHRzX2V2ZW50IjpmYWxzZSwic2lnbmluZ19rZXlfaGFzaCI6IjM3YzExMzFlNGIyZTc0M2M3NjZlMWQ3MGJmNWYyYjU3ZGM2OWIxOTVkMzAwZTMyYWU4ZDAyMzEyMGE0YTZkOTciLCJpYXQiOjE3NzczOTc1NDMsImV4cCI6MTc3Nzc0MzE0M30.XHPj-yE5Bb95fICPuFjADB8BgxhcoxoQLhcykdIQiFY"}
+2026-04-28 11:33:56 - [32minfo[39m: Automate test case execution has ended. Processing for accessibility testing is underway. 
+2026-04-28 11:33:56 - [34mdebug[39m: Performing scan before saving results.
+2026-04-28 11:33:56 - [33mwarn[39m: Not a valid Accessibility Automation session for playwright-page, cannot perform scan with retry.
+2026-04-28 11:33:56 - [34mdebug[39m: result=false
+2026-04-28 11:33:56 - [33mwarn[39m: Not a valid Accessibility Automation session for playwright-page, cannot save accessibility results with retry.
+2026-04-28 11:33:56 - [34mdebug[39m: saved Result scan=false
+2026-04-28 11:33:56 - [32minfo[39m: Accessibility testing for this test case has ended.
+[35msilly[39m: [2026-04-28T17:33:56.492Z][ TEST REPORTING AND ANALYTICS ] Processing events. Queue Length - 1
+[34mdebug[39m: [2026-04-28T17:33:56.492Z][ TEST REPORTING AND ANALYTICS ] Processing batch events for Interval-Queue. Request Size - 1416 bytes. Events are 'LogCreated':undefined
+2026-04-28 11:33:56 - [34mdebug[39m: Sending request to https://collector-observability.browserstack.com/api/v1/batch
+[35msilly[39m: [2026-04-28T17:33:56.646Z][ TEST REPORTING AND ANALYTICS ] Started :: afterTestHook, PID - 32556, Argument - Navigate to Package Management and create package
+[34mdebug[39m: [2026-04-28T17:33:56.647Z][ TEST REPORTING AND ANALYTICS ] Started :: Executing After Test Hook, PID - 32556, Test Title - Navigate to Package Management and create package, Test File - D:\CODES\Avotech-Regression-TestSuite\tests\csi\salesAndBilling\SalesAndBilling.spec.ts
+2026-04-28 11:33:56 - [32minfo[39m: [Accessibility] afterTestHook state: accessibilityPlatform=false, bstackA11yShouldScan=true
+[34mdebug[39m: [2026-04-28T17:33:56.647Z][ TEST REPORTING AND ANALYTICS ] Sending session details for chrome-latest:Windows 11-browserstack1-b844c2afe9c7a518cbf6-ad5e2f49d72ed863aa0f-0, {
+  browserstack: {
+    browser: 'chrome',
+    browser_version: '147.0.7727.56',
+    capabilities: {},
+    platform: 'Windows',
+    platform_version: '11',
+    product: 'automate',
+    session_id: '8b3d733ede12a4dfa1dd4fa9d3407c4e1959e59e'
+  }
+}
+[35msilly[39m: [2026-04-28T17:33:56.648Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'CBTSessionCreated' f5fad1a9-5e13-45ab-9d7d-d7bc512d1988
+[35msilly[39m: [2026-04-28T17:33:56.648Z][ TEST REPORTING AND ANALYTICS ] Finished :: afterTestHook, PID - 32556, Argument - Navigate to Package Management and create package
+[35msilly[39m: [2026-04-28T17:33:56.852Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'LogCreated' undefined
+2026-04-28 11:33:56 - [34mdebug[39m: Response from https://collector-observability.browserstack.com/api/v1/batch: 200 OK
+[34mdebug[39m: [2026-04-28T17:33:56.853Z][ TEST REPORTING AND ANALYTICS ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2026-04-28T17:33:56.853Z][ TEST REPORTING AND ANALYTICS ] Remaining Queue Length - 2
+[34mdebug[39m: [2026-04-28T17:33:57.443Z][ TEST REPORTING AND ANALYTICS ] Finished :: Executing After Test Hook, PID - 32556, Test Title - Navigate to Package Management and create package, Test File - D:\CODES\Avotech-Regression-TestSuite\tests\csi\salesAndBilling\SalesAndBilling.spec.ts
+[34mdebug[39m: [2026-04-28T17:33:57.443Z][ TEST REPORTING AND ANALYTICS ] Test Hook ended, PID 32556
+[34mdebug[39m: [2026-04-28T17:33:57.450Z][ TEST REPORTING AND ANALYTICS ] Test Finished with unique id chrome-latest:Windows 11-browserstack1-b844c2afe9c7a518cbf6-ad5e2f49d72ed863aa0f
+[35msilly[39m: [2026-04-28T17:33:57.451Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'LogCreated' undefined
+2026-04-28 11:33:57 - [34mdebug[39m: Searching for key: path
+[35msilly[39m: [2026-04-28T17:33:57.451Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'TestRunFinished' a4732b0e-83d0-4984-8688-9a1a4d642837
+[34mdebug[39m: [2026-04-28T17:33:57.451Z][ TEST REPORTING AND ANALYTICS ] Starting sending trace zip for test: a4732b0e-83d0-4984-8688-9a1a4d642837
+2026-04-28 11:33:57 - [34mdebug[39m: Checking if trace is enabled for test: a4732b0e-83d0-4984-8688-9a1a4d642837
+2026-04-28 11:33:57 - [34mdebug[39m: Searching for key: path
+[35msilly[39m: [2026-04-28T17:33:57.460Z][ TEST REPORTING AND ANALYTICS ] Test Started with unique id chrome-latest:Windows 11-browserstack1-b844c2afe9c7a518cbf6-d978e71464a2f5f3c06b
+2026-04-28 11:33:57 - [34mdebug[39m: Searching for key: path
+[35msilly[39m: [2026-04-28T17:33:57.462Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'TestRunStarted' 609caedc-4765-44a9-8cc2-a3bba79b4e36
+[35msilly[39m: [2026-04-28T17:33:57.463Z][ TEST REPORTING AND ANALYTICS ] Hook Started with unique id beforeEach hook for chrome-latest:Windows 11-browserstack1-b844c2afe9c7a518cbf6-d978e71464a2f5f3c06b is triggered for test b844c2afe9c7a518cbf6-d978e71464a2f5f3c06b-0
+[35msilly[39m: [2026-04-28T17:33:57.464Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'HookRunStarted' 11865e2d-2353-41b5-8f6d-ac5fd341a261
+[34mdebug[39m: [2026-04-28T17:33:57.467Z][ TEST REPORTING AND ANALYTICS ] Test Hook started, PID 32556
+[35msilly[39m: [2026-04-28T17:33:57.467Z][ TEST REPORTING AND ANALYTICS ] Started :: beforeTestHook, PID - 32556, Argument - Navigate to Sales Order and create sales order
+[35msilly[39m: [2026-04-28T17:33:57.467Z][ TEST REPORTING AND ANALYTICS ] Sending session details at beforeTestHook
+[34mdebug[39m: [2026-04-28T17:33:57.468Z][ TEST REPORTING AND ANALYTICS ] Sending session details for chrome-latest:Windows 11-browserstack1-b844c2afe9c7a518cbf6-d978e71464a2f5f3c06b-0, {
+  browserstack: {
+    browser: 'chrome',
+    browser_version: '147.0.7727.56',
+    capabilities: {},
+    platform: 'Windows',
+    platform_version: '11',
+    product: 'automate',
+    session_id: '8b3d733ede12a4dfa1dd4fa9d3407c4e1959e59e'
+  }
+}
+[35msilly[39m: [2026-04-28T17:33:57.468Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'CBTSessionCreated' 0513ba74-a543-4380-a2fe-eb048325a10b
+[35msilly[39m: [2026-04-28T17:33:57.468Z][ TEST REPORTING AND ANALYTICS ] Finished :: beforeTestHook, PID - 32556, Argument - Navigate to Sales Order and create sales order
+2026-04-28 11:33:57 - [34mdebug[39m: [Accessibility] Initialized for test: autoScanning=true, bstackA11yShouldScan=true
+[35msilly[39m: [2026-04-28T17:33:57.611Z][ TEST REPORTING AND ANALYTICS ] Processing events. Queue Length - 4
+[34mdebug[39m: [2026-04-28T17:33:57.611Z][ TEST REPORTING AND ANALYTICS ] Processing batch events for Interval-Queue. Request Size - 23228 bytes. Events are 'LogCreated':undefined,'TestRunFinished':a4732b0e-83d0-4984-8688-9a1a4d642837,'TestRunStarted':609caedc-4765-44a9-8cc2-a3bba79b4e36,'HookRunStarted':11865e2d-2353-41b5-8f6d-ac5fd341a261
+2026-04-28 11:33:57 - [34mdebug[39m: Sending request to https://collector-observability.browserstack.com/api/v1/batch
+2026-04-28 11:33:57 - [34mdebug[39m: Response from https://collector-observability.browserstack.com/api/v1/batch: 200 OK
+[34mdebug[39m: [2026-04-28T17:33:57.968Z][ TEST REPORTING AND ANALYTICS ] Interval-Queue event successful for events 'LogCreated':undefined,'TestRunFinished':a4732b0e-83d0-4984-8688-9a1a4d642837,'TestRunStarted':609caedc-4765-44a9-8cc2-a3bba79b4e36,'HookRunStarted':11865e2d-2353-41b5-8f6d-ac5fd341a261 -- {"success":true}
+[35msilly[39m: [2026-04-28T17:33:57.968Z][ TEST REPORTING AND ANALYTICS ] Remaining Queue Length - 0
+[35msilly[39m: [2026-04-28T17:33:58.498Z][ TEST REPORTING AND ANALYTICS ] Processing events. Queue Length - 3
+[34mdebug[39m: [2026-04-28T17:33:58.498Z][ TEST REPORTING AND ANALYTICS ] Processing batch events for Interval-Queue. Request Size - 2058 bytes. Events are 'CBTSessionCreated':f5fad1a9-5e13-45ab-9d7d-d7bc512d1988,'LogCreated':undefined,'CBTSessionCreated':0513ba74-a543-4380-a2fe-eb048325a10b
+2026-04-28 11:33:58 - [34mdebug[39m: Sending request to https://collector-observability.browserstack.com/api/v1/batch
+[35msilly[39m: [2026-04-28T17:33:58.852Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'LogCreated' undefined
+2026-04-28 11:33:58 - [34mdebug[39m: Response from https://collector-observability.browserstack.com/api/v1/batch: 200 OK
+[34mdebug[39m: [2026-04-28T17:33:58.853Z][ TEST REPORTING AND ANALYTICS ] Interval-Queue event successful for events 'CBTSessionCreated':f5fad1a9-5e13-45ab-9d7d-d7bc512d1988,'LogCreated':undefined,'CBTSessionCreated':0513ba74-a543-4380-a2fe-eb048325a10b -- {"success":true}
+[35msilly[39m: [2026-04-28T17:33:58.853Z][ TEST REPORTING AND ANALYTICS ] Remaining Queue Length - 1
+[35msilly[39m: [2026-04-28T17:34:00.497Z][ TEST REPORTING AND ANALYTICS ] Processing events. Queue Length - 1
+[34mdebug[39m: [2026-04-28T17:34:00.498Z][ TEST REPORTING AND ANALYTICS ] Processing batch events for Interval-Queue. Request Size - 1416 bytes. Events are 'LogCreated':undefined
+2026-04-28 11:34:00 - [34mdebug[39m: Sending request to https://collector-observability.browserstack.com/api/v1/batch
+[35msilly[39m: [2026-04-28T17:34:00.845Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'LogCreated' undefined
+2026-04-28 11:34:00 - [34mdebug[39m: Response from https://collector-observability.browserstack.com/api/v1/batch: 200 OK
+[34mdebug[39m: [2026-04-28T17:34:00.846Z][ TEST REPORTING AND ANALYTICS ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2026-04-28T17:34:00.846Z][ TEST REPORTING AND ANALYTICS ] Remaining Queue Length - 1
+[35msilly[39m: [2026-04-28T17:34:02.503Z][ TEST REPORTING AND ANALYTICS ] Processing events. Queue Length - 1
+[34mdebug[39m: [2026-04-28T17:34:02.503Z][ TEST REPORTING AND ANALYTICS ] Processing batch events for Interval-Queue. Request Size - 1416 bytes. Events are 'LogCreated':undefined
+2026-04-28 11:34:02 - [34mdebug[39m: Sending request to https://collector-observability.browserstack.com/api/v1/batch
+[35msilly[39m: [2026-04-28T17:34:02.844Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'LogCreated' undefined
+2026-04-28 11:34:02 - [34mdebug[39m: Response from https://collector-observability.browserstack.com/api/v1/batch: 200 OK
+[34mdebug[39m: [2026-04-28T17:34:02.845Z][ TEST REPORTING AND ANALYTICS ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2026-04-28T17:34:02.845Z][ TEST REPORTING AND ANALYTICS ] Remaining Queue Length - 1
+[35msilly[39m: [2026-04-28T17:34:04.504Z][ TEST REPORTING AND ANALYTICS ] Processing events. Queue Length - 1
+[34mdebug[39m: [2026-04-28T17:34:04.504Z][ TEST REPORTING AND ANALYTICS ] Processing batch events for Interval-Queue. Request Size - 1416 bytes. Events are 'LogCreated':undefined
+2026-04-28 11:34:04 - [34mdebug[39m: Sending request to https://collector-observability.browserstack.com/api/v1/batch
+[35msilly[39m: [2026-04-28T17:34:04.837Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'LogCreated' undefined
+2026-04-28 11:34:04 - [34mdebug[39m: Response from https://collector-observability.browserstack.com/api/v1/batch: 200 OK
+[34mdebug[39m: [2026-04-28T17:34:04.838Z][ TEST REPORTING AND ANALYTICS ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2026-04-28T17:34:04.838Z][ TEST REPORTING AND ANALYTICS ] Remaining Queue Length - 1
+[35msilly[39m: [2026-04-28T17:34:06.513Z][ TEST REPORTING AND ANALYTICS ] Processing events. Queue Length - 1
+[34mdebug[39m: [2026-04-28T17:34:06.513Z][ TEST REPORTING AND ANALYTICS ] Processing batch events for Interval-Queue. Request Size - 1416 bytes. Events are 'LogCreated':undefined
+2026-04-28 11:34:06 - [34mdebug[39m: Sending request to https://collector-observability.browserstack.com/api/v1/batch
+[35msilly[39m: [2026-04-28T17:34:06.866Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'LogCreated' undefined
+2026-04-28 11:34:06 - [34mdebug[39m: Response from https://collector-observability.browserstack.com/api/v1/batch: 200 OK
+[34mdebug[39m: [2026-04-28T17:34:06.868Z][ TEST REPORTING AND ANALYTICS ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2026-04-28T17:34:06.868Z][ TEST REPORTING AND ANALYTICS ] Remaining Queue Length - 1
+[35msilly[39m: [2026-04-28T17:34:08.515Z][ TEST REPORTING AND ANALYTICS ] Processing events. Queue Length - 1
+[34mdebug[39m: [2026-04-28T17:34:08.516Z][ TEST REPORTING AND ANALYTICS ] Processing batch events for Interval-Queue. Request Size - 1416 bytes. Events are 'LogCreated':undefined
+2026-04-28 11:34:08 - [34mdebug[39m: Sending request to https://collector-observability.browserstack.com/api/v1/batch
+[35msilly[39m: [2026-04-28T17:34:08.874Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'LogCreated' undefined
+2026-04-28 11:34:08 - [34mdebug[39m: Response from https://collector-observability.browserstack.com/api/v1/batch: 200 OK
+[34mdebug[39m: [2026-04-28T17:34:08.875Z][ TEST REPORTING AND ANALYTICS ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2026-04-28T17:34:08.875Z][ TEST REPORTING AND ANALYTICS ] Remaining Queue Length - 1
+[35msilly[39m: [2026-04-28T17:34:10.519Z][ TEST REPORTING AND ANALYTICS ] Processing events. Queue Length - 1
+[34mdebug[39m: [2026-04-28T17:34:10.519Z][ TEST REPORTING AND ANALYTICS ] Processing batch events for Interval-Queue. Request Size - 1416 bytes. Events are 'LogCreated':undefined
+2026-04-28 11:34:10 - [34mdebug[39m: Sending request to https://collector-observability.browserstack.com/api/v1/batch
+[35msilly[39m: [2026-04-28T17:34:10.875Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'LogCreated' undefined
+2026-04-28 11:34:10 - [34mdebug[39m: Response from https://collector-observability.browserstack.com/api/v1/batch: 200 OK
+[34mdebug[39m: [2026-04-28T17:34:10.876Z][ TEST REPORTING AND ANALYTICS ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2026-04-28T17:34:10.877Z][ TEST REPORTING AND ANALYTICS ] Remaining Queue Length - 1
+[35msilly[39m: [2026-04-28T17:34:12.529Z][ TEST REPORTING AND ANALYTICS ] Processing events. Queue Length - 1
+[34mdebug[39m: [2026-04-28T17:34:12.530Z][ TEST REPORTING AND ANALYTICS ] Processing batch events for Interval-Queue. Request Size - 1416 bytes. Events are 'LogCreated':undefined
+2026-04-28 11:34:12 - [34mdebug[39m: Sending request to https://collector-observability.browserstack.com/api/v1/batch
+[35msilly[39m: [2026-04-28T17:34:12.552Z][ TEST REPORTING AND ANALYTICS ] Hook Finished with unique id beforeEach hook for chrome-latest:Windows 11-browserstack1-b844c2afe9c7a518cbf6-d978e71464a2f5f3c06b is triggered
+[35msilly[39m: [2026-04-28T17:34:12.552Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'LogCreated' undefined
+[35msilly[39m: [2026-04-28T17:34:12.553Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'HookRunFinished' 11865e2d-2353-41b5-8f6d-ac5fd341a261
+[35msilly[39m: [2026-04-28T17:34:12.940Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'LogCreated' undefined
+2026-04-28 11:34:12 - [34mdebug[39m: Response from https://collector-observability.browserstack.com/api/v1/batch: 200 OK
+[34mdebug[39m: [2026-04-28T17:34:12.941Z][ TEST REPORTING AND ANALYTICS ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2026-04-28T17:34:12.941Z][ TEST REPORTING AND ANALYTICS ] Remaining Queue Length - 1
+[35msilly[39m: [2026-04-28T17:34:13.694Z][ TEST REPORTING AND ANALYTICS ] Processing events. Queue Length - 2
+[34mdebug[39m: [2026-04-28T17:34:13.694Z][ TEST REPORTING AND ANALYTICS ] Processing batch events for Interval-Queue. Request Size - 4492 bytes. Events are 'LogCreated':undefined,'HookRunFinished':11865e2d-2353-41b5-8f6d-ac5fd341a261
+2026-04-28 11:34:13 - [34mdebug[39m: Sending request to https://collector-observability.browserstack.com/api/v1/batch
+2026-04-28 11:34:14 - [34mdebug[39m: Response from https://collector-observability.browserstack.com/api/v1/batch: 200 OK
+[34mdebug[39m: [2026-04-28T17:34:14.046Z][ TEST REPORTING AND ANALYTICS ] Interval-Queue event successful for events 'LogCreated':undefined,'HookRunFinished':11865e2d-2353-41b5-8f6d-ac5fd341a261 -- {"success":true}
+[35msilly[39m: [2026-04-28T17:34:14.046Z][ TEST REPORTING AND ANALYTICS ] Remaining Queue Length - 0
+[35msilly[39m: [2026-04-28T17:34:14.544Z][ TEST REPORTING AND ANALYTICS ] Processing events. Queue Length - 1
+[34mdebug[39m: [2026-04-28T17:34:14.544Z][ TEST REPORTING AND ANALYTICS ] Processing batch events for Interval-Queue. Request Size - 1416 bytes. Events are 'LogCreated':undefined
+2026-04-28 11:34:14 - [34mdebug[39m: Sending request to https://collector-observability.browserstack.com/api/v1/batch
+[35msilly[39m: [2026-04-28T17:34:14.896Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'LogCreated' undefined
+2026-04-28 11:34:14 - [34mdebug[39m: Response from https://collector-observability.browserstack.com/api/v1/batch: 200 OK
+[34mdebug[39m: [2026-04-28T17:34:14.898Z][ TEST REPORTING AND ANALYTICS ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2026-04-28T17:34:14.898Z][ TEST REPORTING AND ANALYTICS ] Remaining Queue Length - 1
+[35msilly[39m: [2026-04-28T17:34:16.558Z][ TEST REPORTING AND ANALYTICS ] Processing events. Queue Length - 1
+[34mdebug[39m: [2026-04-28T17:34:16.558Z][ TEST REPORTING AND ANALYTICS ] Processing batch events for Interval-Queue. Request Size - 1416 bytes. Events are 'LogCreated':undefined
+2026-04-28 11:34:16 - [34mdebug[39m: Sending request to https://collector-observability.browserstack.com/api/v1/batch
+[35msilly[39m: [2026-04-28T17:34:16.900Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'LogCreated' undefined
+2026-04-28 11:34:16 - [34mdebug[39m: Response from https://collector-observability.browserstack.com/api/v1/batch: 200 OK
+[34mdebug[39m: [2026-04-28T17:34:16.902Z][ TEST REPORTING AND ANALYTICS ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2026-04-28T17:34:16.903Z][ TEST REPORTING AND ANALYTICS ] Remaining Queue Length - 1
+[35msilly[39m: [2026-04-28T17:34:18.566Z][ TEST REPORTING AND ANALYTICS ] Processing events. Queue Length - 1
+[34mdebug[39m: [2026-04-28T17:34:18.567Z][ TEST REPORTING AND ANALYTICS ] Processing batch events for Interval-Queue. Request Size - 1416 bytes. Events are 'LogCreated':undefined
+2026-04-28 11:34:18 - [34mdebug[39m: Sending request to https://collector-observability.browserstack.com/api/v1/batch
+[35msilly[39m: [2026-04-28T17:34:18.908Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'LogCreated' undefined
+2026-04-28 11:34:18 - [34mdebug[39m: Response from https://collector-observability.browserstack.com/api/v1/batch: 200 OK
+[34mdebug[39m: [2026-04-28T17:34:18.910Z][ TEST REPORTING AND ANALYTICS ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2026-04-28T17:34:18.910Z][ TEST REPORTING AND ANALYTICS ] Remaining Queue Length - 1
+[35msilly[39m: [2026-04-28T17:34:20.568Z][ TEST REPORTING AND ANALYTICS ] Processing events. Queue Length - 1
+[34mdebug[39m: [2026-04-28T17:34:20.569Z][ TEST REPORTING AND ANALYTICS ] Processing batch events for Interval-Queue. Request Size - 1416 bytes. Events are 'LogCreated':undefined
+2026-04-28 11:34:20 - [34mdebug[39m: Sending request to https://collector-observability.browserstack.com/api/v1/batch
+[35msilly[39m: [2026-04-28T17:34:20.942Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'LogCreated' undefined
+2026-04-28 11:34:20 - [34mdebug[39m: Response from https://collector-observability.browserstack.com/api/v1/batch: 200 OK
+[34mdebug[39m: [2026-04-28T17:34:20.945Z][ TEST REPORTING AND ANALYTICS ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2026-04-28T17:34:20.945Z][ TEST REPORTING AND ANALYTICS ] Remaining Queue Length - 1
+[35msilly[39m: [2026-04-28T17:34:22.576Z][ TEST REPORTING AND ANALYTICS ] Processing events. Queue Length - 1
+[34mdebug[39m: [2026-04-28T17:34:22.577Z][ TEST REPORTING AND ANALYTICS ] Processing batch events for Interval-Queue. Request Size - 1416 bytes. Events are 'LogCreated':undefined
+2026-04-28 11:34:22 - [34mdebug[39m: Sending request to https://collector-observability.browserstack.com/api/v1/batch
+[35msilly[39m: [2026-04-28T17:34:22.992Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'LogCreated' undefined
+2026-04-28 11:34:22 - [34mdebug[39m: Response from https://collector-observability.browserstack.com/api/v1/batch: 200 OK
+[34mdebug[39m: [2026-04-28T17:34:22.993Z][ TEST REPORTING AND ANALYTICS ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2026-04-28T17:34:22.993Z][ TEST REPORTING AND ANALYTICS ] Remaining Queue Length - 1
+[35msilly[39m: [2026-04-28T17:34:24.584Z][ TEST REPORTING AND ANALYTICS ] Processing events. Queue Length - 1
+[34mdebug[39m: [2026-04-28T17:34:24.584Z][ TEST REPORTING AND ANALYTICS ] Processing batch events for Interval-Queue. Request Size - 1416 bytes. Events are 'LogCreated':undefined
+2026-04-28 11:34:24 - [34mdebug[39m: Sending request to https://collector-observability.browserstack.com/api/v1/batch
+[35msilly[39m: [2026-04-28T17:34:24.928Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'LogCreated' undefined
+2026-04-28 11:34:24 - [34mdebug[39m: Response from https://collector-observability.browserstack.com/api/v1/batch: 200 OK
+[34mdebug[39m: [2026-04-28T17:34:24.929Z][ TEST REPORTING AND ANALYTICS ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2026-04-28T17:34:24.929Z][ TEST REPORTING AND ANALYTICS ] Remaining Queue Length - 1
+2026-04-28 11:34:25 - [34mdebug[39m: Accessibility extension data for current test: {"thTestRunUuid":"0513ba74-a543-4380-a2fe-eb048325a10b","thBuildUuid":"atm864cwptlv1mqgu53fdbhsq0kltun9ar4kfqrl","thJwtToken":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJicm93c2Vyc3RhY2tfb2IiLCJzdWIiOiIxMDkzMzE0NCIsImdyb3VwX2lkIjoxMDg0OTc3MywidXNlcl9pZCI6MTA5MzMxNDQsImJ1aWxkX2hhc2hlZF9pZCI6ImF0bTg2NGN3cHRsdjFtcWd1NTNmZGJoc3Ewa2x0dW45YXI0a2ZxcmwiLCJwcm9qZWN0X25hbWUiOiIiLCJob29rX2FzX3Rlc3QiOiIxIiwiYnVpbGRfbmFtZSI6IkF2b3RlY2gtUmVncmVzc2lvbi1UZXN0U3VpdGUiLCJwcm9kdWN0X21hcCI6IntcIm9ic2VydmFiaWxpdHlcIjp0cnVlLFwiYXV0b21hdGVcIjp0cnVlLFwib3JpZ2luRnJvbVByb2R1Y3RNYXBcIjpcIkF1dG9tYXRlXCIsXCJic3RhY2tBdXRvbWF0aW9uXCI6dHJ1ZSxcIm5vblNES1wiOmZhbHNlLFwiYWNjZXNzaWJpbGl0eUF1dG9FbmFibGVkXCI6dHJ1ZSxcImNhZFwiOnRydWV9IiwiZ3JyX3JlZ2lvbiI6IiIsImlzX2xvd192b2x1bWUiOmZhbHNlLCJpc19sY25jX2V2ZW50IjpmYWxzZSwiaXNfbHRzX2V2ZW50IjpmYWxzZSwic2lnbmluZ19rZXlfaGFzaCI6IjM3YzExMzFlNGIyZTc0M2M3NjZlMWQ3MGJmNWYyYjU3ZGM2OWIxOTVkMzAwZTMyYWU4ZDAyMzEyMGE0YTZkOTciLCJpYXQiOjE3NzczOTc1NDMsImV4cCI6MTc3Nzc0MzE0M30.XHPj-yE5Bb95fICPuFjADB8BgxhcoxoQLhcykdIQiFY"}
+2026-04-28 11:34:25 - [32minfo[39m: Automate test case execution has ended. Processing for accessibility testing is underway. 
+2026-04-28 11:34:25 - [34mdebug[39m: Performing scan before saving results.
+2026-04-28 11:34:25 - [33mwarn[39m: Not a valid Accessibility Automation session for playwright-page, cannot perform scan with retry.
+2026-04-28 11:34:25 - [34mdebug[39m: result=false
+2026-04-28 11:34:25 - [33mwarn[39m: Not a valid Accessibility Automation session for playwright-page, cannot save accessibility results with retry.
+2026-04-28 11:34:25 - [34mdebug[39m: saved Result scan=false
+2026-04-28 11:34:25 - [32minfo[39m: Accessibility testing for this test case has ended.
+[35msilly[39m: [2026-04-28T17:34:26.591Z][ TEST REPORTING AND ANALYTICS ] Processing events. Queue Length - 1
+[34mdebug[39m: [2026-04-28T17:34:26.591Z][ TEST REPORTING AND ANALYTICS ] Processing batch events for Interval-Queue. Request Size - 1416 bytes. Events are 'LogCreated':undefined
+2026-04-28 11:34:26 - [34mdebug[39m: Sending request to https://collector-observability.browserstack.com/api/v1/batch
+[35msilly[39m: [2026-04-28T17:34:26.698Z][ TEST REPORTING AND ANALYTICS ] Started :: afterTestHook, PID - 32556, Argument - Navigate to Sales Order and create sales order
+[34mdebug[39m: [2026-04-28T17:34:26.698Z][ TEST REPORTING AND ANALYTICS ] Started :: Executing After Test Hook, PID - 32556, Test Title - Navigate to Sales Order and create sales order, Test File - D:\CODES\Avotech-Regression-TestSuite\tests\csi\salesAndBilling\SalesAndBilling.spec.ts
+2026-04-28 11:34:26 - [32minfo[39m: [Accessibility] afterTestHook state: accessibilityPlatform=false, bstackA11yShouldScan=true
+[34mdebug[39m: [2026-04-28T17:34:26.699Z][ TEST REPORTING AND ANALYTICS ] Sending session details for chrome-latest:Windows 11-browserstack1-b844c2afe9c7a518cbf6-d978e71464a2f5f3c06b-0, {
+  browserstack: {
+    browser: 'chrome',
+    browser_version: '147.0.7727.56',
+    capabilities: {},
+    platform: 'Windows',
+    platform_version: '11',
+    product: 'automate',
+    session_id: '8b3d733ede12a4dfa1dd4fa9d3407c4e1959e59e'
+  }
+}
+[35msilly[39m: [2026-04-28T17:34:26.699Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'CBTSessionCreated' 0513ba74-a543-4380-a2fe-eb048325a10b
+[35msilly[39m: [2026-04-28T17:34:26.699Z][ TEST REPORTING AND ANALYTICS ] Finished :: afterTestHook, PID - 32556, Argument - Navigate to Sales Order and create sales order
+[35msilly[39m: [2026-04-28T17:34:26.922Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'LogCreated' undefined
+2026-04-28 11:34:26 - [34mdebug[39m: Response from https://collector-observability.browserstack.com/api/v1/batch: 200 OK
+[34mdebug[39m: [2026-04-28T17:34:26.923Z][ TEST REPORTING AND ANALYTICS ] Interval-Queue event successful for events 'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2026-04-28T17:34:26.923Z][ TEST REPORTING AND ANALYTICS ] Remaining Queue Length - 2
+[34mdebug[39m: [2026-04-28T17:34:27.548Z][ TEST REPORTING AND ANALYTICS ] Finished :: Executing After Test Hook, PID - 32556, Test Title - Navigate to Sales Order and create sales order, Test File - D:\CODES\Avotech-Regression-TestSuite\tests\csi\salesAndBilling\SalesAndBilling.spec.ts
+[34mdebug[39m: [2026-04-28T17:34:27.548Z][ TEST REPORTING AND ANALYTICS ] Test Hook ended, PID 32556
+[35msilly[39m: [2026-04-28T17:34:27.564Z][ TEST REPORTING AND ANALYTICS ] Started :: afterWorkerHook, PID - 32556, Argument - 1
+[35msilly[39m: [2026-04-28T17:34:27.564Z][ TEST REPORTING AND ANALYTICS ] Finished :: afterWorkerHook, PID - 32556, Argument - 1
+[35msilly[39m: [2026-04-28T17:34:28.590Z][ TEST REPORTING AND ANALYTICS ] Processing events. Queue Length - 2
+[34mdebug[39m: [2026-04-28T17:34:28.591Z][ TEST REPORTING AND ANALYTICS ] Processing batch events for Interval-Queue. Request Size - 1737 bytes. Events are 'CBTSessionCreated':0513ba74-a543-4380-a2fe-eb048325a10b,'LogCreated':undefined
+2026-04-28 11:34:28 - [34mdebug[39m: Sending request to https://collector-observability.browserstack.com/api/v1/batch
+2026-04-28 11:34:28 - [34mdebug[39m: Response from https://collector-observability.browserstack.com/api/v1/batch: 200 OK
+[34mdebug[39m: [2026-04-28T17:34:28.939Z][ TEST REPORTING AND ANALYTICS ] Interval-Queue event successful for events 'CBTSessionCreated':0513ba74-a543-4380-a2fe-eb048325a10b,'LogCreated':undefined -- {"success":true}
+[35msilly[39m: [2026-04-28T17:34:28.939Z][ TEST REPORTING AND ANALYTICS ] Remaining Queue Length - 0
+[34mdebug[39m: [2026-04-28T17:34:28.965Z][ TEST REPORTING AND ANALYTICS ] Finished :: Exiting Playwright worker, PID - 32556, WorkerIndex - 1
+[34mdebug[39m: [2026-04-28T17:34:28.972Z][ TEST REPORTING AND ANALYTICS ] Test Finished with unique id chrome-latest:Windows 11-browserstack1-b844c2afe9c7a518cbf6-d978e71464a2f5f3c06b
+[35msilly[39m: [2026-04-28T17:34:28.973Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'LogCreated' undefined
+2026-04-28 11:34:28 - [34mdebug[39m: Searching for key: path
+[35msilly[39m: [2026-04-28T17:34:28.975Z][ TEST REPORTING AND ANALYTICS ] Processing event - 'TestRunFinished' 609caedc-4765-44a9-8cc2-a3bba79b4e36
+[34mdebug[39m: [2026-04-28T17:34:28.975Z][ TEST REPORTING AND ANALYTICS ] Starting sending trace zip for test: 609caedc-4765-44a9-8cc2-a3bba79b4e36
+2026-04-28 11:34:28 - [34mdebug[39m: Checking if trace is enabled for test: 609caedc-4765-44a9-8cc2-a3bba79b4e36
+2026-04-28 11:34:28 - [34mdebug[39m: Searching for key: path
+[35msilly[39m: [2026-04-28T17:34:29.739Z][ TEST REPORTING AND ANALYTICS ] Processing events. Queue Length - 2
+[34mdebug[39m: [2026-04-28T17:34:29.740Z][ TEST REPORTING AND ANALYTICS ] Processing batch events for Interval-Queue. Request Size - 9479 bytes. Events are 'LogCreated':undefined,'TestRunFinished':609caedc-4765-44a9-8cc2-a3bba79b4e36
+2026-04-28 11:34:29 - [34mdebug[39m: Sending request to https://collector-observability.browserstack.com/api/v1/batch
+2026-04-28 11:34:30 - [34mdebug[39m: Response from https://collector-observability.browserstack.com/api/v1/batch: 200 OK
+[34mdebug[39m: [2026-04-28T17:34:30.102Z][ TEST REPORTING AND ANALYTICS ] Interval-Queue event successful for events 'LogCreated':undefined,'TestRunFinished':609caedc-4765-44a9-8cc2-a3bba79b4e36 -- {"success":true}
+[35msilly[39m: [2026-04-28T17:34:30.102Z][ TEST REPORTING AND ANALYTICS ] Remaining Queue Length - 0

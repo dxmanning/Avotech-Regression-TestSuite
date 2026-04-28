@@ -7,6 +7,7 @@
     "test": "playwright test",
     "test:csi": "playwright test tests/csi",
     "test:ui": "playwright test --ui",
+    "test:browserstack": "dotenv -- browserstack-node-sdk playwright test",
     "typecheck": "tsc --noEmit"
   },
   "repository": {
@@ -24,7 +25,9 @@
   "devDependencies": {
     "@playwright/test": "^1.59.1",
     "@types/node": "^25.6.0",
+    "browserstack-node-sdk": "^1.52.2",
     "dotenv": "^16.6.1",
+    "dotenv-cli": "^11.0.0",
     "typescript": "^5.9.0"
   }
 }

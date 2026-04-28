@@ -3,5 +3,9 @@
     "namePrefix": "Package-",
     "description": "Automation created package",
     "unitPricePerModule": 100
+  },
+  "salesOrderDefaults": {
+    "duration": 6,
+    "unitsPerModule": 10
   }
 }

@@ -1,0 +1,34 @@
+2026-04-28T17:26:47.227Z CLI info [main]    Server listening on port: 5400
+2026-04-28T17:26:47.289Z CLI info    Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"os":"Windows","osVersion":"11","browserName":"chrome","browserVersion":"latest"}],"browserstackLocal":true,"buildName":"Avotech-Regression-TestSuite"}
+2026-04-28T17:26:47.312Z CLI info    Should start debug utility: undefined
+2026-04-28T17:26:47.317Z CLI info [testhub:module]   [255711c5-3cc4-486a-b55c-fc8857853bed]  Starting testhub from 17784:0
+2026-04-28T17:26:47.318Z CLI info   [255711c5-3cc4-486a-b55c-fc8857853bed]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-04-28T17:26:47.320Z CLI info   [255711c5-3cc4-486a-b55c-fc8857853bed]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-04-28T17:26:48.556Z CLI info   [255711c5-3cc4-486a-b55c-fc8857853bed]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-04-28T17:26:48.557Z CLI info   [255711c5-3cc4-486a-b55c-fc8857853bed]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2026-04-28T17:26:48.558Z CLI info   [255711c5-3cc4-486a-b55c-fc8857853bed]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-04-28T17:26:49.168Z CLI info [testhub:module]   [255711c5-3cc4-486a-b55c-fc8857853bed]  startBuild: response=aiyeznxm1ffmwlvanxh4n1owb02geo0gzu8pcypx
+2026-04-28T17:26:49.171Z CLI info  [aiyeznxm1ffmwlvanxh4n1owb02geo0gzu8pcypx]  [255711c5-3cc4-486a-b55c-fc8857853bed]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-04-28T17:26:51.109Z CLI info [main]  [aiyeznxm1ffmwlvanxh4n1owb02geo0gzu8pcypx]  [255711c5-3cc4-486a-b55c-fc8857853bed]  Uncaught Exception occurred, error: Error: EBUSY: resource busy or locked, open 'C:\Users\giver\.browserstack\BrowserStackLocal.exe', error stack trace: Error: EBUSY: resource busy or locked, open 'C:\Users\giver\.browserstack\BrowserStackLocal.exe'
+2026-04-28T17:26:51.110Z CLI info [main]  [aiyeznxm1ffmwlvanxh4n1owb02geo0gzu8pcypx]  [255711c5-3cc4-486a-b55c-fc8857853bed]  Upgrade available: Please update from beta to the latest stable version.
+2026-04-28T17:26:51.110Z CLI error [main]  [aiyeznxm1ffmwlvanxh4n1owb02geo0gzu8pcypx]  [255711c5-3cc4-486a-b55c-fc8857853bed]  error: Error: EBUSY: resource busy or locked, open 'C:\Users\giver\.browserstack\BrowserStackLocal.exe'
+2026-04-28T17:26:51.119Z CLI info [main]  [aiyeznxm1ffmwlvanxh4n1owb02geo0gzu8pcypx]  [255711c5-3cc4-486a-b55c-fc8857853bed]  Received graceful signal termination (none), performing cleanup
+2026-04-28T17:26:51.121Z CLI info  [aiyeznxm1ffmwlvanxh4n1owb02geo0gzu8pcypx]  [255711c5-3cc4-486a-b55c-fc8857853bed]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-04-28T17:26:52.361Z CLI info [testhub:module]  [aiyeznxm1ffmwlvanxh4n1owb02geo0gzu8pcypx]  [255711c5-3cc4-486a-b55c-fc8857853bed]  stopBuild: aiyeznxm1ffmwlvanxh4n1owb02geo0gzu8pcypx request={"finished_at":"2026-04-28T17:26:51.120Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-04-28T17:32:16.177Z CLI info [main]    Server listening on port: 5400
+2026-04-28T17:32:16.230Z CLI info    Config : {"platforms":[{"os":"Windows","osVersion":"11","browserName":"chrome","browserVersion":"latest"}],"browserstackLocal":true,"buildName":"Avotech-Regression-TestSuite"}
+2026-04-28T17:32:16.248Z CLI info    Should start debug utility: undefined
+2026-04-28T17:32:16.252Z CLI info [testhub:module]   [7c026df2-20b0-40e2-b76b-04e10f87927c]  Starting testhub from 17280:0
+2026-04-28T17:32:16.253Z CLI info   [7c026df2-20b0-40e2-b76b-04e10f87927c]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-04-28T17:32:16.255Z CLI info   [7c026df2-20b0-40e2-b76b-04e10f87927c]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-04-28T17:32:17.517Z CLI info   [7c026df2-20b0-40e2-b76b-04e10f87927c]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2026-04-28T17:32:17.517Z CLI info   [7c026df2-20b0-40e2-b76b-04e10f87927c]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2026-04-28T17:32:17.518Z CLI info   [7c026df2-20b0-40e2-b76b-04e10f87927c]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-04-28T17:32:18.775Z CLI info [testhub:module]   [7c026df2-20b0-40e2-b76b-04e10f87927c]  startBuild: response=7kzsomwuavn9xzw0bwxq78g8nctuib14cn719wd3
+2026-04-28T17:32:18.777Z CLI info  [7kzsomwuavn9xzw0bwxq78g8nctuib14cn719wd3]  [7c026df2-20b0-40e2-b76b-04e10f87927c]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-04-28T17:32:20.681Z CLI info [main]  [7kzsomwuavn9xzw0bwxq78g8nctuib14cn719wd3]  [7c026df2-20b0-40e2-b76b-04e10f87927c]  Uncaught Exception occurred, error: Error: EBUSY: resource busy or locked, open 'C:\Users\giver\.browserstack\BrowserStackLocal.exe', error stack trace: Error: EBUSY: resource busy or locked, open 'C:\Users\giver\.browserstack\BrowserStackLocal.exe'
+2026-04-28T17:32:20.682Z CLI info [main]  [7kzsomwuavn9xzw0bwxq78g8nctuib14cn719wd3]  [7c026df2-20b0-40e2-b76b-04e10f87927c]  Upgrade available: Please update from beta to the latest stable version.
+2026-04-28T17:32:20.682Z CLI error [main]  [7kzsomwuavn9xzw0bwxq78g8nctuib14cn719wd3]  [7c026df2-20b0-40e2-b76b-04e10f87927c]  error: Error: EBUSY: resource busy or locked, open 'C:\Users\giver\.browserstack\BrowserStackLocal.exe'
+2026-04-28T17:32:20.691Z CLI info [main]  [7kzsomwuavn9xzw0bwxq78g8nctuib14cn719wd3]  [7c026df2-20b0-40e2-b76b-04e10f87927c]  Received graceful signal termination (none), performing cleanup
+2026-04-28T17:32:20.692Z CLI info  [7kzsomwuavn9xzw0bwxq78g8nctuib14cn719wd3]  [7c026df2-20b0-40e2-b76b-04e10f87927c]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-04-28T17:32:21.946Z CLI info [testhub:module]  [7kzsomwuavn9xzw0bwxq78g8nctuib14cn719wd3]  [7c026df2-20b0-40e2-b76b-04e10f87927c]  stopBuild: 7kzsomwuavn9xzw0bwxq78g8nctuib14cn719wd3 request={"finished_at":"2026-04-28T17:32:20.692Z","finished_metadata":[],"custom_metadata":null} response={"data":""}

@@ -1,0 +1,18 @@
+platforms:
+  - os: Windows
+    osVersion: 11
+    browserName: chrome
+    browserVersion: latest
+browserstackLocal: true
+buildName: Avotech-Regression-TestSuite
+testContextOptions:
+  skipSessionStatus: false
+  skipSessionName: false
+userName: dmanning_14vkaN
+accessKey: 9x8YziE9mX4sz1ndYZ5s
+buildIdentifier: '#6'
+logDir: D:\CODES\Avotech-Regression-TestSuite\log
+browserStackLocalOptions:
+  localIdentifier: 28_Apr_1131_DESKTOP-B1PF2KP_q37o
+  skipBinaryInitialisation: false
+proxySettings: {}

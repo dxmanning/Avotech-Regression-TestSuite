@@ -14,3 +14,11 @@ export function csiUniquePackageName(
   const worker = process.env.TEST_WORKER_INDEX ?? 'w0';
   return `${prefix}${Date.now()}-${worker}`;
 }
+
+export function csiSalesOrderDuration(): number {
+  return salesAndBilling.salesOrderDefaults.duration;
+}
+
+export function csiSalesOrderUnitsPerModule(): number {
+  return salesAndBilling.salesOrderDefaults.unitsPerModule;
+}
