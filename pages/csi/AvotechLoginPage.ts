@@ -49,9 +49,6 @@ export class CsiAvotechLoginPage extends BasePage {
     await this.loginButton.click();
   }
 
-  /**
-   * Full two-step sign-in
-   */
   async signInWithEmailAndPassword(email: string, password: string) {
     await this.enterEmail(email);
     await this.goToPasswordStep();
