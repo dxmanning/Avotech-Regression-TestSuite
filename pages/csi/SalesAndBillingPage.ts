@@ -17,10 +17,10 @@ export class CsiSalesAndBillingPage extends BasePage {
   readonly moduleTableRows = this.page.locator('table[role="grid"] tbody tr.table-row');
   readonly submitButton = this.page.getByRole('button', { name: 'Submit' });
   readonly continueToReviewButton = this.page.getByRole('button', { name: 'Continue to Review' });
-  /** First field on Add Sales Order form (SB-046); used to confirm screen finished loading. */
+  /** Present when the Add Sales Order form has finished loading. */
   readonly addSalesOrderFormReady = this.page.getByText('Select Client', { exact: true });
 
-  /** Avoid throwing if the test/browser has already shut down (e.g. after global timeout). */
+  /** No-op if `page` is already closed (avoids throwing after timeouts). */
   private async safeSleep(ms: number) {
     if (this.page.isClosed()) {
       return;
@@ -29,14 +29,13 @@ export class CsiSalesAndBillingPage extends BasePage {
   }
 
   async openSalesAndBilling() {
-    // After login complete and Sales & Billing is visible.
     await this.waitForElement(this.salesAndBillingNav);
     await this.salesAndBillingNav.click();
   }
 
   async openPackageManagement() {
-    // After Package Management is visible.
     await this.waitForElement(this.packageManagementLink);
+    // Hub link sometimes needs another click before PackageList renders.
     for (let attempt = 0; attempt < 3; attempt += 1) {
       await this.packageManagementLink.click({ force: true });
       const loaded = await this.addPackageButton
@@ -51,23 +50,20 @@ export class CsiSalesAndBillingPage extends BasePage {
   }
 
   async clickAddPackage() {
-    // After page loads and Add Package is visible.
     await this.waitForElement(this.addPackageButton);
     await this.addPackageButton.click();
   }
 
   async openSalesOrder() {
-    // After Sales Order is visible.
     await this.waitForElement(this.salesOrderLink);
     await this.salesOrderLink.click();
   }
 
   async clickAddSalesOrder() {
-    // After page loads and Add Sales Order is visible.
     await this.waitForElement(this.addSalesOrderButton);
     await this.addSalesOrderButton.click();
     await this.page.waitForLoadState('domcontentloaded');
-    // Brief settle so OutSystems / widgets finish rendering before dropdown interactions.
+    // OutSystems / VirtualSelect mount before opening dropdowns
     await this.safeSleep(2_000);
     await this.waitForElement(this.addSalesOrderFormReady, 30_000);
   }
@@ -76,7 +72,6 @@ export class CsiSalesAndBillingPage extends BasePage {
     await this.waitForElement(this.packageNameInput);
     await this.packageNameInput.fill(name);
 
-    // Some tenants do not render a description field in Add Package.
     if (await this.packageDescriptionInput.isVisible().catch(() => false)) {
       await this.packageDescriptionInput.fill(description);
     }
@@ -88,10 +83,7 @@ export class CsiSalesAndBillingPage extends BasePage {
     await this.avotechSalesPartnerOption.click();
   }
 
-  /**
-   * Clicks the first usable option in an open dropdown (VirtualSelect often keeps
-   * off-screen options in the DOM as `hidden`; `.first()` is then wrong).
-   */
+  /** First visible `[role=option]`; VirtualSelect may leave non-visible rows attached in the DOM. */
   private async clickFirstDropdownOption() {
     const roleOptions = this.page.getByRole('option');
     await expect(roleOptions.first()).toBeAttached({ timeout: 12_000 });
@@ -105,23 +97,20 @@ export class CsiSalesAndBillingPage extends BasePage {
       }
     }
 
-    // VirtualSelect marks the rendered row with data-visible-index; others stay `hidden` in DOM.
     const vsRenderedRow = this.page.locator('[role="option"][data-visible-index="0"]');
     if ((await vsRenderedRow.count()) > 0) {
       await vsRenderedRow.first().click({ force: true });
       return;
     }
 
-    // Last resort: first attached option (may be hidden to Playwright but still clickable).
     const first = roleOptions.first();
     await first.scrollIntoViewIfNeeded().catch(() => {});
     await first.click({ force: true });
   }
 
   /**
-   * Clicks the last option in an open VirtualSelect-style list (SB-046: combobox has
-   * `aria-controls` → dropbox; options use `data-index`). Scrolls the list to the end
-   * then picks the greatest `data-index` in the panel.
+   * Last option in an open VirtualSelect list (`aria-controls` panel, options often have `data-index`).
+   * Scrolls the options panel to the end, then prefers the highest `data-index`.
    */
   private async clickLastDropdownOption() {
     const expandedCombo = this.page.locator('[role="combobox"][aria-expanded="true"]').first();
@@ -254,9 +243,7 @@ export class CsiSalesAndBillingPage extends BasePage {
     }
   }
 
-  /**
-   * SB-046 Billing Partner field uses DropdownSearch under #BillingPartner.
-   */
+  /** Billing partner search combobox lives under `#BillingPartner`. */
   async selectFirstBillingPartnerOption(maxAttempts = 1) {
     const billingPartnerCombobox = this.page.locator('#BillingPartner [role="combobox"]').first();
     await this.waitForElement(billingPartnerCombobox);
@@ -300,14 +287,12 @@ export class CsiSalesAndBillingPage extends BasePage {
     const calendar = this.page.locator('.flatpickr-calendar.open[role="dialog"]');
     await this.waitForElement(calendar);
 
-    // SB-046 datepicker structure uses flatpickr-day with role="button".
     const todayCell = calendar.locator('.flatpickr-day.today[role="button"]').first();
     if (await todayCell.isVisible().catch(() => false)) {
       await todayCell.click();
       return;
     }
 
-    // Fallback: target today's aria-label (e.g. "April 28, 2026").
     const today = new Date();
     const fullDateLabel = today.toLocaleDateString('en-US', {
       month: 'long',
@@ -320,7 +305,6 @@ export class CsiSalesAndBillingPage extends BasePage {
   }
 
   async pickTodaySalesStartDate(maxAttempts = 1) {
-    // SB-046 Effective Start Date field is a datepicker with aria-label "Select a date".
     const dateCombobox = this.page
       .locator('div')
       .filter({ has: this.page.getByText('Effective Start Date', { exact: true }) })
@@ -347,7 +331,6 @@ export class CsiSalesAndBillingPage extends BasePage {
   }
 
   async fillSalesOrderDuration(duration: number) {
-    // SB-046 Duration field input id is Input_DurationName.
     const durationInput = this.page.locator('#Input_DurationName');
     await this.waitForElement(durationInput);
     await durationInput.fill(String(duration));

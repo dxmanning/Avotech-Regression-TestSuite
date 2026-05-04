@@ -52,7 +52,6 @@ test.describe('CSI · Sales and Billing', () => {
     await csiSalesAndBillingPage.openSalesOrder();
     await csiSalesAndBillingPage.clickAddSalesOrder();
 
-    // Client: use last list option; other dropdowns still use first option per SB-046.
     const salesOrderDropdownMaxAttempts = 4;
     await csiSalesAndBillingPage.selectLastOptionByTriggerText(
       'Select Client',
@@ -68,7 +67,6 @@ test.describe('CSI · Sales and Billing', () => {
       salesOrderDropdownMaxAttempts,
     );
 
-    // SB-046 requires selecting today's date every run (retry for flaky calendar open/render).
     const salesOrderDatePickerMaxAttempts = 4;
     await csiSalesAndBillingPage.pickTodaySalesStartDate(salesOrderDatePickerMaxAttempts);
     await csiSalesAndBillingPage.fillSalesOrderDuration(duration);

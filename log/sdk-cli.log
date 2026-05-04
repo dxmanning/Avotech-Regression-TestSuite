@@ -134,3 +134,20 @@
 2026-04-28T20:11:17.444Z CLI info [main]  [wrafwsyvn1mjbdxka6goybhltobx48nlhxnm2y8o]  [6f69462e-1ad2-4d53-a621-5f84040e818f]  Received graceful signal termination (none), performing cleanup
 2026-04-28T20:11:17.446Z CLI info  [wrafwsyvn1mjbdxka6goybhltobx48nlhxnm2y8o]  [6f69462e-1ad2-4d53-a621-5f84040e818f]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
 2026-04-28T20:11:18.683Z CLI info [testhub:module]  [wrafwsyvn1mjbdxka6goybhltobx48nlhxnm2y8o]  [6f69462e-1ad2-4d53-a621-5f84040e818f]  stopBuild: wrafwsyvn1mjbdxka6goybhltobx48nlhxnm2y8o request={"finished_at":"2026-04-28T20:11:17.445Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-05-04T15:35:16.892Z CLI info [main]    Server listening on port: 5400
+2026-05-04T15:35:16.948Z CLI info    Config : {"platforms":[{"os":"Windows","osVersion":"11","browserName":"chrome","browserVersion":"latest"}],"browserstackLocal":true,"buildName":"Avotech-Regression-TestSuite","video":true,"interactiveDebugging":true}
+2026-05-04T15:35:16.985Z CLI info    Should start debug utility: undefined
+2026-05-04T15:35:16.989Z CLI info [testhub:module]   [a88ce09a-55a1-4a38-bd49-681d444b5443]  Starting testhub from 11744:0
+2026-05-04T15:35:16.990Z CLI info   [a88ce09a-55a1-4a38-bd49-681d444b5443]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-05-04T15:35:16.992Z CLI info   [a88ce09a-55a1-4a38-bd49-681d444b5443]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-05-04T15:35:17.330Z CLI info   [a88ce09a-55a1-4a38-bd49-681d444b5443]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2026-05-04T15:35:17.331Z CLI info   [a88ce09a-55a1-4a38-bd49-681d444b5443]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-05-04T15:35:17.331Z CLI info   [a88ce09a-55a1-4a38-bd49-681d444b5443]  [PRODUCTION] Making GET request to https://hub-apse.browserstack.com
+2026-05-04T15:35:18.175Z CLI info [testhub:module]   [a88ce09a-55a1-4a38-bd49-681d444b5443]  startBuild: response=xqmp308jzgmyi5bvjtdyfaayxztb5dewhnllo4ru
+2026-05-04T15:35:18.178Z CLI info  [xqmp308jzgmyi5bvjtdyfaayxztb5dewhnllo4ru]  [a88ce09a-55a1-4a38-bd49-681d444b5443]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-05-04T15:35:19.102Z CLI info [main]  [xqmp308jzgmyi5bvjtdyfaayxztb5dewhnllo4ru]  [a88ce09a-55a1-4a38-bd49-681d444b5443]  Uncaught Exception occurred, error: Error: EBUSY: resource busy or locked, open 'C:\Users\giver\.browserstack\BrowserStackLocal.exe', error stack trace: Error: EBUSY: resource busy or locked, open 'C:\Users\giver\.browserstack\BrowserStackLocal.exe'
+2026-05-04T15:35:19.102Z CLI info [main]  [xqmp308jzgmyi5bvjtdyfaayxztb5dewhnllo4ru]  [a88ce09a-55a1-4a38-bd49-681d444b5443]  Upgrade available: Please update from beta to the latest stable version.
+2026-05-04T15:35:19.102Z CLI error [main]  [xqmp308jzgmyi5bvjtdyfaayxztb5dewhnllo4ru]  [a88ce09a-55a1-4a38-bd49-681d444b5443]  error: Error: EBUSY: resource busy or locked, open 'C:\Users\giver\.browserstack\BrowserStackLocal.exe'
+2026-05-04T15:35:19.107Z CLI info [main]  [xqmp308jzgmyi5bvjtdyfaayxztb5dewhnllo4ru]  [a88ce09a-55a1-4a38-bd49-681d444b5443]  Received graceful signal termination (none), performing cleanup
+2026-05-04T15:35:19.109Z CLI info  [xqmp308jzgmyi5bvjtdyfaayxztb5dewhnllo4ru]  [a88ce09a-55a1-4a38-bd49-681d444b5443]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-05-04T15:35:20.248Z CLI info [testhub:module]  [xqmp308jzgmyi5bvjtdyfaayxztb5dewhnllo4ru]  [a88ce09a-55a1-4a38-bd49-681d444b5443]  stopBuild: xqmp308jzgmyi5bvjtdyfaayxztb5dewhnllo4ru request={"finished_at":"2026-05-04T15:35:19.108Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
