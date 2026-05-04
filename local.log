@@ -204,3 +204,29 @@ Mon May 04 2026 11:56:16:482 GMT-0600 (Mountain Daylight Time) -- Platform suppo
 Mon May 04 2026 11:56:16:593 GMT-0600 (Mountain Daylight Time) -- Press Ctrl-C to exit
 
 
+
+Mon May 04 2026 13:57:50:665 GMT-0600 (Mountain Daylight Time) -- Binary semantic version is v8.9.29
+Mon May 04 2026 13:57:50:666 GMT-0600 (Mountain Daylight Time) -- Setting output as extra verbose with request parsing
+Mon May 04 2026 13:57:53:869 GMT-0600 (Mountain Daylight Time) -- Starting configuration console on http://localhost:45454
+Mon May 04 2026 13:57:56:133 GMT-0600 (Mountain Daylight Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Mon May 04 2026 13:57:57:525 GMT-0600 (Mountain Daylight Time) -- undefined
+Mon May 04 2026 13:58:00:341 GMT-0600 (Mountain Daylight Time) -- Connecting to BrowserStack using WebSocket protocol...
+Mon May 04 2026 13:58:00:341 GMT-0600 (Mountain Daylight Time) -- Platform supports WebSocket connections.
+
+Mon May 04 2026 13:58:00:450 GMT-0600 (Mountain Daylight Time) -- Press Ctrl-C to exit
+
+
+
+Mon May 04 2026 14:19:38:359 GMT-0600 (Mountain Daylight Time) -- Binary semantic version is v8.9.29
+Mon May 04 2026 14:19:38:359 GMT-0600 (Mountain Daylight Time) -- Setting output as extra verbose with request parsing
+Mon May 04 2026 14:19:41:560 GMT-0600 (Mountain Daylight Time) -- Starting configuration console on http://localhost:45454
+Mon May 04 2026 14:19:43:588 GMT-0600 (Mountain Daylight Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Mon May 04 2026 14:19:44:948 GMT-0600 (Mountain Daylight Time) -- undefined
+Mon May 04 2026 14:19:47:749 GMT-0600 (Mountain Daylight Time) -- Connecting to BrowserStack using WebSocket protocol...
+Mon May 04 2026 14:19:47:749 GMT-0600 (Mountain Daylight Time) -- Platform supports WebSocket connections.
+
+Mon May 04 2026 14:19:47:855 GMT-0600 (Mountain Daylight Time) -- Press Ctrl-C to exit
+
+
