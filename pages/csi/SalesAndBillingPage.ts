@@ -1,5 +1,26 @@
 import { expect, type Locator } from '@playwright/test';
+import { CSI_BASE_URL } from '../../config/csi';
 import { BasePage } from '../BasePage';
+
+/** OutSystems `#bNN-Input_*` ids for Add Sales Partner → email template step (fragile if module is republished). */
+const SALES_PARTNER_EMAIL_TEMPLATE_ROW_IDS = [
+  'b38',
+  'b39',
+  'b40',
+  'b41',
+  'b42',
+  'b44',
+  'b45',
+  'b47',
+  'b49',
+  'b50',
+  'b51',
+  'b52',
+  'b53',
+  'b55',
+  'b56',
+  'b58',
+] as const;
 
 export class CsiSalesAndBillingPage extends BasePage {
   readonly salesOrderLink = this.page.getByRole('link', { name: 'Sales Order' });
@@ -28,14 +49,34 @@ export class CsiSalesAndBillingPage extends BasePage {
     await this.page.waitForTimeout(ms).catch(() => {});
   }
 
+  readonly addSalesPartnerButton = this.page.getByRole('button', { name: 'Add Sales Partner' });
+  readonly salesPartnerPartnerNameInput = this.page.getByRole('textbox', { name: 'Partner Name*' });
+  readonly salesPartnerDomainInput = this.page.getByRole('textbox', { name: 'Domain*' });
+  readonly salesPartnerS3BucketNameInput = this.page.getByRole('textbox', { name: 'S3 Bucket Name*' });
+  readonly salesPartnerS3BucketUrlInput = this.page.getByRole('textbox', { name: 'S3 Bucket URL*' });
+  readonly salesPartnerSendgridSenderNameInput = this.page.getByRole('textbox', {
+    name: 'Sendgrid Sender Name*',
+  });
+  readonly salesPartnerSendgridReplyToInput = this.page.getByRole('textbox', {
+    name: 'Sendgrid Reply To Email*',
+  });
+  readonly salesPartnerContactEmailInput = this.page.getByRole('textbox', {
+    name: 'Sales Partner Contact Email*',
+  });
+  readonly salesPartnerSubdomainExampleInput = this.page.getByRole('textbox', { name: 'ex: google.com' });
+  readonly nextButton = this.page.getByRole('button', { name: 'Next' });
+
   async openSalesAndBilling() {
     await this.waitForElement(this.salesAndBillingNav);
+    await expect(this.salesAndBillingNav).toBeVisible();
     await this.salesAndBillingNav.click();
   }
 
   async openPackageManagement() {
     await this.waitForElement(this.packageManagementLink);
     // Hub link sometimes needs another click before PackageList renders.
+    await expect(this.packageManagementLink).toBeVisible();
+    // First click sometimes does not leave the hub; retry until Package Management UI is up.
     for (let attempt = 0; attempt < 3; attempt += 1) {
       await this.packageManagementLink.click({ force: true });
       const loaded = await this.addPackageButton
@@ -51,6 +92,7 @@ export class CsiSalesAndBillingPage extends BasePage {
 
   async clickAddPackage() {
     await this.waitForElement(this.addPackageButton);
+    await expect(this.addPackageButton).toBeVisible({ timeout: 15_000 });
     await this.addPackageButton.click();
   }
 
@@ -380,5 +422,89 @@ export class CsiSalesAndBillingPage extends BasePage {
       .first();
     await this.waitForElement(successMessage, 60_000);
     await this.page.waitForURL(/\/SalesOrderList/, { timeout: 60000 });
+  }
+
+  async openSalesPartnerList() {
+    await this.page.goto(`${CSI_BASE_URL}/SalesPartnerList`);
+    await expect(this.addSalesPartnerButton).toBeVisible({ timeout: 30_000 });
+  }
+
+  async clickAddSalesPartner() {
+    await expect(this.addSalesPartnerButton).toBeVisible();
+    await this.addSalesPartnerButton.click();
+    await expect(this.salesPartnerPartnerNameInput).toBeVisible({ timeout: 30_000 });
+  }
+
+  async fillSalesPartnerBasicInformation(params: {
+    partnerName: string;
+    domain: string;
+    s3BucketName: string;
+    s3BucketUrl: string;
+    sendgridSenderName: string;
+    sendgridReplyToEmail: string;
+    salesPartnerContactEmail: string;
+    subdomainExampleHost: string;
+  }) {
+    await expect(this.salesPartnerPartnerNameInput).toBeVisible();
+    await this.salesPartnerPartnerNameInput.click();
+    await this.salesPartnerPartnerNameInput.fill(params.partnerName);
+
+    await this.salesPartnerDomainInput.click();
+    await this.salesPartnerDomainInput.fill(params.domain);
+
+    await this.salesPartnerS3BucketNameInput.click();
+    await this.salesPartnerS3BucketNameInput.fill(params.s3BucketName);
+
+    await this.salesPartnerS3BucketUrlInput.click();
+    await this.salesPartnerS3BucketUrlInput.fill(params.s3BucketUrl);
+
+    await this.salesPartnerSendgridSenderNameInput.click();
+    await this.salesPartnerSendgridSenderNameInput.fill(params.sendgridSenderName);
+
+    await this.salesPartnerSendgridReplyToInput.click();
+    await this.salesPartnerSendgridReplyToInput.fill(params.sendgridReplyToEmail);
+
+    await this.salesPartnerContactEmailInput.click();
+    await this.salesPartnerContactEmailInput.fill(params.salesPartnerContactEmail);
+
+    await this.salesPartnerSubdomainExampleInput.click();
+    await this.salesPartnerSubdomainExampleInput.fill(params.subdomainExampleHost);
+  }
+
+  async clickNextOnAddSalesPartnerWizard() {
+    await expect(this.nextButton).toBeVisible();
+    await this.nextButton.click();
+  }
+
+  async fillSalesPartnerEmailTemplateStep(uniqueSuffix: string) {
+    const firstCategory = this.page.locator(`#${SALES_PARTNER_EMAIL_TEMPLATE_ROW_IDS[0]}-Input_Category`);
+    await expect(firstCategory).toBeVisible({ timeout: 30_000 });
+
+    const categoryValue = `test-category-${uniqueSuffix}`;
+    const templateIdValue = `test-temp-id-${uniqueSuffix}`;
+
+    for (const rowId of SALES_PARTNER_EMAIL_TEMPLATE_ROW_IDS) {
+      const categoryInput = this.page.locator(`#${rowId}-Input_Category`);
+      await expect(categoryInput).toBeVisible();
+      await categoryInput.click();
+      await categoryInput.fill(categoryValue);
+    }
+    for (const rowId of SALES_PARTNER_EMAIL_TEMPLATE_ROW_IDS) {
+      const templateIdInput = this.page.locator(`#${rowId}-Input_TemplateId`);
+      await expect(templateIdInput).toBeVisible();
+      await templateIdInput.click();
+      await templateIdInput.fill(templateIdValue);
+    }
+  }
+
+  async submitAddSalesPartnerWizard() {
+    await expect(this.submitButton).toBeVisible({ timeout: 30_000 });
+    await this.submitButton.click();
+  }
+
+  async expectSalesPartnerCreated(partnerName: string) {
+    await expect(this.page.getByText('You have successfully added')).toBeVisible({ timeout: 60_000 });
+    await this.page.waitForURL(/\/SalesPartnerList/, { timeout: 60_000 });
+    await expect(this.page.getByRole('gridcell', { name: partnerName })).toBeVisible();
   }
 }

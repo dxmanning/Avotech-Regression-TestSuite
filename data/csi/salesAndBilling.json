@@ -7,5 +7,13 @@
   "salesOrderDefaults": {
     "duration": 6,
     "unitsPerModule": 10
+  },
+  "salesPartnerDefaults": {
+    "domain": "rcsi-tst.avotech.com",
+    "s3BucketName": "dev-avotech-csi-bk",
+    "s3BucketUrl": "https://ysrh0ylzoj.execute-api.ap-southeast-2.amazonaws.com/v1/dev-avotech-csi-bk/",
+    "sendgridSenderName": "Ricoh Team",
+    "sendgridReplyToEmail": "no-reply@avotech.com",
+    "salesPartnerContactEmail": "test@test.com"
   }
 }
