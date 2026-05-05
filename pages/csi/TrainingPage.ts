@@ -63,7 +63,7 @@ export class CsiTrainingPage extends BasePage {
     const searchTriggers = this.page.getByText('Search...', { exact: true });
     for (let attempt = 0; attempt < COURSE_SEARCH_MAX_ATTEMPTS; attempt += 1) {
       const trigger =
-        courseSlotIndex === 0 ? searchTriggers.first() : searchTriggers.nth(1);
+        courseSlotIndex === 0 ? searchTriggers.first() : searchTriggers.last();
       await expect(trigger).toBeVisible({ timeout: 15_000 });
       await trigger.click();
       await this.safeSleep(250);
@@ -123,10 +123,12 @@ export class CsiTrainingPage extends BasePage {
   }
 
   async checkOptionalNotifySwitch() {
-    const sw = this.page.locator('#Switch1');
-    if (await sw.isVisible().catch(() => false)) {
-      await sw.check();
+    const sw = this.page.locator('#Switch1').first();
+    const isVisible = await sw.isVisible({ timeout: 3_000 }).catch(() => false);
+    if (!isVisible) {
+      return;
     }
+    await sw.check({ timeout: 3_000 }).catch(() => {});
   }
 
   async submitDistribute() {
